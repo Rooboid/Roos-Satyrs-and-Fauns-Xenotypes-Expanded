@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--====================== Weapon Sounds ======================-->
+	<!-- Fae equip and impact sounds -->
+	
+	<!-- Fae equip -->
+
+	<SoundDef>
+		<defName>RBSFE_FaeEquip</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_FaeEquip</clipPath>
+					</li>
+				</grains>
+				<volumeRange>55</volumeRange>
+				<pitchRange>1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<!-- Fae Explosion -->
+
+	<SoundDef>
+		<defName>RBSFE_FaeExplosion</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_Faerrow</clipPath>
+					</li>
+				</grains>
+				<volumeRange>45</volumeRange>
+				<pitchRange>0.9~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<!-- Faemore Fire -->
+
+	<SoundDef>
+		<defName>RBSFE_FaemoreFire</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_Faemore</clipPath>
+					</li>
+				</grains>
+				<volumeRange>80</volumeRange>
+				<pitchRange>0.8~1.2</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<!-- Anima Rod Equip -->
+
+	<SoundDef>
+		<defName>RBSFE_AnimaEquip</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_AnimaRod/RBSFE_AnimaRodEquip</clipPath>
+					</li>
+				</grains>
+				<volumeRange>55</volumeRange>
+				<pitchRange>1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<!-- Anima Rod Fire -->
+
+	<SoundDef>
+		<defName>RBSFE_AnimaFire</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_AnimaRod/RBSFE_AnimaRodFire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>45</volumeRange>
+				<pitchRange>0.9~1.1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<!-- Anima Rod Explosion -->
+
+	<SoundDef>
+		<defName>RBSFE_AnimaExplosion</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_AnimaRod/RBSFE_AnimaRodExplosion</clipPath>
+					</li>
+				</grains>
+				<volumeRange>80</volumeRange>
+				<pitchRange>0.8~1.2</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<!-- Vine Whip -->
+
+	<SoundDef>
+		<defName>RBSFE_VineWhip</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipPath>RBSFE_WeaponSounds/RBSFE_FaeWhip/RBSFE_FaeWhipFire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>60</volumeRange>
+				<pitchRange>1</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

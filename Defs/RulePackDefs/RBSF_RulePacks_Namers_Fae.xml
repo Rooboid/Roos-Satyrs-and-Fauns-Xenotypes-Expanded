@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--====================== Fae Pawn NameMakers (Base) ======================-->
+
+	<RulePackDef Name="NamerFaeBase" Abstract="True">
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[firstName] [SatyrSurname]</li>
+				<li>r_name->[firstName] [FaunSurname]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FaunSurname->Names/Faun/Surnames_Faun</li>
+				<li>SatyrSurname->Names/Surnames_Satyr</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+		
+	<!--====================== Fae Forenames (Male) ======================-->
+		
+	<RulePackDef ParentName="NamerFaunBase">
+		<defName>NamerPersonFae_Male</defName>
+		<rulePack>
+			<rulesRaw>
+				<li Class="Rule_NamePerson">
+					<keyword>firstName</keyword>
+					<gender>Male</gender>
+				</li>
+			</rulesRaw>
+			<rulesStrings>
+				<li>firstName->[SatyrFaunMasc]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>SatyrFaunMasc->Names/ForenamesMale_SatyrandFaun</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+		
+	<!--====================== Fae Forenames (Female) ======================-->
+		
+	<RulePackDef ParentName="NamerFaunBase">
+		<defName>NamerPersonFae_Female</defName>
+		<rulePack>
+			<rulesRaw>
+				<li Class="Rule_NamePerson">
+					<keyword>firstName</keyword>
+					<gender>Female</gender>
+				</li>
+			</rulesRaw>
+			<rulesStrings>
+				<li>firstName->[SatyrFaunFem]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>SatyrFaunFem->Names/ForenamesFemale_SatyrandFaun</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================== Leaf Trap ======================== -->
+  <!-- TODO: Can pawns who trigger this trap get the RBSF_LeafTrapHeDiff HeDiff? -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>RBSFE_LeafTrap</defName>
+    <label>leaf trap</label>
+    <description>A deep pit, concealed by a pile of leaves, that traps unsuspecting foes within it for a short time. Since the pit is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <thingClass>Building_TrapDamager</thingClass>
+	<techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Building/Security/RBSFE_LeafTrapA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>1.4</drawSize>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <uiOrder>33</uiOrder>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <Mass>0.5</Mass>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>6200</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>-10</Beauty>
+      <Cleanliness>-8</Cleanliness>
+      <TrapMeleeDamage>6.7</TrapMeleeDamage>
+      <TrapSpringChance>0.8</TrapSpringChance>
+    </statBases>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <designationHotKey>Misc6</designationHotKey>
+    <building>
+      <isTrap>true</isTrap>
+      <trapDestroyOnSpring>true</trapDestroyOnSpring>
+      <trapDamageCategory>Blunt</trapDamageCategory>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
+	    <researchPrerequisites>
+      <li>RBSFE_FaeCraftables</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  	<!--====================== Leaf Trap HeDiff ======================-->
+	<!-- TODO: Give pawns who trigger the leaf trap this HeDiff -->
+
+	<HediffDef>
+		<defName>RBSF_LeafTrapHeDiff</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>trapped</label>
+		<labelNoun>entrapment</labelNoun>
+		<defaultLabelColor>(105, 165, 80)</defaultLabelColor>
+		<description>The pawn has fallen down a concealed pit, and is trying to climb out.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<makesAlert>false</makesAlert>
+		<maxSeverity>1</maxSeverity>
+		<isBad>true</isBad>
+		<initialSeverity>1</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-27</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>Bridge_Collapse</stateEffecter>
+			</li>
+		</comps>
+		<injuryProps>
+			<destroyedLabel>destroyed</destroyedLabel>
+			<destroyedOutLabel>destroyed</destroyedOutLabel>
+		</injuryProps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.05</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.20</setMax>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MoveSpeed>-50</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+  
+  </Defs>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--============================== General Backstories - Childhood ============================-->
+	
+	<!--============================== Copyist ============================-->
+	<!-- Decent gains but saddled with slow learner -->
+	
+	<BackstoryDef>
+		<defName>RBSFE_Copyist</defName>
+		<title>copyist</title>
+		<titleShort>copyist</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>To the dismay of [PAWN_possessive] creative parents, [PAWN_nameDef] never seemed to find [PAWN_possessive] own musical or artistic style. However, what [PAWN_nameDef] did find was [PAWN_possessive] talent for forging the styles of others, with a miniscule margin of error.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<SlowLearner>0</SlowLearner>
+		</forcedTraits>
+		<disallowedTraits>
+			<TooSmart>0</TooSmart>
+			<Immunity>-1</Immunity>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Satyr and Faun Backstories - Adulthood ============================-->
+	
+	<!--============================== Free Spirit ============================-->
+	<!-- Integrated into the faun lore. Great gains, but not keen on working hard -->
+
+	<BackstoryDef>
+		<defName>RBSFE_FreeSpirit</defName>
+		<title>freespirit</title>
+		<titleShort>free</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] lived alongside satyrs and fauns in a free-spirited pod far away from any human influence. From sunrise to sunset, [PAWN_nameDef] lived [PAWN_possessive] life carefreely, penning wonderful pieces of poetry, playing the lyre and showering under the glistening pour of a waterfall.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+			<li>Bard</li>
+			<li>Tribal</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Industriousness>-1</Industriousness>
+			<NaturalMood>1</NaturalMood>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Fendersmith ============================-->
+	<!-- Kinda useless -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Fendersmith</defName>
+		<title>fendersmith</title>
+		<titleShort>fendersmith</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] maintained the palace fireplaces for a number of royal families. One of the royals took quite a romantic interest in [PAWN_nameDef], despite their disparity in status, but [PAWN_nameDef] was much more infatuated with the sight, the feeling and the power of a scorching fire than [PAWN_pronoun] could be with any other living creature.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Pyromaniac>0</Pyromaniac>
+		</forcedTraits>
+		<workDisables>
+			<li>Violent</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Biomineralogist ============================-->
+	<!-- Fantastic gains, but poor domestic skills and nerves -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Biomineralogist</defName>
+		<title>biomineralogist</title>
+		<titleShort>biomineralogist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] was dispatched on a government-funded expedition to the rim to study the relationship between plant life and minerals. [PAWN_possessive] no-nonsense approach to [PAWN_possessive] objective somewhat dampened the morale of [PAWN_possessive] team during transit, but when [PAWN_possessive] shuttle came under fire by spaceborne pirates and [PAWN_nameDef] was the only one to have landed on the rim safely, [PAWN_pronoun] would have given anything to have them back.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+			<li>FaunScientist</li>
+			<li>Scientist</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>11</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-6</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>-6</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-6</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Nerves>-2</Nerves>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Curio Collector ============================-->
+	<!-- Fantastic gains, but poor domestic skills and nerves -->
+
+	<BackstoryDef>
+		<defName>RBSFE_CurioCollector</defName>
+		<title>curio collector</title>
+		<titleShort>collector</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] defected from society and was welcomed into a tribe of fauns. The tribe were meek; almost “humanphobic”, and made haste at the mere sound of company passing through their land. Once travellers had passed by, [PAWN_nameDef] would scour the ground for mementos, and eventually amassed a trove of bottle caps, scrunched-up papers and other trash to remind [PAWN_objective] of human presence.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+			<li>Offworld</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-6</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Recluse>0</Recluse>
+		</forcedTraits>
+		<possessions>
+			<li>
+				<key>Steel</key>
+				<value>5</value>
+			</li>
+		</possessions>
+	</BackstoryDef>
+	
+</Defs>

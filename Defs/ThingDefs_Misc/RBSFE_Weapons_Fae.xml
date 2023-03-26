@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WeaponClassDef>
+		<defName>RBSFE_Fae</defName>
+		<label>fae</label>
+	</WeaponClassDef>
+	
+	<!--====================== Fae Weapons - Melee ======================-->
+	<!-- Faeblade -->
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RBSFE_FaeBlade</defName>
+		<label>fae blade</label>
+		<description>A nimble blade favoured by fauns. Its mysterious aura seems to strengthen the wielder’s connection with nature.</description>
+		<graphicData>
+			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeBlade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<soundInteract>RBSFE_FaeEquip</soundInteract>
+		<techLevel>Neolithic</techLevel>
+		<weaponTags>
+			<li>Fae</li>
+			<li>FaeMelee</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Neolithic</li>
+			<li>RBSFE_Fae</li>
+		</weaponClasses>
+		<costStuffCount>80</costStuffCount>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1.4</Mass>
+			<RBSF_NatureConnectionOffset>0.35</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>hilt</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14.5</power>
+				<armorPenetration>0.30</armorPenetration>
+				<cooldownTime>1.7</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<displayPriority>441</displayPriority>
+		</recipeMaker>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- Faestaff -->
+	
+	<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>RBSFE_FaeStaff</defName>
+		<label>fae staff</label>
+		<description>A long staff traditionally known as a ‘thyrsus’. Its adorned with unprocessed materials, like pinecones and vines, and represents a connection to nature during faun and satyr festivals. It greatly strengthens the wielder's connection to nature.</description>
+		<graphicData>
+			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeStaff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<soundInteract>RBSFE_FaeEquip</soundInteract>
+		<techLevel>Neolithic</techLevel>
+		<weaponTags>
+			<li>Fae</li>
+			<li>FaeStaff</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Neolithic</li>
+			<li>RBSFE_Fae</li>
+		</weaponClasses>
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+			<WorkToMake>5600</WorkToMake>
+			<Mass>1</Mass>
+			<RBSF_NatureConnectionOffset>0.8</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicEntropyRecoveryRate>0.025</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costList>
+			<Hay>10</Hay>
+		</costList>
+		<tools>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+			<displayPriority>442</displayPriority>
+		</recipeMaker>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+		
+	<!-- Faewhip -->
+	
+	<ThingDef ParentName="BaseWeaponNeolithic"><!-- TODO: make constrict-->
+		<defName>RBSFE_FaeWhip</defName>
+		<label>fae whip</label>
+		<description>A spiked whip fashioned from vines. It strengthens the wielder's connection to nature. \n\nIt can also be used to stun foes during battle, as long as the wielder can keep them constricted.</description>
+		<graphicData>
+			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeWhip</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<soundInteract>RBSFE_FaeEquip</soundInteract>
+		<techLevel>Neolithic</techLevel>
+		<weaponTags>
+			<li>Fae</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Neolithic</li>
+			<li>RBSFE_Fae</li>
+		</weaponClasses>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1</Mass>
+			<RBSF_NatureConnectionOffset>0.35</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedAngleOffset>-90</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costList>
+			<WoodLog>75</WoodLog>
+		</costList>
+		<tools>
+			<li>
+				<label>whip</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13.9</power>
+				<cooldownTime>2.8</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+						<def>RBSFE_VineWhip</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<!-- 			<li>
+				<label>wrap</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>3</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+						<def>RBSFE_VineStun</def>
+						<amount>4</amount>
+					</li>
+				</extraMeleeDamages>
+			</li> -->
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+			<displayPriority>443</displayPriority>
+		</recipeMaker>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+				<weaponCarryDrawOffsets>
+					<north>
+						<drawOffset>(0, -1, 0)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0, -1, 0)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(0, -1, 0)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(0, -1, 0)</drawOffset>
+						<angleOffset>0</angleOffset>
+					</west>
+				</weaponCarryDrawOffsets>
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--====================== Fae Weapons - Ranged / Half-Ranged ======================-->
+	<!-- Faemore - Melee sword but can also fire shockwaves -->
+	
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>RBSFE_Faemore</defName>
+		<label>faemore</label>
+		<description>A two-handed sword, bestowed upon only the strongest fae fighters. It can fire a shock-wave of Gauranlen energy at distant foes, powered by the mysterious seed forged into its hilt, but it's also a forbidable melee weapon too. \n\nThis blade greatly strengthens the wielders connection with nature.</description>
+		<graphicData>
+			<texPath>Things/Equipment/WeaponMelee/RBSFE_Faemore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<soundInteract>RBSFE_FaeEquip</soundInteract>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>Fae</li>
+			<li>FaeMelee</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RBSFE_Fae</li>
+		</weaponClasses>
+		<costStuffCount>150</costStuffCount>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>18500</WorkToMake>
+			<Mass>1.85</Mass>
+			<RBSF_NatureConnectionOffset>0.5</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costList>
+			<Gold>10</Gold>
+		</costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.3</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.2</cooldownTime>
+				<extraMeleeDamages>
+					<li>
+						<def>RBSFE_FaeDamage</def>
+						<amount>1</amount>
+					</li>
+				</extraMeleeDamages>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RBSFE_FaemoreBullet</defaultProjectile>
+				<warmupTime>2.45</warmupTime>
+				<range>9.3</range>
+				<soundCast>RBSFE_FaemoreFire</soundCast>
+			</li>
+		</verbs>
+		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<displayPriority>444</displayPriority>
+		</recipeMaker>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- Faerrow -->
+		
+	<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>RBSFE_Faerrow</defName>
+		<label>short bow</label>
+		<description>An ornate, swift bow often wielded by satyrs and fauns alike. It strengthens the wielder’s connection with nature.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Equipment/WeaponRanged/RBSFE_Faerrow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>RBSFE_FaeEquip</soundInteract>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>0.7</Mass>
+			<AccuracyTouch>0.27</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.44</AccuracyLong>
+			<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Fae</li>
+			<li>FaeRanged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedLight</li>
+			<li>RBSFE_Fae</li>
+		</weaponClasses>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RBSFE_FaeBullet</defaultProjectile>
+				<warmupTime>1.25</warmupTime>
+				<range>24.6</range>
+				<soundCast>Bow_Small</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>limb</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+		<rotateInShelves>false</rotateInShelves>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseWeaponNeolithic">
+		<defName>RBSFE_AnimaRod</defName>
+		<label>anima rod</label>
+		<description>The felling of an anima tree marks the end of nearby fae civilisations who relied on it for its psychic power and protection. A legendary tale of such an ill-fated tribe concluded with the last, surviving elder of the tribe emerging from the viscera of their comrades, clasping this weapon: the anima rod. \n\n It still remains a mystery how the staff was made; via alchemy, psycasting or, as the legend goes, perhaps it was a gift from the anima tree itself? \n\n Though none have since replicated this ancient relic, the original still stands today, wielded only by those who can handle its power. It is capable of stunning foes from far distances with a powerful surge of animus energy.</description>
+		<graphicData>
+			<texPath>Things/Equipment/WeaponMelee/RBSFE_AnimaRod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<soundInteract>RBSFE_AnimaEquip</soundInteract>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<techLevel>Archotech</techLevel>
+		<tradeability>Sellable</tradeability>
+		<weaponTags>
+			<li>AnimaRod</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RBSFE_Fae</li>
+		</weaponClasses>
+		<statBases>
+			<MarketValue>4400</MarketValue>
+			<WorkToMake>99999</WorkToMake>
+			<Mass>1</Mass>
+			<RBSF_NatureConnectionOffset>1</RBSF_NatureConnectionOffset>
+			<RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+			<MaxHitPoints>200</MaxHitPoints>
+			<RoyalFavorValue>2</RoyalFavorValue>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicEntropyRecoveryRate>0.045</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-30</equippedAngleOffset>
+		<costList>
+			<WoodLog>200</WoodLog>
+		</costList>
+		<tools>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>RBSFE_AnimaBullet</defaultProjectile>
+				<warmupTime>4.7</warmupTime>
+				<range>24.4</range>
+				<forcedMissRadius>2.4</forcedMissRadius>
+				<soundCast>RBSFE_AnimaFire</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<recipeMaker>
+		</recipeMaker>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+  
+	<!--====================== Fae Projectiles ======================-->
+	<!-- Used by Faerrow. -->
+  
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>RBSFE_FaeBullet</defName>
+		<label>arrow</label>
+		<graphicData>
+			<texPath>Things/Projectile/RBSFE_FaeBullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RBSFE_FaeDamage</damageDef>
+			<damageAmountBase>11</damageAmountBase>
+			<speed>44</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- Used by Faemore. -->
+  
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>RBSFE_FaemoreBullet</defName>
+		<label>shockwave</label>
+		<graphicData>
+			<texPath>Things/Projectile/RBSFE_FaemoreBullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RBSFE_FaemoreDamage</damageDef>
+			<stoppingPower>5</stoppingPower>
+			<damageAmountBase>7</damageAmountBase>
+			<speed>27</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!-- Used by Anima Rod. -->
+  
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>RBSFE_AnimaBullet</defName>
+		<label>animus energy</label>
+		<graphicData>
+			<texPath>Things/Projectile/RBSFE_AnimaBullet</texPath>
+			<graphicClass>Graphic_Flicker</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>RBSFE_AnimaDamage</damageDef>
+			<explosionRadius>5.6</explosionRadius>
+			<stoppingPower>3</stoppingPower>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.86</armorPenetrationBase>
+			<screenShakeFactor>1</screenShakeFactor>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!--====================== Faemore Damage (Shockwave Attack) ======================-->
+	<!-- Used by Faemore. -->
+
+	<DamageDef ParentName="Flame">
+		<defName>RBSFE_FaemoreDamage</defName>
+		<label>fae magic</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<deathMessage>{0} has been eradicated.</deathMessage>
+		<hediff>Bruise</hediff>
+		<externalViolence>true</externalViolence>
+		<defaultDamage>7</defaultDamage>
+		<canInterruptJobs>true</canInterruptJobs>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<isRanged>true</isRanged>
+		<!-- Effects -->
+		<damageEffecter>FaeBullet_Effect</damageEffecter>
+		<explosionCellFleck>AirPuff</explosionCellFleck>
+		<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.3, 0.70, 0.88, 0.05)</explosionColorEdge>
+		<soundExplosion>RBSFE_FaeExplosion</soundExplosion>
+	</DamageDef>
+	
+	<!--====================== Anima Damage (Anima Explosion) ======================-->
+	<!-- Used by Anima Rod. -->
+
+	<DamageDef ParentName="Flame">
+		<defName>RBSFE_AnimaDamage</defName>
+		<label>animus energy</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<deathMessage>{0} has been returned to the earth.</deathMessage>
+		<hediff>Bruise</hediff>
+		<externalViolence>true</externalViolence>
+		<defaultDamage>7</defaultDamage>
+		<canInterruptJobs>true</canInterruptJobs>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<isRanged>true</isRanged>
+		<!-- Effects -->
+		<damageEffecter>AnimaExplosion_Effect</damageEffecter>
+		<explosionCellFleck>AnimaExplosionCellFleck</explosionCellFleck>
+		<explosionColorCenter>(141, 168, 147)</explosionColorCenter>
+		<explosionColorEdge>(0.3, 0.70, 0.88, 0.05)</explosionColorEdge>
+		<soundExplosion>RBSFE_AnimaExplosion</soundExplosion>
+	</DamageDef>
+  
+	<!--====================== Fae Damage (Long Distance) ======================-->
+	<!-- Used by Faerrow. -->
+
+	<DamageDef ParentName="Flame">
+		<defName>RBSFE_FaeDamage</defName>
+		<label>fae magic</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<deathMessage>{0} has been eradicated.</deathMessage>
+		<hediff>Cut</hediff>
+		<externalViolence>true</externalViolence>
+		<defaultDamage>5</defaultDamage>
+		<canInterruptJobs>true</canInterruptJobs>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<isRanged>true</isRanged>
+		<!-- Effects -->
+		<damageEffecter>FaeBullet_Effect</damageEffecter>
+		<explosionCellFleck>AirPuff</explosionCellFleck>
+		<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.3, 0.70, 0.88, 0.05)</explosionColorEdge>
+		<soundExplosion>RBSFE_FaeExplosion</soundExplosion>
+	</DamageDef>
+
+	<!-- Used by FaeWhip. -->
+
+	<DamageDef ParentName="Scratch">
+		<defName>RBSFE_VineWhip</defName>
+		<label>vine whip</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<deathMessage>{0} was whipped to death.</deathMessage>
+		<armorCategory>Blunt</armorCategory>
+		<isRanged>false</isRanged>
+		<!-- Effects -->
+		<damageEffecter>VineWhip_Effect</damageEffecter>
+		<explosionCellFleck>AirPuff</explosionCellFleck>
+		<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.3, 0.70, 0.88, 0.05)</explosionColorEdge>
+		<soundExplosion>RBSFE_FaeExplosion</soundExplosion>
+	</DamageDef>
+	
+	<!--====================== Vine Wrap HeDiff ======================-->
+	<!-- Constricted -->
+
+	<HediffDef>
+		<defName>RBSFE_VineWrapHeDiff</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>constricted</label>
+		<labelNoun>constriction</labelNoun>
+		<defaultLabelColor>(105, 165, 80)</defaultLabelColor>
+		<description>The pawn is being constricted and is unable to move or use their weapon effectively.</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<makesAlert>false</makesAlert>
+		<maxSeverity>1</maxSeverity>
+		<isBad>true</isBad>
+		<initialSeverity>1</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-73</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
+				<otherHediff>HeDiffSeeRed</otherHediff>
+				<stages>2~</stages>
+				<mtbHours>0</mtbHours>
+			</li>
+			<li Class="HediffCompProperties_Effecter">
+				<stateEffecter>VineStun_Effect</stateEffecter>
+			</li>
+		</comps>
+		<injuryProps>
+			<destroyedLabel>constricted</destroyedLabel>
+			<destroyedOutLabel>destroyed</destroyedOutLabel>
+		</injuryProps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>wrapped in vines</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.05</setMax>
+					</li>
+				</capMods>
+				<statFactors>
+					<MoveSpeed>-20</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+		
+</Defs>

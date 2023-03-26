@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--============================== Faun Backstories - Childhood ============================-->
+	
+	<!--============================== Shaman ============================-->
+	<!-- Inspired by Japanese Miko/Geki. I mentioned this before, but we really need a dancing skill -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Shaman</defName>
+		<title>geki</title>
+		<titleFemale>miko</titleFemale>
+		<titleShort>shaman</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] turned heads at religious congregations and festivals with [PAWN_possessive] spectacular display of ritualistic dances. [PAWN_nameDef] always had to be on [PAWN_possessive] feet, and never enjoyed anything that kept [PAWN_objective] sat on a chair, like school.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Nimble>0</Nimble>
+		</forcedTraits>
+		<workDisables>
+			<li>Crafting</li>
+			<li>Intellectual</li>
+			<li>Cooking</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Carefree Hermit ============================-->
+	<!-- Well-rounded gains and happy, but also pretty lazy -->
+
+	<BackstoryDef>
+		<defName>RBSFE_CarefreeHermit</defName>
+		<title>carefree hermit</title>
+		<titleShort>hermit</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed in living from the fruits of the earth and not concerning themselves with the shackles of manual labour. Instead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possesive] childhood, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+			<li>FaunWild</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Industriousness>-1</Industriousness>
+			<NaturalMood>1</NaturalMood>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Forager ============================-->
+	<!-- Great gains for a childhood backstory, but locked out of some useful traits -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Forager</defName>
+		<title>forager</title>
+		<titleShort>forager</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] created art from found things, such as interestingly patterned rocks, bark and leaves. This childhood of foraging taught [PAWN_nameDef] to excavate, to dive and to sustainably harvest flora for [PAWN_possessive] art projects.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Undergrounder>0</Undergrounder>
+			<Transhumanist>0</Transhumanist>
+			<Beauty>-1</Beauty>
+			<Beauty>-2</Beauty>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Faun Backstories - Adulthood ============================-->
+	
+	<!--============================== Faunstar ============================-->
+	<!-- The pun is too strong -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Faunstar</defName>
+		<title>faunstar</title>
+		<titleShort>escort</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] earned money as an escort. Fauns were highly sought after by lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course. Alongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Nimble>0</Nimble>
+			<Beauty>1</Beauty>
+		</forcedTraits>
+		<disallowedTraits>
+			<RBSF_Uncouth>0</RBSF_Uncouth>
+			<Abrasive>0</Abrasive>
+			<Asexual>0</Asexual>
+		</disallowedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Climatologist ============================-->
+	<!-- Okay Alexa, play Mort Garson's "Plantasia"-->
+
+	<BackstoryDef>
+		<defName>RBSFE_Climatologist</defName>
+		<title>climatologist</title>
+		<titleShort>scientist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] studied [PAWN_possessive] planet’s climate through natural and alternative means, such as “speaking” to the local flora. Impressively enough, these “conversations” taught [PAWN_nameDef] to accurately estimate the temperature of something solely by touch, with a miniscule margin of error.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+			<li>FaunScientist</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>9</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Neurotic>1</Neurotic>
+		</forcedTraits>
+		<disallowedTraits>
+			<RBSF_Uncouth>0</RBSF_Uncouth>
+			<Undergrounder>0</Undergrounder>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>Social</li>
+			<li>Constructing</li>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Bacteriologist ============================-->
+	<!-- Good gains and immunity, but no social -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Bacteriologist</defName>
+		<title>bacteriologist</title>
+		<titleShort>bacteriologist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] studied grounded and airborne bacteria, and ultimately worked for a much cleaner and healthier future. Or so [PAWN_pronoun] tried. [PAWN_pronoun] was forcibly stationed on a sparsely-populated rimworld to experiment with a highly contagious, yet contained, virus. Negligent actions lead to this virus spreading across the rim like wildfire, with the illness of many weighing on [PAWN_nameDef]’s conscience.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+			<li>FaunScientist</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Immunity>1</Immunity>
+		</forcedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<!--============================== Glimmering Faun ============================-->
+	<!-- I'm a faun you dork -->
+
+	<BackstoryDef>
+		<defName>RBSFE_GlimmeringFaun</defName>
+		<title>glimmering faun</title>
+		<titleShort>daydreamer</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>A psychite-tea-induced trip took [PAWN_nameDef] to another world. In [PAWN_possessive] dream, [PAWN_nameDef] encountered, and helped, a sprightly young dragon to collect fourteen talismans and save the world from an evil overlord. \n\nBut this was just a dream. Right?</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Kind>0</Kind>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	<!--============================== Sentinel ============================-->
+	<!-- I was tempted to call this one "human shield", but I guess they're not human -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Sentinel</defName>
+		<title>sentinel</title>
+		<titleShort>sentinel</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>Built like a wall, and just as stoic as one, [PAWN_nameDef] was an odd faun who pledged [PAWN_possessive] life and loyalty to [PAWN_possessive] queen. Many suspected the two were romantically entangled behind the scenes, but [PAWN_nameDef] denied these rumors, and continued to serve the family with dignity and finesse.</baseDesc>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Hulk</bodyTypeFemale>
+		<spawnCategories>
+			<li>FaunOnly</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-8</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Bisexual>0</Bisexual>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>Cooking</li>
+		</workDisables>
+	</BackstoryDef>
+	
+</Defs>

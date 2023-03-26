@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--============================== Satyr and Faun Backstories - Childhood ============================-->
+	
+	<!--============================== Palmist ============================-->
+	<!-- Good all-rounder with ascetic trait, we love to see it -->
+
+	<BackstoryDef>
+		<defName>RBSFE_PalmReader</defName>
+		<title>palm reader</title>
+		<titleShort>palmist</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] resided within a grassy woodland and made a living reading the palms of passerby travellers. The silver [PAWN_pronoun] was given in return was merely a novelty to [PAWN_nameDef], as living solitarily left [PAWN_objective] with no use for currency. Everything [PAWN_pronoun] needed was provided already by Mother Earth.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Ascetic>0</Ascetic>
+		</forcedTraits>
+		<disallowedTraits>
+			<Transhumanist>0</Transhumanist>
+			<PsychicSensitivity>-1</PsychicSensitivity>
+			<PsychicSensitivity>-2</PsychicSensitivity>
+			<DrugDesire>2</DrugDesire>
+			<DrugDesire>1</DrugDesire>
+		</disallowedTraits>
+		<possessions>
+			<li>
+				<key>Silver</key>
+				<value>10</value>
+			</li>
+		</possessions>
+	</BackstoryDef>
+	
+		<!--============================== Mysterious Healer ============================-->
+	<!-- Great medical gains, but incapable of many consistent work types and reclusive -->
+
+	<BackstoryDef>
+		<defName>RBSFE_MysteriousHealer</defName>
+		<title>mysterious healer</title>
+		<titleShort>healer</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] used natural remedies to cure passing adventurers of their wounds. Many theorised [PAWN_nameDef] to be a mirage, for as quickly as [PAWN_pronoun] appeared from the overgrowth to tend to the weak, [PAWN_pronoun] would disappear again.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<Recluse>0</Recluse>
+		</forcedTraits>
+		<disallowedTraits>
+			<Tough>0</Tough>
+		</disallowedTraits>
+		<workDisables>
+			<li>Artistic</li>
+			<li>Violent</li>
+			<li>Crafting</li>
+		</workDisables>
+		<requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+		<possessions>
+			<li>
+				<key>MedicineHerbal</key>
+				<value>5</value>
+			</li>
+		</possessions>
+	</BackstoryDef>
+	
+		<!--============================== Circus Act ============================-->
+	<!-- Forces cannibal trait, but poor gains -->
+
+	<BackstoryDef>
+		<defName>RBSFE_CircusAct</defName>
+		<title>circus act</title>
+		<titleShort>traveller</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was a featured member of a travelling circus, and fascinated humans who had never seen another xeno before. Unlike the rest of the troupe, [PAWN_nameDef] was kept in a cage alongside the animals, and was fed like one too.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-5</value>
+			</li>
+
+		</skillGains>
+		<forcedTraits>
+			<Cannibal>0</Cannibal>
+		</forcedTraits>
+		<workDisables>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+	
+		<!--============================== Fermenter ============================-->
+	<!-- Decent gains with no forced or declined traits -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Fermenter</defName>
+		<title>fermenter</title>
+		<titleShort>fermenter</titleShort>
+		<slot>Childhood</slot>
+		<baseDesc>[PAWN_nameDef] was raised in a ramshackled market town by [PAWN_possessive] grandmother. The duo specialised in fermenting foods, drinks and sauces for the, albeit infrequent, passers-by. [PAWN_nameDef]’s grandmother passed away before [PAWN_pronoun] ever learned what happened to [PAWN_possessive] parents, but the state of ruin that [PAWN_possessive] town was in gave [PAWN_pronoun] an inkling that it was poverty that took their lives.</baseDesc>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Thin</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<possessions>
+			<li>
+				<key>RawBerries</key>
+				<value>10</value>
+			</li>
+		</possessions>
+	</BackstoryDef>
+	
+		<!--============================== Trickster ============================-->
+	<!-- Well-rounded but locked out of positive industrious traits -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Trickster</defName>
+		<title>trickster</title>
+		<titleShort>trickster</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] was raised in the whimsical heart of a forest rumoured for its magical influence. Plucky adventurers came and went, in search of mythical xenos and artefacts, but [PAWN_nameDef] knew better than to share information with humans without something in exchange. Being a natural prankster, [PAWN_nameDef] often conned travellers out of their most prized possessions with cunning tricks and riddles.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<Kind>0</Kind>
+			<Industriousness>1</Industriousness>
+			<Industriousness>2</Industriousness>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</BackstoryDef>
+	
+	<!--============================== Caricaturist ============================-->
+	<!-- Forces uncouth trait, even onto fauns -->
+
+	<BackstoryDef>
+		<defName>RBSFE_Caricaturist</defName>
+		<title>caricaturist</title>
+		<titleShort>artist</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] entertained townsfolk by creating exaggerated and offensive portraits of famous figures in society.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+			<li>Bard</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<RBSF_Uncouth>0</RBSF_Uncouth>
+		</forcedTraits>
+	</BackstoryDef>
+	
+		<!--============================== Potter ============================-->
+	<!-- Great gains in artistic and crafting, but let down by "recluse" trait -->
+
+	<BackstoryDef>
+		<defName>RBSFE_ShyPotter</defName>
+		<title>potter</title>
+		<titleShort>potter</titleShort>
+		<slot>Adulthood</slot>
+		<baseDesc>[PAWN_nameDef] sought pleasure in the alchemy of pottery, and spun unique and abstract art pieces in [PAWN_possessive] isolated forest workshop. [PAWN_possessive] sudden disappearance from [PAWN_possessive] workshop prompted wealthy humans to pay an arm and a leg for [PAWN_possessive] works, and many believe [PAWN_objective] to have skyrocketed to fame because of [PAWN_possessive] "death". \n\nIn truth, [PAWN_nameDef] went into the pottery field for some peace and quiet, and merely left [PAWN_possessive] workshop behind when [PAWN_pronoun] started to gain popularity.</baseDesc>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>SatyrandFaun</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-8</value>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<TorturedArtist>0</TorturedArtist>
+			<Recluse>0</Recluse>
+		</forcedTraits>
+	</BackstoryDef>
+	
+	
+</Defs>

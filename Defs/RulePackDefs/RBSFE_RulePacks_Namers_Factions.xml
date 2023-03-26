@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--====================== Satyr / Faun Name Assets ======================-->
+	<!-- All Files -->
+
+	<RulePackDef>
+		<defName>NamerSatyrFaunBaseExpanded</defName>
+		<rulePack>
+			<rulesFiles>
+				<!-- General -->
+				<li>FaunPre->Names/Faun/Prefix_Faun</li>
+				<li>SatyrPre->Names/Satyr/Prefix_Satyr</li>
+				<li>FaeSuf->WordParts/Factions/Suffix_FaeFaction</li>
+				<li>FaeFac->Names/Factions/Unique_FaeFaction</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+  
+	<!--====================== Fae Faction - influenced by Celtic & Greek Folklore ======================-->
+	<!-- Fae Faction -->
+
+	<RulePackDef>
+		<defName>NamerFactionFaeTribe</defName>
+		<include>
+			<li>NamerSatyrFaunBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=8)->[FaeFac]</li>
+				<li>r_name->Travellers of [FaeFac]</li>
+				<li>r_name->Nomads of [FaeFac]</li>
+				<li>r_name->Fae of [FaeFac]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!-- Fae Faction - Settlements -->
+  
+	<RulePackDef>
+		<defName>NamerSettlementFaeTribe</defName>
+		<include>
+			<li>NamerSatyrFaunBaseExpanded</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->[FaunPre][FaeSuf]</li>
+				<li>r_name->[SatyrPre][FaeSuf]</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!--====================== Fae Leader ======================-->
+	
+	<RulePackDef>
+		<defName>NamerFae_Leader</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_leaderTitle->[MinoLeader]</li>
+				
+				<li>MinoLeader->Paragon</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!--====================== Fae Deity ======================-->
+		
+	<RulePackDef>
+		<defName>NamerFae_Deity</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityName->[FaeDeity]</li>
+				
+				
+				<!-- Diety Names - Gods of nature across multiple IRL cultures -->
+				
+				<li>FaeDeity->Nomhoyi</li>
+				<li>FaeDeity->Oshosi</li>
+				<li>FaeDeity->Ash</li>
+				<li>FaeDeity->Tonantzin</li>
+				<li>FaeDeity->Ngen</li>
+				<li>FaeDeity->Loco</li>
+				<li>FaeDeity->Hebo</li>
+				<li>FaeDeity->Indra</li>
+				<li>FaeDeity->Aranyani</li>
+				<li>FaeDeity->Sa</li>
+				<li>FaeDeity->Lief</li>
+				<li>FaeDeity->Kishar</li>
+				<li>FaeDeity->Medeina</li>
+				<li>FaeDeity->Druantia</li>
+				<li>FaeDeity->Sucellus</li>
+				<li>FaeDeity->Selvans</li>
+				<li>FaeDeity->Tapio</li>
+				<li>FaeDeity->Mlande</li>
+				<li>FaeDeity->Atlas</li>
+				<li>FaeDeity->Gaia</li>
+				<li>FaeDeity->Nile</li>
+				<li>FaeDeity->Nerthus</li>
+				<li>FaeDeity->Artemis</li>
+				<li>FaeDeity->Kore</li>
+				<li>FaeDeity->Persephone</li>
+				<li>FaeDeity->Apollo</li>
+				<li>FaeDeity->Aphrodite</li>
+				<li>FaeDeity->Demeter</li>
+				<li>FaeDeity->Dryad</li>
+				<li>FaeDeity->Nyx</li>
+				<li>FaeDeity->Aurae</li>
+				<li>FaeDeity->Gauranlia</li>
+				<li>FaeDeity->Pan</li>
+				<li>FaeDeity->Physis</li>
+				<li>FaeDeity->Rhea</li>
+				<li>FaeDeity->Selene</li>
+				<li>FaeDeity->Yggdrasil</li>
+				<li>FaeDeity->Grovea</li>
+				<li>FaeDeity->Rhea</li>
+				<li>FaeDeity->Zapis</li>
+				<li>FaeDeity->Deku</li>
+				<li>FaeDeity->Mokujin</li>
+				<li>FaeDeity->Bulbea</li>
+
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!--====================== Fae Deity Type ======================-->
+	
+	<RulePackDef>
+		<defName>NamerFae_DeityType</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->[FaeGod]</li>
+				
+				<li>FaeGod(p=8)->World Tree</li>
+				<li>FaeGod->Mother Earth</li>
+				<li>FaeGod->God</li>
+				<li>FaeGod->Titan</li>
+				<li>FaeGod->Primordial Deity</li>
+
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<!--====================== Fae Ideology ======================-->
+		
+	<RulePackDef>
+		<defName>NamerFae_Ideo</defName>
+		<include>
+			<li>NamerSatyrFaunBaseExpanded</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoGlobal</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>r_ideoName->[FaunPre][FaeIdeoSuf]</li>
+				<li>r_ideoName->[SatyrPre][FaeIdeoSuf]</li>
+			</rulesStrings>
+			
+			<rulesFiles>
+				<li>FaeIdeoSuf->WordParts/Ideology/FaeIdeologySuffix</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

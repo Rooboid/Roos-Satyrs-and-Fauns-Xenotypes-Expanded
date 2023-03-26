@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeA</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconA</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Astrology</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeB</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconB</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeC</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconC</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+			<li>Raider</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_GauranlenSupremacy</li>
+			<li>TreeConnection</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeD</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconD</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Artist</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeE</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconE</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_GauranlenSupremacy</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeF</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconF</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Artist</li>
+		</memes>
+	</IdeoIconDef>
+	
+	<IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>RBSFE_Ideoligion_FaeG</defName>
+		<iconPath>UI/Icons/IdeoIcons/RBSFE_IdeoIconG</iconPath>
+		<memes>
+			<li>NaturePrimacy</li>
+			<li>TreeConnection</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Sharpshooter</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Astrology</li>
+		</memes>
+	</IdeoIconDef>
+	
+</Defs>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ====================================== Fae Apparel - Bases =========================================== -->
+	<!-- Fae Apparel base - just applies forced colours, tags and crafting stations onto all fae apparel -->
+
+	<ThingDef Name="FaeApparelBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<techLevel>Neolithic</techLevel>
+		<tradeability>Sellable</tradeability>
+		<apparel>
+			<tags>
+				<li>Fae</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>33</weight>
+					<only>(57,116,67)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(60,70,50)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,140,25)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(85,60,60)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(115,45,55)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(200,115,160)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(156,114,85)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!-- ====================================== Fae Apparel - Body =========================================== -->
+	<!-- Faegarms -->
+
+	<ThingDef ParentName="FaeApparelBase">
+		<defName>RBSFE_Faegarms</defName>
+		<label>faegarms</label>
+		<description>A whimsical, full-body covering made from leaves and foliage. It offers next-to-no protection but strengthens the wearer’s connection with nature.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faegarms/RBSFE_FaegarmsIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>70</WoodLog>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.4</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+			<RBSF_NatureConnectionOffset>0.3</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.15</PruningSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faegarms/RBSFE_Faegarms</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<displayPriority>330</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+	</ThingDef>
+  
+	<!-- Kid Faegarms -->
+  
+	<ThingDef ParentName="FaeApparelBase">
+		<defName>RBSFE_KidFaegarms</defName>
+		<label>kid faegarms</label>
+		<description>A whimsical, full-body covering made from leaves and foliage. It offers next-to-no protection but strengthens the wearer’s connection with nature. And look! It has a flower sewn onto the front for extra cuteness.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_KidFaegarms/RBSFE_KidFaegarmsIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(0.7, 0.7)</drawSize>
+		</graphicData>
+		<costList>
+			<WoodLog>50</WoodLog>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1500</WorkToMake>
+			<Mass>0.4</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+			<RBSF_NatureConnectionOffset>0.3</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.15</PruningSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_KidFaegarms/RBSFE_KidFaegarms</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<developmentalStageFilter>Child</developmentalStageFilter>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<displayPriority>331</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+  
+	<!-- Faecloak -->
+  
+	<ThingDef ParentName="FaeApparelBase">
+		<defName>RBSFE_Faecloak</defName>
+		<label>faecloak</label>
+		<description>An opulent cloak woven from leaves and cloth that's favoured by fauns. It strengthens the wearer’s connection with nature.</description>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<displayPriority>332</displayPriority>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecloak/RBSFE_FaecloakIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>10</Cloth>
+			<WoodLog>80</WoodLog>
+		</costList>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>8500</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.93</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.7</EquipDelay>
+			<RBSF_NatureConnectionOffset>0.5</RBSF_NatureConnectionOffset>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecloak/RBSFE_Faecloak</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>33</weight>
+					<only>(57,116,67)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(60,70,50)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,140,25)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(85,60,60)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(115,45,55)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(200,115,160)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(156,114,85)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+		
+	<!-- Faeleaf -->
+		
+	<ThingDef ParentName="FaeApparelBase">
+		<defName>RBSFE_Faeleaf</defName>
+		<label>faeleaf</label>
+		<description>A precariously placed leaf that covers the wearer’s modesty. Nudists don’t mind “wearing” this.</description>
+		<recipeMaker>
+			<displayPriority>333</displayPriority>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeLeaf/RBSFE_FaeLeafIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>0.5</uiIconScale>
+		<costList>
+			<WoodLog>5</WoodLog>
+		</costList>
+		<thingCategories>
+			<li>ApparelMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>69</MaxHitPoints>
+			<WorkToMake>500</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.5</EquipDelay>
+			<RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Nudist</li>
+			</defaultOutfitTags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeLeaf/RBSFE_FaeLeaf</wornGraphicPath>
+		</apparel>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+	</ThingDef>
+  
+	<!-- Faemail -->
+  
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>RBSFE_Faemail</defName>
+		<label>faemail</label>
+		<description>An ornate set of armour designed to resemble forest foliage. It’s not quite as protective as plate armour but it strengthens the wearer’s connection with nature.</description>
+		<possessionCount>1</possessionCount>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<displayPriority>333</displayPriority>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faemail/RBSFE_FaemailIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>170</costStuffCount>
+		<statBases>
+			<WorkToMake>38500</WorkToMake>
+			<MaxHitPoints>290</MaxHitPoints>
+			<Mass>10</Mass>
+			<StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>13</EquipDelay>
+			<RBSF_NatureConnectionOffset>0.6</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+			<Beauty>0.4</Beauty>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<tradeTags>
+			<li>FaeClothing</li>
+			<li>Armor</li>
+		</tradeTags>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faemail/RBSFE_Faemail</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Fae</li>
+				<li>FaeFighter</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+	
+	<!-- ====================================== Fae Apparel - Head =========================================== -->
+	<!-- Faecrown -->
+	
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>RBSFE_Faecrown</defName>
+		<label>faecrown</label>
+		<description>A beautiful crown of leaves that strengthens the wearer’s connection with nature.</description>
+		<techLevel>Neolithic</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecrown/RBSFE_FaecrownIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>0.7</uiIconScale>
+		<costList>
+			<WoodLog>10</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>800</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.05</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>1.5</Flammability>
+			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<Beauty>0.1</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecrown/RBSFE_Faecrown</wornGraphicPath>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Fae</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<displayPriority>334</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>33</weight>
+					<only>(57,116,67)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(60,70,50)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,140,25)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(85,60,60)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(115,45,55)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(200,115,160)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(156,114,85)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<!-- Faecap -->
+	
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>RBSFE_Faecap</defName>
+		<label>faecap</label>
+		<description>A large cap worn by fae clerics. It strengthens the wearer’s connection with nature.</description>
+		<techLevel>Neolithic</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecap/RBSFE_FaecapIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>0.7</uiIconScale>
+		<costList>
+			<WoodLog>20</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>1300</WorkToMake>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.09</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>1.5</Flammability>
+			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecap/RBSFE_Faecap</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Fae</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<displayPriority>335</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>33</weight>
+					<only>(57,116,67)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(60,70,50)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,140,25)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(85,60,60)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(115,45,55)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(200,115,160)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(156,114,85)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+  
+</Defs>

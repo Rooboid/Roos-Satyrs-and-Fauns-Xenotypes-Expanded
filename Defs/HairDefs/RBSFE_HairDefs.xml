@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Bushy -->
+  
+	<HairDef>
+		<defName>RBSFE_Bushy</defName>
+		<label>RBSF Bushy</label>
+		<styleGender>Any</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairA</texPath>
+		<styleTags>
+			<li>Tribal</li>
+			<li>Fae</li>
+			<li>HairShort</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Villain -->
+  
+	<HairDef>
+		<defName>RBSFE_Villain</defName>
+		<label>RBSF Villain</label>
+		<styleGender>Male</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairB</texPath>
+		<styleTags>
+			<li>Punk</li>
+			<li>Fae</li>
+			<li>HairShort</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Brigand -->
+  
+	<HairDef>
+		<defName>RBSFE_Brigand</defName>
+		<label>RBSF Brigand</label>
+		<styleGender>MaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairC</texPath>
+		<styleTags>
+			<li>Tribal</li>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Ribbon -->
+  
+	<HairDef>
+		<defName>RBSFE_Ribbon</defName>
+		<label>RBSF Ribbon</label>
+		<styleGender>FemaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairD</texPath>
+		<styleTags>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Muffled -->
+  
+	<HairDef>
+		<defName>RBSFE_Muffled</defName>
+		<label>RBSF Muffled</label>
+		<styleGender>Female</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairE</texPath>
+		<styleTags>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Rapunzel -->
+  
+	<HairDef>
+		<defName>RBSFE_Rapunzel</defName>
+		<label>RBSF Rapunzel</label>
+		<styleGender>FemaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairF</texPath>
+		<styleTags>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Chief -->
+  
+	<HairDef>
+		<defName>RBSFE_Chief</defName>
+		<label>RBSF Chief</label>
+		<styleGender>MaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairG</texPath>
+		<styleTags>
+			<li>Tribal</li>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Prankster -->
+  
+	<HairDef>
+		<defName>RBSFE_Prankster</defName>
+		<label>RBSF Prankster</label>
+		<styleGender>FemaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairH</texPath>
+		<styleTags>
+			<li>Urban</li>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Plaits -->
+  
+	<HairDef>
+		<defName>RBSFE_Plaits</defName>
+		<label>RBSF Plaits</label>
+		<styleGender>FemaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairI</texPath>
+		<styleTags>
+			<li>Tribal</li>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Bard -->
+  
+	<HairDef>
+		<defName>RBSFE_Bard</defName>
+		<label>RBSF Bard</label>
+		<styleGender>Male</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairJ</texPath>
+		<styleTags>
+			<li>Rural</li>
+			<li>Fae</li>
+			<li>HairShort</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Kappa Ponytail -->
+  
+	<HairDef>
+		<defName>RBSFE_KappaPonytail</defName>
+		<label>RBSF Kappa Ponytail</label>
+		<styleGender>Male</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairK</texPath>
+		<styleTags>
+			<li>Satyr</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Tangled -->
+  
+	<HairDef>
+		<defName>RBSFE_Tangled</defName>
+		<label>RBSF Tangled</label>
+		<styleGender>Male</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairL</texPath>
+		<styleTags>
+			<li>Satyr</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Wallflower -->
+  
+	<HairDef>
+		<defName>RBSFE_Wallflower</defName>
+		<label>RBSF Wallflower</label>
+		<styleGender>Female</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairM</texPath>
+		<styleTags>
+			<li>Faun</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Poet -->
+  
+	<HairDef>
+		<defName>RBSFE_Poet</defName>
+		<label>RBSF Poet</label>
+		<styleGender>MaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairN</texPath>
+		<styleTags>
+			<li>Royal</li>
+			<li>Rural</li>
+			<li>Faun</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Bird -->
+  
+	<HairDef>
+		<defName>RBSFE_Bird</defName>
+		<label>RBSF Bird</label>
+		<styleGender>FemaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairO</texPath>
+		<styleTags>
+			<li>Fae</li>
+			<li>HairLong</li>
+		</styleTags>
+	</HairDef>
+	
+	<!-- Alchemist -->
+  
+	<HairDef>
+		<defName>RBSFE_Alchemist</defName>
+		<label>RBSF Alchemist</label>
+		<styleGender>MaleUsually</styleGender>
+		<category>Rural</category>
+		<texPath>Things/Pawn/Humanlike/Hairs/RBSFE_HairP</texPath>
+		<styleTags>
+			<li>Faun</li>
+			<li>HairShort</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

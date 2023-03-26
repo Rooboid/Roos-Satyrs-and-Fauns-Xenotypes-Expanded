@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--============================== Roo's Satyr and Faun Xenotype Patches ============================-->
+	
+	<!--============================== Weapon patches ============================-->
+	<!-- Patches weapons based on DLC installed -->
+	
+	<!-- Faemore - require a Gauranlen seed to craft -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="RBSFE_Faemore"]/costList</xpath>
+			<value>
+				<costList>
+					<GauranlenSeed>1</GauranlenSeed>
+				</costList>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Fae patches ============================-->
+	<!-- Patches that alter vanilla behaviour to account for new fae items -->
+
+	<!-- Add Fae Craftables research to TreeConnection meme -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/MemeDef[defName="TreeConnection"]/startingResearchProjects</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="TreeConnection"]/startingResearchProjects</xpath>
+				<value>
+					<li>RBSFE_FaeCraftables</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="TreeConnection"]</xpath>
+				<value>
+					<startingResearchProjects>
+						<li>RBSFE_FaeCraftables</li>
+					</startingResearchProjects>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<!-- Add Fae Craftables research to NaturePrimacy meme -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>Defs/MemeDef[defName="NaturePrimacy"]/startingResearchProjects</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="NaturePrimacy"]/startingResearchProjects</xpath>
+				<value>
+					<li>RBSFE_FaeCraftables</li>
+				</value>
+			</match>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>Defs/MemeDef[defName="NaturePrimacy"]</xpath>
+				<value>
+					<startingResearchProjects>
+						<li>RBSFE_FaeCraftables</li>
+					</startingResearchProjects>
+				</value>
+			</nomatch>
+		</match>
+	</Operation>
+	
+	<!--============================== Animal patches ============================-->
+	<!-- Adds animals to biomes -->
+	
+			<Operation Class="PatchOperationConditional">
+			<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+				<value>
+					<RBSFE_Muffalope>0.02</RBSFE_Muffalope>
+				</value>
+			</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+			<xpath>Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
+				<value>
+					<li>RBSFE_MuffalopeRace</li>
+				</value>
+			</match>
+	</Operation>
+	
+				<Operation Class="PatchOperationConditional">
+			<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+			<match Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+				<value>
+					<RBSFE_Muffalope>0.01</RBSFE_Muffalope>
+				</value>
+			</match>
+	</Operation>
+	
+</Patch>

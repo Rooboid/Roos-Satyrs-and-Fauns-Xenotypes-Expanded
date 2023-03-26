@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--====================== The Faun Scientists ======================-->
+	<!-- Difficulty: Easy -->
+
+	<ScenarioDef>
+		<defName>RBSFE_TheFaunScientists</defName>
+		<label>The Faun Scientists</label>
+		<description>You embark on a journey far below your pay grade. But it’s for science. And you love science.\n\nYou and two lesser-minded scientists depart from your Glitterworld space station onto the surface of a Rimworld. Your goal, or rather, their goal (your goals are much more grandiose) is to establish a laboratory on the rim and study the local fauna. But be warned, rumours of your arrival have spread far and wide, and very few communities on the Rim welcome invaders.</description>
+		<scenario>
+			<summary>Difficulty: Easy\nThree Fauns establish a laboratory on the rim.</summary>
+			<playerFaction>
+			<def>PlayerFaction</def>
+				<factionDef>RBSFE_PlayerTheFaunScientists</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>3</pawnChoiceCount>
+					<customSummary>Start with just Fauns.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>RBSF_Faun</xenotype>
+							<pawnKind>RBSF_FaunScientist</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>RBSF_Faun</xenotype>
+							<count>3</count>
+							<description>faun</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Pawn Arrive Method -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.2</chance>
+					<hediff>CryptosleepSickness</hediff>
+					<hideOffMap>true</hideOffMap>
+					<severityRange>1~1</severityRange>
+				</li>
+				<!-- Player Starting Items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>1000</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineUltratech</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Plasteel</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gold</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>25</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_AssaultRifle</thingDef>
+					<count>1</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VWENL" Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>VWE_Gun_DartGun</thingDef>
+					<count>1</count>
+				</li>
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>CommsConsole</thingDef>
+					<count>1</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VFEPD_PlanningScreen</thingDef>
+					<count>1</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VFEPD_ServerRack</thingDef>
+					<count>1</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VBE_BookIntellectual</thingDef>
+					<count>1</count>
+				</li>
+				<!-- Scattered Items Throughout Map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>900</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>100</count>
+				</li>
+				<!-- Starting Message -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>It’s a journey far below your pay grade. But it’s for science. And you love science. \n\nA minor slip-up during your residency on a Glitterworld space station had you sentenced to five months of ‘charity work’: an obligation to lend your superior intellect to the lesser scientists of the station and support them in their (simple-minded) studies. \n\nYour latest case-study leads you, and the plebians you mentor, down onto the surface of a Rimworld to collect samples, write reports and endure the inevitability of making small-talk. The space station has, and will continue to, send you cargo pods of useful supplies. Establish a laboratory on the surface and remember: your subordinates are your responsibility. Protect them.
+					</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+	<!--====================== Sabotaged Bards ======================-->
+	<!-- Difficulty: Medium -->
+
+	<ScenarioDef>
+		<defName>RBSFE_SabotagedBards</defName>
+		<label>Sabotaged Bards</label>
+		<description>Your four-piece band vowed to take the Rim by storm with your music. But on your travels, your troupe are forced to defend themselves against a band of brigands, armed with nothing more than your musical instruments. \n\nSomehow, you prevail, but are left stranded in the remains of your hopes and dreams. Now, more than ever, the four of you must pull yourselves together in order to survive.
+		</description>
+		<scenario>
+			<summary>Difficulty: Medium\n Four Satyrs vow to become musical sensations.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>RBSFE_PlayerSabotagedBards</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<customSummary>Start with just Satyrs.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>RBSF_Satyr</xenotype>
+							<pawnKind>RBSF_SatyrBard</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>RBSF_Satyr</xenotype>
+							<count>4</count>
+							<description>satyr</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Pawn Arrive Method -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<!-- Player pawns modifiers -->
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.6</chance>
+					<hediff>Bruise</hediff>
+					<hideOffMap>true</hideOffMap>
+					<severityRange>0.2~0.6</severityRange>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.3</chance>
+					<hediff>Cut</hediff>
+					<hideOffMap>true</hideOffMap>
+					<severityRange>0.1~0.5</severityRange>
+				</li>
+				<!-- Player Starting Items -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>35</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RawBerries</thingDef>
+					<count>80</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VCookE" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VCE_SmokeleafButter</thingDef>
+					<count>10</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VCookE" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VCE_Cheese</thingDef>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>SmokeleafJoint</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodLog</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RBSF_Lute</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RBSF_Lyre</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>100</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VBE_Map</thingDef>
+					<count>1</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VBE_BookArt</thingDef>
+					<count>1</count>
+				</li>
+				<!-- Scattered Items Throughout Map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>500</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>0.5</bondToRandomPlayerPawnChance>
+				</li>
+				<!-- Starting Message -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>“You’ll see our names in lights someday, ma! Just you wait.” \n\nYour ‘ma’ just sighed. Though she didn’t want to, she couldn’t help but believe in you. And with that final goodbye, you and your bard-mates rode into the sunset, high on ma’s hopes for you (and a little bit of smokeleaf). \n\nSoon, the wagon faltered. You awoke. Something fired towards you and tore the vehicle into planks. Brigands swarmed the remains, holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat each of them, one by one, into surrender. Standing over the rubble of you and your band’s hopes and dreams, you ponder how you will ever make it to stardom now.
+					</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+	<!--====================== Last Fae Standing ======================-->
+	<!-- Difficulty: Hard -->
+
+	<ScenarioDef>
+		<defName>RBSFE_LastFaeStanding</defName>
+		<label>Last Fae Standing</label>
+		<description>You were the one to birth your tribe. And you were also the one to lay it to rest at the hand of mechanoids. \n\nYou start this scenario at the site of your old tribe: Mechanoids are running rampant and only you survive. See what you can recover from the debris, before the mechanoids spot you, then rebuild your community in the name of revenge. \n\nNote: This scenario is very difficult and works best with Vanilla Expanded’s Framework.</description>
+		<scenario>
+			<summary>Difficulty: Hard \nOne powerful tribe leader seeks revenge.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>RBSFE_PlayerLastFaeStanding</factionDef> 
+			</playerFaction>
+			<parts>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<customSummary>Start with a Faun.</customSummary>
+					<overrideKinds>
+						<li>
+							<xenotype>RBSF_Faun</xenotype>
+							<pawnKind>RBSF_PlayerParagonPawn</pawnKind>
+						</li>
+					</overrideKinds>
+					<xenotypeCounts>
+						<li>
+							<xenotype>RBSF_Faun</xenotype>
+							<count>1</count>
+							<description>faun</description>
+							<allowedDevelopmentalStages>Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<!-- Pawn Arrive Method -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<!-- Scattered Items Near Player Start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Pemmican</thingDef>
+					<count>600</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>1000</count>
+				</li>
+				<!-- Scattered Items Throughout Map -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>40</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Gold</thingDef>
+					<count>40</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>8</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Silver</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>RBSFE_FaeStaff</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>VBE_Map</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>MealSimple</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>RBSFE_Faemail</thingDef>
+					<stuff>Silver</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<count>1</count>
+					<animalKind MayRequire="sarg.alphaanimals">AA_AnimaColossus</animalKind>
+					<bondToRandomPlayerPawnChance>0.7</bondToRandomPlayerPawnChance>
+				</li>
+				<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="KCSG.ScenPart_AddStartingStructure">
+					<def>VFEC_AddStartingStructure</def>
+					<structureLabel>RBSFE_LastFaeStandingStart</structureLabel>
+					<nearMapCenter>false</nearMapCenter>
+					<chooseFrom>
+						<li>RBSFE_LastFaeStandingStart</li>
+					</chooseFrom>
+				</li>
+				<!-- Starting Message -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>What an honour it was; to oversee the success of your beautiful tribe. And what a horror it was to see it fall. A forest once abundant in frolicking fauns and singing satyrs is now flattened and rife with mechanical giants. \n\nArmed with the formidable Anima rod of your ancestors, you watch the destruction from behind the foliage. See what you can pilfer from the foresty remains, before setting out on a quest to resurrect your glory.
+					\n\nWarning: There are mechanoids currently on the map. Be careful.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+
+
+
+</Defs>

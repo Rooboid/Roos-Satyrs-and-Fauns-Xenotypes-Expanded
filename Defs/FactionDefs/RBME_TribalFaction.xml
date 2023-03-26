@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef ParentName="FactionBase">
+		<defName>RBSFE_TribeFae</defName>
+		<label>fae tribe</label>
+		<pawnSingular>fae</pawnSingular>
+		<pawnsPlural>fae</pawnsPlural>
+		<description>A seldom-seen miscellany of forest-dwelling creatures whose love of revelry and peace supersedes their need for power. Their population dwindles due to the rampant deforestation of their territory at the hands of mechanoids, which the fae’s primitive weaponry stands no chance against. \n\nWandering fauns, satyrs and sometimes even minotaur from this faction may seek to make peace with a charitable colony, provided there is enough wine and music to go around.</description>
+		<colorSpectrum>
+			<li>(57,116,67)</li>
+			<li>(60,70,50)</li>
+		</colorSpectrum>
+		<hostileToFactionlessHumanlikes>false</hostileToFactionlessHumanlikes>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>35</configurationListOrderPriority>
+		<naturalEnemy>false</naturalEnemy>
+		<categoryTag>Tribal</categoryTag>
+		<listOrderPriority>22</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>0</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<factionIconPath>World/Factions/RBSFE_FaeFaction</factionIconPath>
+		<techLevel>Neolithic</techLevel>
+		<factionNameMaker>NamerFactionFaeTribe</factionNameMaker>
+		<settlementNameMaker>NamerSettlementFaeTribe</settlementNameMaker>
+		<allowedCultures>
+			<li>RBSFE_FaeCulture</li>
+		</allowedCultures>
+		<requiredMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_GauranlenSupremacy</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Sarg.AlphaMemes">AM_Madness</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Combat</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Gladiator</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Proselytism</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_HardcoreIndustrialism</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Progressive</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Republic</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Bushido</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_BloodCourt</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_CityBuilders</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_MechanoidSupremacy</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_InsectoidSupremacy</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Anonymity</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Nationalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+		</disallowedMemes>
+		<structureMemeWeights>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">5</Structure_TheistEmbodied>
+			<Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">3</Structure_Animist>
+			<VME_Structure_SecularSpirituality MayRequire="VanillaExpanded.VMemesE">3</VME_Structure_SecularSpirituality>
+			<VME_Structure_Bacchanalianism MayRequire="VanillaExpanded.VMemesE">2</VME_Structure_Bacchanalianism>
+			<VME_Structure_Esotericism MayRequire="VanillaExpanded.VMemesE">1</VME_Structure_Esotericism>
+			<AM_Structure_Neolithic MayRequire="Sarg.AlphaMemes">1</AM_Structure_Neolithic>
+		</structureMemeWeights>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">BodyMod_Approved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Desired</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysWomans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MarriageName_AlwaysMans</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NeuralSupercharge_Preferred</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Biosculpting_Accelerated</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AgeReversal_Demanded</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Aurora_Despised</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Violence_Honorable</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Raiding_Honorable</li>
+			<li MayRequire="VanillaExpanded.VMemesE">VME_Recreation_Disapproved</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_AnimalSlaughter_Desired</li>
+		</disallowedPrecepts>
+		<xenotypeSet>
+			<xenotypeChances>
+				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">0.95</RBSF_Faun>
+				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">0.95</RBSF_Satyr>
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.05</RBM_Minotaur>
+			</xenotypeChances>
+		</xenotypeSet>
+		<dialogFactionGreetingHostile>FaeFactionGreetingHostile</dialogFactionGreetingHostile>
+		<dialogFactionGreetingHostileAppreciative>FaeFactionGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
+		<dialogFactionGreetingWary>FaeFactionGreetingWary</dialogFactionGreetingWary>
+		<dialogFactionGreetingWarm>FaeFactionGreetingWarm</dialogFactionGreetingWarm>
+		<dialogMilitaryAidSent>FaeMilitaryAidSent</dialogMilitaryAidSent>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>SatyrandFaun</li>
+				</categories>
+				<commonality>5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+				<commonality>3</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.2</commonality>
+			</li>
+		</backstoryFilters>
+		<leaderTitle>paragon</leaderTitle>
+		<caravanTraderKinds>
+			<li>Caravan_Neolithic_BulkGoods</li>
+			<li>RBSFE_Visitor_Fae_Bards</li><!-- TODO: Add musical trader -->
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Neolithic_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Neolithic_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-7~27</allowedArrivalTemperatureRange>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0.5)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<raidLootMaker>TribeRaidLootMaker</raidLootMaker><!-- TODO: Add musical loot maker -->
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,65)</li>
+				<li>(70, 77)</li>
+				<li>(800, 150)</li>
+				<li>(1300, 200)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Standard Raid -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<RBSF_FaeBard>1</RBSF_FaeBard>
+					<RBSF_FaeArcher>15</RBSF_FaeArcher>
+					<RBSF_FaeCleric>1</RBSF_FaeCleric>
+					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
+					<RBSF_FaeGuardian>4</RBSF_FaeGuardian>
+					<RBSF_Lansquenet>3</RBSF_Lansquenet>
+				</options>
+			</li>
+			<li>
+				<!-- High-Class Fighter Raid -->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<options>
+					<RBSF_FaeArcher>8</RBSF_FaeArcher>
+					<RBSF_FaeCleric>0.5</RBSF_FaeCleric>
+					<RBSF_FaeGuardian>10</RBSF_FaeGuardian>
+					<RBSF_Lansquenet>6</RBSF_Lansquenet>
+					<RBSF_Paragon>0.02</RBSF_Paragon>
+				</options>
+			</li>
+			<li>
+				<!-- Ranged Raid -->
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+					<Tribal_Archer>10</Tribal_Archer>
+					<Tribal_Hunter>10</Tribal_Hunter>
+					<Tribal_HeavyArcher>10</Tribal_HeavyArcher>
+					<Tribal_ChiefRanged>5</Tribal_ChiefRanged>
+					<RBSF_FaeArcher>15</RBSF_FaeArcher>
+					<RBSF_Paragon>0.02</RBSF_Paragon>
+				</options>
+			</li>
+			<li>
+				<!-- Bards -->
+				<kindDef>Peaceful</kindDef>
+				<commonality>2</commonality>
+				<options>
+					<RBSF_FaeBard>10</RBSF_FaeBard>
+					<RBSF_SatyrBard>7</RBSF_SatyrBard>
+					<RBSF_FaeNudist>3</RBSF_FaeNudist>
+					<RBSF_FaeCleric>2</RBSF_FaeCleric>
+					<RBSF_FaeArtificer>2</RBSF_FaeArtificer>
+				</options>
+			</li>
+			<li>
+				<!-- Generic Peaceful Pawns -->
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<RBSF_Fae>10</RBSF_Fae>
+					<RBSF_FaeNudist>10</RBSF_FaeNudist>
+					<RBSF_FaeChild>8</RBSF_FaeChild>
+					<RBSF_FaeArtificer>2</RBSF_FaeArtificer>
+					<RBSF_FaeCleric>1</RBSF_FaeCleric>
+					<RBSF_FaeBard>1</RBSF_FaeBard>
+					<RBSF_Paragon>0.08</RBSF_Paragon>
+				</options>
+			</li>
+			<li>
+				<!-- Trader -->
+				<kindDef>Trader</kindDef>
+				<traders>
+					<RBSF_FaeTrader>1</RBSF_FaeTrader>
+				</traders>
+				<carriers>
+					<RBSFE_Muffalope>10</RBSFE_Muffalope> <!-- TODO: This doesn't work >:( -->
+					<Muffalo>2</Muffalo>
+					<Elephant>2</Elephant>
+					<Horse>1</Horse>
+					<Dromedary>3</Dromedary>
+					<AEXP_IndianElephant MayRequire="VanillaExpanded.VanillaAnimalsExpanded">2</AEXP_IndianElephant>
+					<AA_ChameleonYak MayRequire="sarg.alphaanimals">5</AA_ChameleonYak>
+					<AA_MeadowAve MayRequire="sarg.alphaanimals">1</AA_MeadowAve>
+				</carriers>
+				<guards>
+					<RBSF_FaeBard>3</RBSF_FaeBard>
+					<RBSF_FaeArcher>10</RBSF_FaeArcher>
+					<RBSF_FaeCleric>0.2</RBSF_FaeCleric>
+					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
+					<RBSF_FaeGuardian>1</RBSF_FaeGuardian>
+					<RBSF_Lansquenet>0.4</RBSF_Lansquenet>
+				</guards>
+			</li>
+			<li>
+				<!-- Settlement -->
+				<kindDef>Settlement</kindDef>
+				<options>
+					<RBSF_Fae>3</RBSF_Fae>
+					<RBSF_FaeChild>3</RBSF_FaeChild>
+					<RBSF_FaeNudist>3</RBSF_FaeNudist>
+					<RBSF_FaeArtificer>1</RBSF_FaeArtificer>
+					<RBSF_FaeCleric>1</RBSF_FaeCleric>
+					<RBSF_FaeBard>3</RBSF_FaeBard>
+					<RBSF_FaeArcher>15</RBSF_FaeArcher>
+					<RBSF_Jack-of-All-Trades>8</RBSF_Jack-of-All-Trades>
+					<RBSF_FaeGuardian>6</RBSF_FaeGuardian>
+					<RBSF_Lansquenet>3</RBSF_Lansquenet>
+					<RBSF_Paragon>0.2</RBSF_Paragon>
+				</options>
+			</li>
+			<li>
+				<!-- Settlement Ranged -->
+				<kindDef>Settlement_RangedOnly</kindDef>
+				<options>
+					<RBSF_Fae>2</RBSF_Fae>
+					<RBSF_FaeCleric>1</RBSF_FaeCleric>
+					<RBSF_FaeArcher>10</RBSF_FaeArcher>
+					<Tribal_Archer>6</Tribal_Archer>
+					<Tribal_Hunter>6</Tribal_Hunter>
+					<Tribal_HeavyArcher>6</Tribal_HeavyArcher>
+					<Tribal_ChiefRanged>3</Tribal_ChiefRanged>
+					<RBSF_Paragon>0.2</RBSF_Paragon>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Miners</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Miner>1</Tribal_Miner>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Hunters</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Hunter>1</Tribal_Hunter>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Loggers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Logger>1</Tribal_Logger>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">
+				<kindDef>Farmers</kindDef>
+				<commonality>1</commonality>
+				<options>
+					<Tribal_Farmer>1</Tribal_Farmer>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/RBSFE_FaeSettlement</settlementTexturePath>
+				<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+			
+				<allowedBiomes>
+					<li>TropicalRainforest</li>
+					<li>TropicalSwamp</li>
+					<li>TemperateForest</li>
+					<li>TemperateSwamp</li>
+					<li>BorealForest</li>
+				</allowedBiomes>
+				<startingGoodwillByFactionDefs>
+					<OutlanderCivil>33</OutlanderCivil>
+					<TribeCivil>33</TribeCivil>
+					<TribeMinotaur MayRequire="Rooboid.Minotaur">33</TribeMinotaur>
+					<SerenCivilBase MayRequire="odysseylotus.seren">33</SerenCivilBase>
+				</startingGoodwillByFactionDefs>
+			</li>
+			
+	 <li Class="KCSG.CustomGenOption">
+    <preventBridgeable>true</preventBridgeable>
+    <tryFindFreeArea>false</tryFindFreeArea>
+    <symbolResolvers>
+      <li>kcsg_scatterstuffaround</li>
+    </symbolResolvers>
+    <!-- Testing -->
+    <scatterThings>
+      <li>Gold</li>
+      <li>Silver</li>
+    </scatterThings>
+    <scatterChance>0.2</scatterChance>
+	
+ <chooseFromSettlements>
+  <li>RBSFE_FaeSettlement</li>
+  </chooseFromSettlements>
+  </li>
+  
+		</modExtensions>
+	</FactionDef>
+</Defs>

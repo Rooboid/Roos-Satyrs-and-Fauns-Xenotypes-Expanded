@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--============================== Fae Player Factions ============================-->
+	<!-- Player Faction - Colony -->
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>RBSFE_PlayerLastFaeStanding</defName>
+		<label>Fae Tribe</label>
+		<description>The ressurection of a fae tribe, lead by a sole survivor.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>RBSF_Fae</basicMemberKind>
+		<categoryTag>Tribal</categoryTag>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<techLevel>Neolithic</techLevel>
+		<playerInitialSettlementNameMaker>NamerSatyrFaunBaseExpanded</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionFaeTribe</factionNameMaker>
+		<settlementNameMaker>NamerSatyrFaunBaseExpanded</settlementNameMaker>
+		<allowedCultures>
+			<li>RBSFE_FaeCulture</li>
+			<li>Corunan</li>
+		</allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>SatyrandFaun</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/Factions/RBSFE_FaeFaction</factionIconPath>
+		<forageabilityFactor>1.7</forageabilityFactor>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>TribalStart</li>
+			<li>TribalStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+				<startingGoodwillByFactionDefs>
+					<RBSFE_TribeFae>75</RBSFE_TribeFae>
+				</startingGoodwillByFactionDefs>
+			</li>
+		</modExtensions>
+	</FactionDef>
+	
+	<!-- Player Faction - Tribe -->
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>RBSFE_PlayerTheFaunScientists</defName>
+		<label>research facility</label>
+		<description>A research facility originally hailing from a Glitterworld.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>RBME_PlayerFaunPawn</basicMemberKind>
+		<categoryTag>Tribal</categoryTag>
+		<pawnSingular>tribesman</pawnSingular>
+		<pawnsPlural>tribespeople</pawnsPlural>
+		<techLevel>Spacer</techLevel>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionFaeTribe</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Scientist</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>SatyrandFaun</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.2</commonality>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/Factions/RBSFE_LabFaction</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	
+	<!-- Player Faction - Bards -->
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>RBSFE_PlayerSabotagedBards</defName>
+		<label>musical troupe</label>
+		<description>A community founded by a troupe of musicians.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>RBSF_SatyrBard</basicMemberKind>
+		<categoryTag>Outlander</categoryTag>
+		<pawnSingular>outlander</pawnSingular>
+		<pawnsPlural>outlanders</pawnsPlural>
+		<techLevel>Medieval</techLevel>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionFaeTribe</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<allowedCultures>
+			<li>Rustican</li>
+		</allowedCultures>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>SatyrandFaun</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>SatyrOnly</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Medieval</li>
+				</categories>
+				<commonality>0.5</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+				<commonality>0.2</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Bard</li>
+				</categories>
+				<commonality>0.1</commonality>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/Factions/RBSFE_BardFaction</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	
+</Defs>
