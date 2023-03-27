@@ -174,20 +174,20 @@
 		</graphicData>
 		<costList>
 			<Cloth>10</Cloth>
-			<WoodLog>80</WoodLog>
+			<WoodLog>70</WoodLog>
 		</costList>
 		<thingCategories>
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
+			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>8500</WorkToMake>
 			<Mass>1.5</Mass>
 			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.93</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>1.6</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.7</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.5</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.6</RBSF_NatureConnectionOffset>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -269,7 +269,7 @@
 			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.5</EquipDelay>
 			<RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
 		</statBases>
@@ -318,16 +318,16 @@
 			<li>Metallic</li>
 			<li>Woody</li>
 		</stuffCategories>
-		<costStuffCount>170</costStuffCount>
+		<costStuffCount>185</costStuffCount>
 		<statBases>
-			<WorkToMake>38500</WorkToMake>
+			<WorkToMake>38800</WorkToMake>
 			<MaxHitPoints>290</MaxHitPoints>
 			<Mass>10</Mass>
-			<StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.68</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>13</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.6</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.75</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.25</MoveSpeed>
@@ -386,7 +386,7 @@
 			<WorkToMake>800</WorkToMake>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>0.05</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
@@ -394,7 +394,7 @@
 			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
-			<Beauty>0.1</Beauty>
+			<Beauty>0.15</Beauty>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -477,15 +477,16 @@
 			<WoodLog>20</WoodLog>
 		</costList>
 		<statBases>
-			<WorkToMake>1300</WorkToMake>
+			<WorkToMake>2100</WorkToMake>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>0.09</Mass>
-			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierArmor>0.33</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 			<Flammability>1.5</Flammability>
-			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.45</RBSF_NatureConnectionOffset>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>

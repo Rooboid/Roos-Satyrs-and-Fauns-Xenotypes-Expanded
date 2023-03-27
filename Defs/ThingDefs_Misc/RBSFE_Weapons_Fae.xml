@@ -34,7 +34,7 @@
 		</thingSetMakerTags>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>1.4</Mass>
+			<Mass>0.7</Mass>
 			<RBSF_NatureConnectionOffset>0.35</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedAngleOffset>-20</equippedAngleOffset>
@@ -57,8 +57,8 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>15</power>
-				<cooldownTime>2.8</cooldownTime>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
 			</li>
 			<li>
 				<label>point</label>
@@ -89,7 +89,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_FaeStaff</defName>
 		<label>fae staff</label>
-		<description>A long staff traditionally known as a ‘thyrsus’. Its adorned with unprocessed materials, like pinecones and vines, and represents a connection to nature during faun and satyr festivals. It greatly strengthens the wielder's connection to nature.</description>
+		<description>A long staff traditionally known as a ‘thyrsus’. Its adorned with unprocessed materials, like pinecones and vines, and it greatly strengthens the wielder's connection to nature.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -113,7 +113,7 @@
 			<RBSF_NatureConnectionOffset>0.8</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
-			<PsychicEntropyRecoveryRate>0.025</PsychicEntropyRecoveryRate>
+			<PsychicEntropyRecoveryRate>0.055</PsychicEntropyRecoveryRate>
 		</equippedStatOffsets>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<stuffCategories>
@@ -152,7 +152,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic"><!-- TODO: make constrict-->
 		<defName>RBSFE_FaeWhip</defName>
 		<label>fae whip</label>
-		<description>A spiked whip fashioned from vines. It strengthens the wielder's connection to nature. \n\nIt can also be used to stun foes during battle, as long as the wielder can keep them constricted.</description>
+		<description>A spiked whip fashioned from vines that strengthens the wielder's connection to nature. \n\nIt can entangle foes to temporarily hinder their movement and manipulation.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeWhip</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -168,11 +168,11 @@
 			<li>Neolithic</li>
 			<li>RBSFE_Fae</li>
 		</weaponClasses>
-		<costStuffCount>25</costStuffCount>
+		<costStuffCount>15</costStuffCount>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
 			<Mass>1</Mass>
-			<RBSF_NatureConnectionOffset>0.35</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedAngleOffset>-90</equippedAngleOffset>
 		<stuffCategories>
@@ -180,7 +180,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costList>
-			<WoodLog>75</WoodLog>
+			<WoodLog>60</WoodLog>
 		</costList>
 		<tools>
 			<li>
@@ -197,6 +197,7 @@
 						<amount>1</amount>
 					</li>
 				</extraMeleeDamages>
+				<!-- TODO -->
 			</li>
 			<!-- 			<li>
 				<label>wrap</label>
@@ -248,11 +249,10 @@
 	<!--====================== Fae Weapons - Ranged / Half-Ranged ======================-->
 	<!-- Faemore - Melee sword but can also fire shockwaves -->
 	
-	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>RBSFE_Faemore</defName>
 		<label>faemore</label>
-		<description>A two-handed sword, bestowed upon only the strongest fae fighters. It can fire a shock-wave of Gauranlen energy at distant foes, powered by the mysterious seed forged into its hilt, but it's also a forbidable melee weapon too. \n\nThis blade greatly strengthens the wielders connection with nature.</description>
+		<description>A two-handed sword that's formidable in close-ranged combat, but can also fire a shock-wave of Gauranlen energy at distant foes, powered by the mysterious seed forged into its hilt. \n\nThis blade moderately strengthens the wielders connection with nature.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_Faemore</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -346,7 +346,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_Faerrow</defName>
 		<label>short bow</label>
-		<description>An ornate, swift bow often wielded by satyrs and fauns alike. It strengthens the wielder’s connection with nature.</description>
+		<description>An ornate, swift bow often wielded by satyrs and fauns alike. It slightly strengthens the wielder’s connection with nature.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponRanged/RBSFE_Faerrow</texPath>
@@ -360,12 +360,13 @@
 		<costStuffCount>35</costStuffCount>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
-			<Mass>0.7</Mass>
+			<Mass>0.6</Mass>
 			<AccuracyTouch>0.27</AccuracyTouch>
 			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.65</AccuracyMedium>
-			<AccuracyLong>0.44</AccuracyLong>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
 			<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+			<RBSF_NatureConnectionOffset>0.33</RBSF_NatureConnectionOffset>
 		</statBases>
 		<weaponTags>
 			<li>Fae</li>
@@ -410,7 +411,7 @@
 		<rotateInShelves>false</rotateInShelves>
 		<modExtensions>
 			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
-				<usableWithShields>true</usableWithShields>
+				<usableWithShields>false</usableWithShields>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -418,7 +419,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_AnimaRod</defName>
 		<label>anima rod</label>
-		<description>The felling of an anima tree marks the end of nearby fae civilisations who relied on it for its psychic power and protection. A legendary tale of such an ill-fated tribe concluded with the last, surviving elder of the tribe emerging from the viscera of their comrades, clasping this weapon: the anima rod. \n\n It still remains a mystery how the staff was made; via alchemy, psycasting or, as the legend goes, perhaps it was a gift from the anima tree itself? \n\n Though none have since replicated this ancient relic, the original still stands today, wielded only by those who can handle its power. It is capable of stunning foes from far distances with a powerful surge of animus energy.</description>
+		<description>Few fae tribes can survive the loss of their precious Anima tree; Legend has it that this weapon is proof of one such exception. \n\nIn a time of great bloodshed and desperation one tribe begged nature for some small defense against the hoard - and their Anima tree, in its dying moments, gave them the power to devastate instead. \n\nToday, these mighty rods are carried by the high elders of the fae in honour of their fallen brethren, and as a reminder to others of what they learned back then - that sometimes peace can only be achieved with overwhelming might.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_AnimaRod</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -440,7 +441,7 @@
 			<MarketValue>4400</MarketValue>
 			<WorkToMake>99999</WorkToMake>
 			<Mass>1</Mass>
-			<RBSF_NatureConnectionOffset>1</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>1.3</RBSF_NatureConnectionOffset>
 			<RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
 			<MaxHitPoints>200</MaxHitPoints>
 			<RoyalFavorValue>2</RoyalFavorValue>
@@ -631,7 +632,7 @@
 	</DamageDef>
 	
 	<!--====================== Vine Wrap HeDiff ======================-->
-	<!-- Constricted -->
+	<!-- Constricted (This HeDiff does not last as long as RBSF_VineWrapHeDiffLong, just because it would make the Anima Rod too OP -->
 
 	<HediffDef>
 		<defName>RBSFE_VineWrapHeDiff</defName>
@@ -680,5 +681,24 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<!--====================== Constricted Short (Thought) ======================-->
+	<!-- Thought given to pawns constricted by the ChokevineGrip Ability who then gain the Vine Wrap HeDiff -->
+  
+	<ThoughtDef>
+		<defName>RBSFE_ConstrictedThought</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>RBSFE_VineWrapHeDiff</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ChokevineThought/RBSF_ChokevineThought</icon>
+		<stages>
+			<li>
+				<label>trapped in vines</label>
+				<description>Ugh! Get these vines off of me!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 		
 </Defs>

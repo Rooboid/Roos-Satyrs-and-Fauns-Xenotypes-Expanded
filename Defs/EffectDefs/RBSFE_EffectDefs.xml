@@ -88,17 +88,42 @@
 				<scale>2</scale>
 				<spawnLocType>OnSource</spawnLocType>
 			</li>
-	        <li>
-        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <fleckDef>Fleck_VaporizeRays_B</fleckDef>
-        <burstCount>1</burstCount>
-        <rotationRate>-20</rotationRate>
-        <spawnLocType>OnSource</spawnLocType>
-      </li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<fleckDef>Fleck_VaporizeRays_B</fleckDef>
+				<burstCount>1</burstCount>
+				<rotationRate>-20</rotationRate>
+				<spawnLocType>OnSource</spawnLocType>
+			</li>
 			<li>
 				<subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
 				<soundDef>RBSFE_AnimaExplosion</soundDef>
 				<spawnLocType>OnTarget</spawnLocType>
+			</li>
+		</children>
+	</EffecterDef>
+	
+	<!-- Trapped Effect: Effect to show pawn trying to scramble out of a leaf trap -->
+  
+	<EffecterDef>
+		<defName>LeafTrap_Effect</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+				<soundDef>Bridge_Collapse</soundDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+				<soundDef>Floordrawing</soundDef>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<positionRadius>0.2</positionRadius>
+				<fleckDef>DustPuff</fleckDef>
+				<burstCount>1~4</burstCount>
+				<speed>0.2~0.6</speed>
+				<chancePerTick>0.05</chancePerTick>
+				<scale>1~2</scale>
 			</li>
 		</children>
 	</EffecterDef>
@@ -229,8 +254,6 @@
 		<fadeOutTime>3.7</fadeOutTime>
 		<growthRate>4</growthRate>
 	</FleckDef>
-	
-
   
 	<!-- Fae Fleck: FaeFleck A is in the core mod pack. -->
 	
