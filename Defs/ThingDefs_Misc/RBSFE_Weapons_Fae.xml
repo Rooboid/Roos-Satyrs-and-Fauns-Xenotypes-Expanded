@@ -680,7 +680,7 @@
 	
 	<!-- Constricted (This HeDiff does not last as long as RBSF_VineWrapHeDiffLong, just because it would make the Anima Rod too OP -->
 
-	<!-- 	<HediffDef>
+		<HediffDef>
 		<defName>RBSFE_VineWrapHeDiff</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>constricted</label>
@@ -726,6 +726,6 @@
 				</statFactors>
 			</li>
 		</stages>
-	</HediffDef> -->
+	</HediffDef>
 		
 </Defs>
