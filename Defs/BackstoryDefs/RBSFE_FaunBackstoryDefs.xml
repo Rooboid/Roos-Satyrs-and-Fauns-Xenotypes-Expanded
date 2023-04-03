@@ -42,7 +42,7 @@
 		<title>carefree hermit</title>
 		<titleShort>hermit</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed in living from the fruits of the earth and not concerning themselves with the shackles of manual labour. Instead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possesive] childhood, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed in living from the fruits of the earth and not concerning [PAWN_objective]self with the shackles of manual labour. Instead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possesive] childhood, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>

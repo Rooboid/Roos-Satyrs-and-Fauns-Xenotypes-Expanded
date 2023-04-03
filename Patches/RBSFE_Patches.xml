@@ -2,7 +2,7 @@
 <Patch>
 
 	<!--============================== Roo's Satyr and Faun Xenotype Patches ============================-->
-	
+
 	<!--============================== Weapon patches ============================-->
 	<!-- Patches weapons based on DLC installed -->
 	
@@ -77,34 +77,275 @@
 	<!--============================== Animal patches ============================-->
 	<!-- Adds animals to biomes -->
 	
-			<Operation Class="PatchOperationConditional">
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+		<match Class="PatchOperationAdd">
 			<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
-			<match Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
-				<value>
-					<RBSFE_Muffalope>0.02</RBSFE_Muffalope>
-				</value>
-			</match>
+			<value>
+				<RBSFE_Muffalope>0.02</RBSFE_Muffalope>
+			</value>
+		</match>
 	</Operation>
 	
 	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
+		<match Class="PatchOperationAdd">
 			<xpath>Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
-			<match Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
-				<value>
-					<li>RBSFE_MuffalopeRace</li>
-				</value>
-			</match>
+			<value>
+				<li>RBSFE_Muffalope</li>
+			</value>
+		</match>
 	</Operation>
 	
-				<Operation Class="PatchOperationConditional">
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+		<match Class="PatchOperationAdd">
 			<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
-			<match Class="PatchOperationAdd">
-				<xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
-				<value>
-					<RBSFE_Muffalope>0.01</RBSFE_Muffalope>
-				</value>
-			</match>
+			<value>
+				<RBSFE_Muffalope>0.01</RBSFE_Muffalope>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Mod patches ============================-->
+	<!-- Most mod integration has been done in the XML with "MayRequire" tags. Other integrations can be found below. -->
+	
+	<!-- VFE - Adds Mod Extentions to RBSFE_TribeFae Faction Def - i.e. spawn biomes and custom structures -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Expanded Framework</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="RBSFE_TribeFae"]</xpath>
+			<value>
+				<modExtensions>
+					<li Class="VFECore.FactionDefExtension">
+			
+						<allowedBiomes>
+							<li>TropicalRainforest</li>
+							<li>TropicalSwamp</li>
+							<li>TemperateForest</li>
+							<li>TemperateSwamp</li>
+							<li>BorealForest</li>
+							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientForest</li>
+							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkForest</li>
+						</allowedBiomes>
+				
+						<startingGoodwillByFactionDefs>
+							<OutlanderCivil>33</OutlanderCivil>
+							<TribeCivil>33</TribeCivil>
+							<TribeMinotaur MayRequire="Rooboid.Minotaur">33</TribeMinotaur>
+							<SerenCivilBase MayRequire="odysseylotus.seren">33</SerenCivilBase>
+						</startingGoodwillByFactionDefs>
+					</li>
+			
+					<li Class="KCSG.CustomGenOption">
+						<preventBridgeable>true</preventBridgeable>
+						<tryFindFreeArea>false</tryFindFreeArea>
+						<symbolResolvers>
+							<li>kcsg_scatterstuffaround</li>
+						</symbolResolvers>
+						<!-- Testing -->
+						<scatterThings>
+							<li>Gold</li>
+							<li>Silver</li>
+						</scatterThings>
+						<scatterChance>0.2</scatterChance>
+	
+						<chooseFromSettlements>
+							<li>RBSFE_FaeSettlement</li>
+						</chooseFromSettlements>
+					</li>
+  
+				</modExtensions>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Alpha Animals - Makes the Anima Rod craftable with two huge anima pearls -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="RBSFE_AnimaRod"]</xpath>
+			<value>
+				<costList>
+					<WoodLog>200</WoodLog>
+					<AA_HugeAnimaPearl>2</AA_HugeAnimaPearl>
+					<Gold>1</Gold>
+				</costList>
+				<recipeMaker>
+					<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<recipeUsers>
+						<li>ElectricSmithy</li>
+						<li>FueledSmithy</li>
+					</recipeUsers>
+					<effectWorking>Smelt</effectWorking>
+					<soundWorking>Recipe_MakeBow</soundWorking>
+					<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					<skillRequirements>
+						<Crafting>10</Crafting>
+					</skillRequirements>
+					<displayPriority>446</displayPriority>
+					<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+				</recipeMaker>
+			</value>
+		</match>
+	</Operation>
+	
+	<!--============================== Modded Trait Patches ============================-->
+	<!-- Add compatibility with mods that add new traits. Replaces some vanilla traits with these in the BackstoryDefs -->
+	
+	<!-- Vanilla Traits Expanded -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Traits Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+		
+				<!-- Duffer -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Duffer"]/forcedTraits/NaturalMood</xpath>
+					<value>
+						<VTE_Kleptomaniac>0</VTE_Kleptomaniac>
+					</value>
+				</li>
+			
+				<!-- Shill -->
+	
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Shill"]/forcedTraits</xpath>
+					<value>
+						<VTE_Tycoon>0</VTE_Tycoon>
+					</value>
+				</li>
+	
+				<!-- Drunk -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Drunk"]/forcedTraits</xpath>
+					<value>
+						<VTE_Slob>0</VTE_Slob>
+					</value>
+				</li>
+	
+				<!-- Barsong Hero -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_BarsongHero"]</xpath>
+					<value>
+						<forcedTraits>
+							<VTE_FunLoving>0</VTE_FunLoving>
+						</forcedTraits>
+					</value>
+				</li>
+	
+				<!-- Tourist -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Tourist"]</xpath>
+					<value>
+						<forcedTraits>
+							<VTE_Wanderlust>0</VTE_Wanderlust>
+						</forcedTraits>
+					</value>
+				</li>
+	
+				<!-- Fifer -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Fifer"]/forcedTraits/Psychopath</xpath>
+					<value>
+						<VTE_Desensitized>0</VTE_Desensitized>
+					</value>
+				</li>
+	
+				<!-- Mysterious Healer -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_MysteriousHealer"]/forcedTraits/Recluse</xpath>
+					<value>
+						<VTE_Schizoid>0</VTE_Schizoid>
+					</value>
+				</li>
+	
+				<!-- Circus Act -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_CircusAct"]/forcedTraits</xpath>
+					<value>
+						<VTE_FunLoving>0</VTE_FunLoving>
+					</value>
+				</li>
+	
+				<!-- Trickster -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Trickster"]</xpath>
+					<value>
+						<forcedTraits>
+							<VTE_Tycoon>0</VTE_Tycoon>
+						</forcedTraits>
+					</value>
+				</li>
+	
+				<!-- Copyist -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Copyist"]/forcedTraits</xpath>
+					<value>
+						<VTE_Perfectionist>0</VTE_Perfectionist>
+					</value>
+				</li>
+	
+				<!-- Free Spirit -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_FreeSpirit"]/forcedTraits/NaturalMood</xpath>
+					<value>
+						<VTE_FunLoving>0</VTE_FunLoving>
+					</value>
+				</li>
+	
+				<!-- Carefree Hermit -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_CarefreeHermit"]/forcedTraits/Industriousness</xpath>
+					<value>
+						<forcedTraits>
+							<VTE_Rebel>0</VTE_Rebel>
+						</forcedTraits>
+					</value>
+				</li>
+	
+				<!-- Forager -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Forager"]</xpath>
+					<value>
+						<forcedTraits>
+							<VTE_Prude>0</VTE_Prude>
+						</forcedTraits>
+					</value>
+				</li>
+	
+				<!-- Climatologist -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Climatologist"]/forcedTraits/Neurotic</xpath>
+					<value>
+						<VTE_Eccentric>0</VTE_Eccentric>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 	
 </Patch>

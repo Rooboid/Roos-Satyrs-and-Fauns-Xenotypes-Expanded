@@ -17,8 +17,8 @@
 		</rulePack>
 	</RulePackDef>
   
-	<!--====================== Fae Faction - influenced by Celtic & Greek Folklore ======================-->
-	<!-- Fae Faction -->
+	<!--====================== Fae Faction - Faction Names ======================-->
+	<!-- Translators Note: Faction names are inspired by nature / significant, natural locations -->
 
 	<RulePackDef>
 		<defName>NamerFactionFaeTribe</defName>
@@ -50,20 +50,22 @@
 		</rulePack>
 	</RulePackDef>
 	
-	<!--====================== Fae Leader ======================-->
+	<!--====================== Fae Leader Title ======================-->
+	<!-- Translators Note: Leader Title is just always called a 'Paragon'. -->
 	
 	<RulePackDef>
 		<defName>NamerFae_Leader</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>r_leaderTitle->[MinoLeader]</li>
+				<li>r_leaderTitle->[FaeLeader]</li>
 				
-				<li>MinoLeader->Paragon</li>
+				<li>FaeLeader->Paragon</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
 	
 	<!--====================== Fae Deity ======================-->
+	<!-- Translators Note: Deities are named after nature Gods from various cultures -->
 		
 	<RulePackDef>
 		<defName>NamerFae_Deity</defName>
@@ -71,8 +73,7 @@
 			<rulesStrings>
 				<li>r_deityName->[FaeDeity]</li>
 				
-				
-				<!-- Diety Names - Gods of nature across multiple IRL cultures -->
+				<!-- Diety Names -->
 				
 				<li>FaeDeity->Nomhoyi</li>
 				<li>FaeDeity->Oshosi</li>

@@ -2,6 +2,7 @@
 <Defs>
 
 	<!--====================== Fae Pawn NameMakers (Base) ======================-->
+	<!-- Translators Note: Fae namers just use the Satyr and Faun names from the core version of this mod -->
 
 	<RulePackDef Name="NamerFaeBase" Abstract="True">
 		<rulePack>

@@ -5,7 +5,7 @@
 		<label>fae tribe</label>
 		<pawnSingular>fae</pawnSingular>
 		<pawnsPlural>fae</pawnsPlural>
-		<description>A seldom-seen miscellany of forest-dwelling creatures whose love of revelry and peace supersedes their need for power. Their population dwindles due to the rampant deforestation of their territory at the hands of mechanoids, which the fae’s primitive weaponry stands no chance against. \n\nWandering fauns, satyrs and sometimes even minotaur from this faction may seek to make peace with a charitable colony, provided there is enough wine and music to go around.</description>
+		<description>A seldom-seen miscellany of forest-dwelling creatures whose love of revelry and peace supersedes their need for power. Their population dwindles due to the rampant deforestation of their territory at the hands of mechanoids, which the fae’s primitive weaponry stands no chance against. \n\nCurious xenos from this faction may seek to make peace with a charitable colony, provided there is enough wine and music to go around.</description>
 		<colorSpectrum>
 			<li>(57,116,67)</li>
 			<li>(60,70,50)</li>
@@ -85,7 +85,8 @@
 			<xenotypeChances>
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">0.95</RBSF_Faun>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">0.95</RBSF_Satyr>
-				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.05</RBM_Minotaur>
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.02</RBM_Minotaur>
+				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.07</LTS_Elfin>
 			</xenotypeChances>
 		</xenotypeSet>
 		<dialogFactionGreetingHostile>FaeFactionGreetingHostile</dialogFactionGreetingHostile>
@@ -211,7 +212,7 @@
 					<RBSF_FaeTrader>1</RBSF_FaeTrader>
 				</traders>
 				<carriers>
-					<RBSFE_Muffalope>10</RBSFE_Muffalope> <!-- TODO: This doesn't work >:( -->
+					<RBSFE_Muffalope>10</RBSFE_Muffalope>
 					<Muffalo>2</Muffalo>
 					<Elephant>2</Elephant>
 					<Horse>1</Horse>
@@ -290,42 +291,6 @@
 			</li>
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/RBSFE_FaeSettlement</settlementTexturePath>
-				<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
-			
-				<allowedBiomes>
-					<li>TropicalRainforest</li>
-					<li>TropicalSwamp</li>
-					<li>TemperateForest</li>
-					<li>TemperateSwamp</li>
-					<li>BorealForest</li>
-				</allowedBiomes>
-				<startingGoodwillByFactionDefs>
-					<OutlanderCivil>33</OutlanderCivil>
-					<TribeCivil>33</TribeCivil>
-					<TribeMinotaur MayRequire="Rooboid.Minotaur">33</TribeMinotaur>
-					<SerenCivilBase MayRequire="odysseylotus.seren">33</SerenCivilBase>
-				</startingGoodwillByFactionDefs>
-			</li>
-			
-	 <li Class="KCSG.CustomGenOption">
-    <preventBridgeable>true</preventBridgeable>
-    <tryFindFreeArea>false</tryFindFreeArea>
-    <symbolResolvers>
-      <li>kcsg_scatterstuffaround</li>
-    </symbolResolvers>
-    <!-- Testing -->
-    <scatterThings>
-      <li>Gold</li>
-      <li>Silver</li>
-    </scatterThings>
-    <scatterChance>0.2</scatterChance>
-	
- <chooseFromSettlements>
-  <li>RBSFE_FaeSettlement</li>
-  </chooseFromSettlements>
-  </li>
-  
-		</modExtensions>
+		<!-- Mod Extensions added via a patch-->
 	</FactionDef>
 </Defs>

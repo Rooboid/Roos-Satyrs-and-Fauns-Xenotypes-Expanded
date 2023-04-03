@@ -131,8 +131,8 @@
 						<clipPath>RBSFE_WeaponSounds/RBSFE_FaeWhip/RBSFE_FaeWhipFire</clipPath>
 					</li>
 				</grains>
-				<volumeRange>60</volumeRange>
-				<pitchRange>1</pitchRange>
+				<volumeRange>47</volumeRange>
+				<pitchRange>0.8~1.2</pitchRange>
 			</li>
 		</subSounds>
 	</SoundDef>

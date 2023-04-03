@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!-- Alpha Animals & Giddy-Up 2 - Add new possible mounts  -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Giddy-Up 2</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Fae"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>5</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>2</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeArtificer"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeCleric"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>50</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>30</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeBard"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>50</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>30</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeArcher"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>20</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Jack-of-All-Trades"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>50</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>20</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeGuardian"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>50</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Lansquenet"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_MeadowAve</key>
+								<value>50</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_GreyCoatedMouflon</key>
+								<value>10</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Paragon"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_AnimaColossus</key>
+								<value>50</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_RoyalAve</key>
+								<value>3</value>
+							</li>
+							<li MayRequire="sarg.alphaanimals">
+								<key>AA_OvergrownColossus</key>
+								<value>30</value>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+	
+	<!-- Alpha Mythology & Giddy-Up 2 - Add new possible mounts  -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Mythology</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Giddy-Up 2</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Fae"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_Unicorn</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeArcher"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_Pegasus</key>
+								<value>10</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Jack-of-All-Trades"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_Griffin</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeGuardian"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_CeryneianHind</key>
+								<value>25</value>
+							</li>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_Griffin</key>
+								<value>10</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Lansquenet"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_CeryneianHind</key>
+								<value>10</value>
+							</li>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_Unicorn</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Paragon"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="sarg.magicalmenagerie">
+								<key>MM_Pegasus</key>
+								<value>10</value>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+
+	<!-- Steve's Animals & Giddy-Up 2 - Add new possible mounts  -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Steves Animals</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Giddy-Up 2</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Fae"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="Scurvyez.Bastyon">
+								<key>Bast_Scire</key>
+								<value>1</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeArcher"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="Scurvyez.Bastyon">
+								<key>Bast_Ethereal_Lion</key>
+								<value>2</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeGuardian"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="Scurvyez.Bastyon">
+								<key>Bast_Bastyon</key>
+								<value>1</value>
+							</li>
+							<li MayRequire="Scurvyez.Bastyon">
+								<key>Bast_Ethereal_Lion</key>
+								<value>1</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Lansquenet"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="Scurvyez.Bastyon">
+								<key>Bast_Bastyon</key>
+								<value>1</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Paragon"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="Scurvyez.Bastyon">
+								<key>Bast_Scire</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+
+		</match>
+	</Operation>
+	
+	<!-- Anima Animals & Giddy-Up 2 - Add new possible mounts  -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Anima Animals - Community Pack (temp)[HH]</li>
+		</mods>
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Giddy-Up 2</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeCleric"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+								<key>AnimaBear</key>
+								<value>30</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeBard"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+								<key>AnimaWarg</key>
+								<value>10</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeArcher"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+								<key>AnimaWarg</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_FaeGuardian"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+								<key>AnimaBear</key>
+								<value>10</value>
+							</li>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/PawnKindDef[defName="RBSF_Paragon"]/modExtensions/li[1]/possibleMounts</xpath>
+						<value>
+							<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+								<key>AnimaThrumbo</key>
+								<value>5</value>
+							</li>
+						</value>
+					</li>
+				</operations>
+			</match>
+		</match>
+	</Operation>
+	
+	
+</Patch>

@@ -11,7 +11,7 @@
 		<scenario>
 			<summary>Difficulty: Easy\nThree Fauns establish a laboratory on the rim.</summary>
 			<playerFaction>
-			<def>PlayerFaction</def>
+				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerTheFaunScientists</factionDef>
 			</playerFaction>
 			<parts>
@@ -49,6 +49,11 @@
 					<hediff>CryptosleepSickness</hediff>
 					<hideOffMap>true</hideOffMap>
 					<severityRange>1~1</severityRange>
+				</li>
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>RBSFE_FaeCraftables</project>
 				</li>
 				<!-- Player Starting Items -->
 				<li Class="ScenPart_StartingThing_Defined">
@@ -184,24 +189,10 @@
 					<def>PlayerPawnsArriveMethod</def>
 					<method>Standing</method>
 				</li>
-				<!-- Player pawns modifiers -->
-				<li Class="ScenPart_ForcedHediff">
-					<def>ForcedHediff</def>
-					<visible>false</visible>
-					<context>PlayerStarter</context>
-					<chance>0.6</chance>
-					<hediff>Bruise</hediff>
-					<hideOffMap>true</hideOffMap>
-					<severityRange>0.2~0.6</severityRange>
-				</li>
-				<li Class="ScenPart_ForcedHediff">
-					<def>ForcedHediff</def>
-					<visible>false</visible>
-					<context>PlayerStarter</context>
-					<chance>0.3</chance>
-					<hediff>Cut</hediff>
-					<hideOffMap>true</hideOffMap>
-					<severityRange>0.1~0.5</severityRange>
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>RBSFE_FaeCraftables</project>
 				</li>
 				<!-- Player Starting Items -->
 				<li Class="ScenPart_StartingThing_Defined">
@@ -315,7 +306,7 @@
 			<summary>Difficulty: Hard \nOne powerful tribe leader seeks revenge.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
-				<factionDef>RBSFE_PlayerLastFaeStanding</factionDef> 
+				<factionDef>RBSFE_PlayerLastFaeStanding</factionDef>
 			</playerFaction>
 			<parts>
 				<!-- Config pages -->
@@ -342,6 +333,11 @@
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
 					<def>PlayerPawnsArriveMethod</def>
 					<method>Standing</method>
+				</li>
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>RBSFE_FaeCraftables</project>
 				</li>
 				<!-- Scattered Items Near Player Start -->
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
@@ -414,15 +410,11 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>What an honour it was; to oversee the success of your beautiful tribe. And what a horror it was to see it fall. A forest once abundant in frolicking fauns and singing satyrs is now flattened and rife with mechanical giants. \n\nArmed with the formidable Anima rod of your ancestors, you watch the destruction from behind the foliage. See what you can pilfer from the foresty remains, before setting out on a quest to resurrect your glory.
-					\n\nWarning: There are mechanoids currently on the map. Be careful.</text>
+					<text>What an honour it was; to oversee the success of your beautiful tribe. And what a horror it was to see it fall. A forest once abundant in frolicking fauns and singing satyrs is now flattened and rife with mechanical giants. \n\nArmed with the formidable Anima rod of your ancestors, you watch the destruction from behind the foliage. See what you can pilfer from the foresty remains, before setting out on a quest to resurrect your glory. \n\nWarning: There are mechanoids currently on the map. Be careful.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
 		</scenario>
 	</ScenarioDef>
-
-
-
 
 </Defs>

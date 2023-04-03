@@ -4,7 +4,7 @@
   <ResearchProjectDef>
     <defName>RBSFE_FaeCraftables</defName>
     <label>fae craftables</label>
-    <description>Create wooden weapons, apparel and walls inspired by faun-folk and the majesty of Mother Earth.</description>
+    <description>Create wooden weapons, apparel and walls inspired by the majesty of nature.</description>
     <baseCost>700</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>

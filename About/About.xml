@@ -12,11 +12,21 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Owlchemist.GiddyUp</li>
+		<li>DankPyon.Medieval.Overhaul</li>
+		<li>VanillaExpanded.VMemesE</li>
 		<li>VanillaExpanded.VanillaTraitsExpanded</li>
+		<li>VanillaExpanded.VanillaAnimalsExpanded</li>
+		<li>Sarg.AlphaMemes</li>
+		<li>sarg.alphaanimals</li>
+		<li>LimeTreeSnake.Xenotech</li>
+		<li>xrushha.animagear</li>
+		<li>hh.xrushha.AnimaAnimalsCombined</li>
 		<li>Rooboid.Minotaur</li>
+		<li>Rooboid.Faun</li>
+		<li>Rooboid.Satyr</li>
 	</loadAfter>
 		<modDependencies>
-		<!--TODO Original Mod -->
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
@@ -28,6 +38,18 @@
 			<displayName>Biotech</displayName>
 			<downloadUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/?curator_clanid=25160263</downloadUrl>
 			<steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/?curator_clanid=25160263</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Rooboid.Faun</packageId>
+			<displayName>Roo's Faun Xenotype</displayName>
+			<downloadUrl>https://steamcommunity.com/id/rooboid</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/id/rooboid</steamWorkshopUrl>
+		</li>
+				<li>
+			<packageId>Rooboid.Satyr</packageId>
+			<displayName>Roo's Satyr Xenotype</displayName>
+			<downloadUrl>https://steamcommunity.com/id/rooboid</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/id/rooboid</steamWorkshopUrl>
 		</li>
 	</modDependencies>
 <description> Tasty Decription </description>

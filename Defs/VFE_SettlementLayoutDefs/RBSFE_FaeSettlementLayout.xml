@@ -3,16 +3,11 @@
 
 	<KCSG.SettlementLayoutDef>
 	<defName>RBSFE_FaeSettlement</defName>
-		<!-- Size of the settlement -->
 		<settlementSize>62,62</settlementSize>
-		<!-- Inner settlement part -->
 		<centerBuildings>
-			<!-- Inner size, can be the same size -->
 			<centerSize>62,62</centerSize>
-			<!-- A list of allowed tag -->
 			<allowedStructures>
 				<li>
-					<!-- min~max -->
 					<count>-1~3</count>
 					<tag>FaeSpecial</tag>
 				</li>
@@ -32,12 +27,9 @@
 		</centerBuildings>
 		<propsOptions>
 			<addMainRoadProps>false</addMainRoadProps>
-			<!-- Props spawned on main roads, if any -->
 			<mainRoadMinDistance>6</mainRoadMinDistance>
-			<!-- Props spawned on link roads, if any -->
 			<addLinkRoadProps>false</addLinkRoadProps>
 			<linkRoadMinDistance>9</linkRoadMinDistance>
-			<!-- Props scattered around -->
 			<scatterProps>true</scatterProps>
 			<scatterMinDistance>8</scatterMinDistance>
 			<scatterMaxAmount>150</scatterMaxAmount>
@@ -56,26 +48,21 @@
 				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenSign</li>
 			</scatterPropsDefs>
 		</propsOptions>
-		<!-- Defines roads here -->
 		<roadOptions>
-			<!-- Main road are road that traverse a settlement -->
 			<addMainRoad>false</addMainRoad>
 			<mainRoadCount>1</mainRoadCount>
 			<mainRoadDef>PackedDirt</mainRoadDef>
 			<mainRoadWidth>2</mainRoadWidth>
-			<!-- Link road are road that link all doors together -->
 			<addLinkRoad>true</addLinkRoad>
 			<linkRoadDef>PackedDirt</linkRoadDef>
 			<linkRoadWidth>2</linkRoadWidth>
 		</roadOptions>
-		<!-- You can customize the settlement defense here -->
 		<defenseOptions>
 			<addEdgeDefense>true</addEdgeDefense>
 			<addSandbags>false</addSandbags>
 			<addTurrets>false</addTurrets>
 			<addMortars>false</addMortars>
-			<!-- 1 for default number of pawns -->
-			<pawnGroupMultiplier>1.4</pawnGroupMultiplier>
+			<pawnGroupMultiplier>1.3</pawnGroupMultiplier>
 		</defenseOptions>
 		<stockpileOptions>
 			<fillStorageBuildings>true</fillStorageBuildings>

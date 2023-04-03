@@ -1,182 +1,186 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AnimalThingBase">
-    <defName>RBSFE_MuffalopeRace</defName>
-    <label>muffalope</label>
-    <!-- <devNote>cow-1</devNote> -->
-    <description>A crossbreed of a deer and a muffalo with mysterious origins; while some theorise it to merely be the product of genetic engineering, others follow a legend that it was the creation of a tribal psycaster. The muffalope is smaller, weaker and eats less than it’s blue counterpart, but it's more insulated against the elements and has a tendency to nuzzle more often.</description>
-    <statBases>
-      <MoveSpeed>4.8</MoveSpeed>
-      <MarketValue>280</MarketValue>
-      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
-      <ComfyTemperatureMax>48</ComfyTemperatureMax>
-      <FilthRate>14</FilthRate>
-	  <CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
-    </statBases>
-    <uiIconScale>1.35</uiIconScale>
-    <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>WoolBison</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
-        <woolAmount>80</woolAmount>
-      </li>
-    </comps>
-    <race>
-      <herdAnimal>true</herdAnimal>
-      <body>QuadrupedAnimalWithHooves</body>
-      <baseBodySize>2.2</baseBodySize>
-      <baseHealthScale>1.15</baseHealthScale>
-      <baseHungerRate>0.435</baseHungerRate>
-      <foodType>VegetarianRoughAnimal</foodType>
-      <leatherDef>Leather_Light</leatherDef>
-      <gestationPeriodDays>6.66</gestationPeriodDays>
-      <wildness>0.45</wildness>
-      <roamMtbDays>5</roamMtbDays>
-      <trainability>None</trainability>
-      <packAnimal>true</packAnimal>
-      <lifeExpectancy>18</lifeExpectancy>
-      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
-	  <nuzzleMtbHours>22</nuzzleMtbHours>
-      <lifeStageAges>
-        <li>
-          <def>AnimalBaby</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.25</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.3333</minAge>
-          <soundWounded>Pawn_Elk_Wounded</soundWounded>
-          <soundDeath>Pawn_Elk_Death</soundDeath>
-          <soundCall>Pawn_Elk_Call</soundCall>
-          <soundAngry>Pawn_Elk_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-      <headPosPerRotation>
-        <li>(0.0, 0, 0.05)</li>
-        <li>(0.285, 0, 0.02)</li>
-        <li>(0.0, 0, -0.12)</li>
-        <li>(-0.285, 0, 0.02)</li>
-      </headPosPerRotation>
-    </race>
-    <tradeTags>
-      <li>AnimalUncommon</li>
-    </tradeTags>
-    <tools>
-	      <li>
-        <label>antlers</label>
-        <capacities>
-          <li>Scratch</li>
-          <li>Stab</li>
-        </capacities>
-        <power>15.6</power>
-        <cooldownTime>3.2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12.8</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-      </li>
-      <li>
-        <label>left hoof</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>right hoof</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.5</chanceFactor>
-      </li>
-    </tools>
-  </ThingDef>
+	<!--====================== Muffalope - ThingDef ======================-->
+	<!-- Used by Fae Traders. Similar to the Muffalo, but smaller and nuzzley-er -->
 
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>RBSFE_Muffalope</defName>
+		<label>muffalope</label>
+		<!-- <devNote>cow-1</devNote> -->
+		<description>A crossbreed of a deer and a muffalo with mysterious origins; while some theorise it to merely be the product of genetic engineering, others follow a legend that it was the creation of a tribal psycaster. The muffalope is smaller, weaker and eats less than it’s blue counterpart, but it's more insulated against the elements and has a tendency to nuzzle more often.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<MarketValue>280</MarketValue>
+			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
+			<ComfyTemperatureMax>48</ComfyTemperatureMax>
+			<FilthRate>14</FilthRate>
+			<CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
+		</statBases>
+		<uiIconScale>1.35</uiIconScale>
+		<comps>
+			<li Class="CompProperties_Shearable">
+				<woolDef>WoolBison</woolDef>
+				<shearIntervalDays>15</shearIntervalDays>
+				<woolAmount>80</woolAmount>
+			</li>
+		</comps>
+		<race>
+			<herdAnimal>true</herdAnimal>
+			<body>QuadrupedAnimalWithHooves</body>
+			<baseBodySize>2.2</baseBodySize>
+			<baseHealthScale>1.15</baseHealthScale>
+			<baseHungerRate>0.435</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<wildness>0.45</wildness>
+			<roamMtbDays>5</roamMtbDays>
+			<trainability>None</trainability>
+			<packAnimal>true</packAnimal>
+			<lifeExpectancy>18</lifeExpectancy>
+			<manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+			<nuzzleMtbHours>22</nuzzleMtbHours>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Elk_Wounded</soundWounded>
+					<soundDeath>Pawn_Elk_Death</soundDeath>
+					<soundCall>Pawn_Elk_Call</soundCall>
+					<soundAngry>Pawn_Elk_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<headPosPerRotation>
+				<li>(0.0, 0, 0.05)</li>
+				<li>(0.285, 0, 0.02)</li>
+				<li>(0.0, 0, -0.12)</li>
+				<li>(-0.285, 0, 0.02)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>antlers</label>
+				<capacities>
+					<li>Scratch</li>
+					<li>Stab</li>
+				</capacities>
+				<power>15.6</power>
+				<cooldownTime>3.2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.8</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
 
+	<!--====================== Muffalope - Pawnkind ======================-->
+	<!-- Enables spawns -->
   
-  <PawnKindDef Name="RBSFE_Muffalope" ParentName="AnimalKindBase">
-    <defName>RBSFE_Muffalope</defName>
-    <label>muffalope</label>
-    <race>RBSFE_MuffalopeRace</race>
-    <combatPower>90</combatPower>
-    <ecoSystemWeight>1.1</ecoSystemWeight>
-    <wildGroupSize>2~9</wildGroupSize>
-    <lifeStages>
-      <li>
-        <label>muffalope calf</label>
-        <labelPlural>muffalope calves</labelPlural>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/RBSFE_Muffalope/RBSFE_Muffalope</texPath>
-          <drawSize>1.3</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
-          <drawSize>0.9</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/RBSFE_Muffalope/RBSFE_Muffalope</texPath>
-          <drawSize>1.8</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.45, 0.45)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
-          <drawSize>2.25</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/RBSFE_Muffalope/RBSFE_Muffalope</texPath>
-          <drawSize>2.2</drawSize>
-          <shadowData>
-            <volume>(0.8, 0.6, 0.6)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
+	<PawnKindDef Name="RBSFE_Muffalope" ParentName="AnimalKindBase">
+		<defName>RBSFE_Muffalope</defName>
+		<label>muffalope</label>
+		<race>RBSFE_Muffalope</race>
+		<combatPower>90</combatPower>
+		<ecoSystemWeight>1.1</ecoSystemWeight>
+		<wildGroupSize>2~9</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>muffalope calf</label>
+				<labelPlural>muffalope calves</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RBSFE_Muffalope/RBSFE_Muffalope</texPath>
+					<drawSize>1.3</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RBSFE_Muffalope/RBSFE_Muffalope</texPath>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+					<drawSize>2.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/RBSFE_Muffalope/RBSFE_Muffalope</texPath>
+					<drawSize>2.2</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
   
-  </Defs>
+</Defs>

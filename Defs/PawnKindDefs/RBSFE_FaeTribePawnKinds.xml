@@ -48,7 +48,7 @@
 		<isFighter>False</isFighter>
 		<label>fae</label>
 		<maxGenerationAge>90</maxGenerationAge>
-		<combatPower>18</combatPower>
+		<combatPower>22</combatPower>
 		<invNutrition>1</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
@@ -79,8 +79,41 @@
 			<xenotypeChances>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
+				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.05</LTS_Elfin>
 			</xenotypeChances>
 		</xenotypeSet>
+				<inventoryOptions>
+			<skipChance>0.7</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>10</countRange>
+				</li>
+				<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+					<thingDef>AnimaBranch</thingDef>
+					<countRange>1~1</countRange>
+				</li>
+				<li MayRequire="hh.xrushha.AnimaAnimalsCombined">
+					<thingDef>AnimaBerry</thingDef>
+					<countRange>1~5</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>5</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>25</value>
+					</li>
+					<li>
+						<key>Elephant</key>
+						<value>10</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Fae Child - Peaceful pawns of satyr or faun xenotypes, children only -->
@@ -92,7 +125,7 @@
 		<isFighter>False</isFighter>
 		<label>fae</label>
 		<maxGenerationAge>90</maxGenerationAge>
-		<combatPower>2</combatPower>
+		<combatPower>13</combatPower>
 		<invNutrition>0.5</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
@@ -129,7 +162,7 @@
 		<isFighter>False</isFighter>
 		<label>fae</label>
 		<maxGenerationAge>90</maxGenerationAge>
-		<combatPower>10</combatPower>
+		<combatPower>18</combatPower>
 		<invNutrition>1</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
@@ -148,6 +181,8 @@
 		<weaponMoney>53</weaponMoney>
 		<weaponTags>
 			<li>Fae</li>
+			<!-- Anima Gear -->
+			<li>AnimaStaff</li>
 		</weaponTags>
 		<apparelMoney>10</apparelMoney>
 		<apparelRequired>
@@ -170,7 +205,7 @@
 		<isFighter>False</isFighter>
 		<label>fae artificer</label>
 		<maxGenerationAge>90</maxGenerationAge>
-		<combatPower>35</combatPower>
+		<combatPower>38</combatPower>
 		<invNutrition>0.5</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
@@ -287,9 +322,20 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>15</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>50</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
-	<!-- Fae Cleric (Faun Only) - Fae healers -->
+	<!-- Fae Cleric (Faun only) - Fae healers -->
 	
 	<PawnKindDef Parent="FaeBase">
 		<defName>RBSF_FaeCleric</defName>
@@ -297,7 +343,7 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>False</isFighter>
 		<label>fae cleric</label>
-		<maxGenerationAge>30</maxGenerationAge>
+		<maxGenerationAge>65</maxGenerationAge>
 		<combatPower>34</combatPower>
 		<initialWillRange>0~3</initialWillRange>
 		<initialResistanceRange>2~15</initialResistanceRange>
@@ -318,6 +364,8 @@
 		<weaponMoney>200~1500</weaponMoney>
 		<weaponTags>
 			<li>FaeStaff</li>
+			<!-- Anima Gear -->
+			<li>AnimaStaff</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>RBSFE_Faegarms</li>
@@ -371,17 +419,28 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>15</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>50</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Fae Trader (Satyr Only) - Unique coloured apparel, so easy to spot -->
 	
 	<PawnKindDef Parent="FaeBase">
 		<defName>RBSF_FaeTrader</defName>
+		<label>fae merchant</label>
 		<race>Human</race>
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>False</isFighter>
 		<trader>true</trader>
-		<label>fae merchant</label>
 		<itemQuality>Normal</itemQuality>
 		<inventoryOptions>
 			<skipChance>0.70</skipChance>
@@ -392,7 +451,7 @@
 				</li>
 			</subOptionsTakeAll>
 		</inventoryOptions>
-		<maxGenerationAge>60</maxGenerationAge>
+		<maxGenerationAge>40</maxGenerationAge>
 		<combatPower>23</combatPower>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>16~25</initialResistanceRange>
@@ -481,7 +540,7 @@
 	<!--====================== Fae Tribe - Violent Pawns ======================-->
 	<!-- Unqiue, fighter pawns belonging to the Fae Tribe -->
 	
-	<!-- Fae Bard - Satyrs Only - barely even classable as fighters -->
+	<!-- Fae Bard (Satyr only) barely even classable as fighters -->
 	
 	<PawnKindDef Parent="FaeBase">
 		<defName>RBSF_FaeBard</defName>
@@ -489,8 +548,8 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>bard</label>
-		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>23</combatPower>
+		<maxGenerationAge>80</maxGenerationAge>
+		<combatPower>29</combatPower>
 		<initialWillRange>0~3</initialWillRange>
 		<initialResistanceRange>3~9</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -540,9 +599,20 @@
 			</li>
 		</skills>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>5</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>50</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
-	<!-- Fae Thief - Short-ranged fighter with minimal, medieval armour, uses knives -->
+	<!-- Fae Thief (Satyr Only) - Short-ranged fighter with minimal, medieval armour, uses knives -->
 	
 	<PawnKindDef Parent="FaeBase">
 		<defName>RBSF_FaeThief</defName>
@@ -550,7 +620,7 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>fae thief</label>
-		<maxGenerationAge>40</maxGenerationAge>
+		<maxGenerationAge>60</maxGenerationAge>
 		<combatPower>42</combatPower>
 		<initialWillRange>3~7</initialWillRange>
 		<initialResistanceRange>6~13</initialResistanceRange>
@@ -578,6 +648,8 @@
 			<li>DankPyon_Peasant</li>
 			<li>DankPyon_BrigandThug</li>
 			<li>DankPyon_Mercenary</li>
+			<!-- Anima Gear -->
+			<li>AnimaCrown</li>
 		</apparelTags>
 		<apparelMoney>40~240</apparelMoney>
 		<apparelRequired>
@@ -671,8 +743,8 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>fae archer</label>
-		<maxGenerationAge>55</maxGenerationAge>
-		<combatPower>48</combatPower>
+		<maxGenerationAge>75</maxGenerationAge>
+		<combatPower>50</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -717,6 +789,17 @@
 			</li>
 		</skills>
 		<useFactionXenotypes>true</useFactionXenotypes>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>3</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>20</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Jack-of-All-Trades - a medium-strength, wildcard fighter with many possibilities for equipment -->
@@ -728,7 +811,7 @@
 		<isFighter>True</isFighter>
 		<label>jack-of-all-trades</label>
 		<maxGenerationAge>55</maxGenerationAge>
-		<combatPower>65</combatPower>
+		<combatPower>68</combatPower>
 		<initialWillRange>0~2</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -799,6 +882,17 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>15</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>20</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Fae Guardian - Hardy guards of high fae ranks. Will usually be minotaur, if Roo's Minotaur Xenotype is installed -->
@@ -809,8 +903,8 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>fae guardian</label>
-		<maxGenerationAge>55</maxGenerationAge>
-		<combatPower>92</combatPower>
+		<maxGenerationAge>60</maxGenerationAge>
+		<combatPower>98</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~17</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -843,7 +937,7 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Shell</apparelLayer>
-				<color>(43,38,36)</color>
+				<color>(225,231,226)</color>
 			</li>
 		</specificApparelRequirements>
 		<requiredWorkTags>
@@ -862,9 +956,10 @@
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances>
-				<RBM_Minotaur MayRequire="Rooboid.Minotaur">1</RBM_Minotaur>
-				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">0.8</RBSF_Satyr>
-				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">0.8</RBSF_Faun>
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">10</RBM_Minotaur>
+				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">5</LTS_Elfin>
+				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
+				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
 			</xenotypeChances>
 		</xenotypeSet>
 		<inventoryOptions>
@@ -892,6 +987,17 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>19</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>30</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Lansquenet - The highest rank of fae fighter. Typically uses the faemore to fight -->
@@ -902,8 +1008,8 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>lansquenet</label>
-		<maxGenerationAge>55</maxGenerationAge>
-		<combatPower>118</combatPower>
+		<maxGenerationAge>60</maxGenerationAge>
+		<combatPower>123</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>6~40</initialResistanceRange>
 		<royalTitleChance>0.04</royalTitleChance>
@@ -931,6 +1037,8 @@
 		</apparelRequired>
 		<apparelTags>
 			<li>MedievalMilitary</li>
+			<!-- Anima Gear -->
+			<li>AnimaCrown</li>
 		</apparelTags>
 		<apparelMoney>500~730</apparelMoney>
 		<specificApparelRequirements>
@@ -946,11 +1054,11 @@
 		<skills>
 			<li>
 				<skill>Melee</skill>
-				<range>6~17</range>
+				<range>7~17</range>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<range>8~17</range>
+				<range>4~13</range>
 			</li>
 		</skills>
 		<forcedTraits>
@@ -970,6 +1078,17 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>10</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Horse</key>
+						<value>5</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 	
 	<!-- Fae Paragon - Faction Leader. Psycaster mage (if Royalty is installed) -->
@@ -980,14 +1099,14 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>paragon</label>
-		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>123</combatPower>
+		<maxGenerationAge>100</maxGenerationAge>
+		<combatPower>165</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>20~50</initialResistanceRange>
 		<factionHostileOnDeath>true</factionHostileOnDeath>
 		<royalTitleChance>1</royalTitleChance>
 		<titleSelectOne>
-			<li MayRequire="Ludeon.RimWorld.Royalty" >Knight</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">Knight</li>
 		</titleSelectOne>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
@@ -1078,6 +1197,17 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+		<modExtensions>
+			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
+				<mountChance>50</mountChance>
+				<possibleMounts>
+					<li>
+						<key>Thrumbo</key>
+						<value>20</value>
+					</li>
+				</possibleMounts>
+			</li>
+		</modExtensions>
 	</PawnKindDef>
 
 	<!--====================== Player PawnKinds ======================-->
@@ -1256,6 +1386,5 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
-
 
 </Defs>
