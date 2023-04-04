@@ -220,6 +220,11 @@
 					<thingDef>VCE_Cheese</thingDef>
 					<count>5</count>
 				</li>
+				<li MayRequire="VanillaExpanded.VFEPropsandDecor" Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>VFEPD_WoodenWagon</thingDef>
+					<count>1</count>
+				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>SmokeleafJoint</thingDef>

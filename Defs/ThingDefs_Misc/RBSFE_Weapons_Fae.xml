@@ -18,6 +18,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
+		<relicChance Inherit ="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Neolithic</techLevel>
 		<weaponTags>
@@ -35,7 +36,7 @@
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<Mass>0.7</Mass>
-			<RBSF_NatureConnectionOffset>0.35</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.18</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<stuffCategories>
@@ -96,6 +97,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.5</drawSize>
 		</graphicData>
+		<relicChance Inherit ="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Neolithic</techLevel>
 		<weaponTags>
@@ -110,7 +112,7 @@
 		<statBases>
 			<WorkToMake>5600</WorkToMake>
 			<Mass>1</Mass>
-			<RBSF_NatureConnectionOffset>0.8</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.6</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicEntropyRecoveryRate>0.055</PsychicEntropyRecoveryRate>
@@ -159,6 +161,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
+		<relicChance Inherit ="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Neolithic</techLevel>
 		<weaponTags>
@@ -172,7 +175,7 @@
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
 			<Mass>1</Mass>
-			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedAngleOffset>-90</equippedAngleOffset>
 		<stuffCategories>
@@ -258,6 +261,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
+		<relicChance Inherit ="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
@@ -274,7 +278,7 @@
 		<statBases>
 			<WorkToMake>18500</WorkToMake>
 			<Mass>1.85</Mass>
-			<RBSF_NatureConnectionOffset>0.5</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<stuffCategories>
@@ -352,6 +356,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+		<relicChance Inherit ="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<stuffCategories>
 			<li>Woody</li>
@@ -365,7 +370,7 @@
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.65</AccuracyLong>
 			<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
-			<RBSF_NatureConnectionOffset>0.33</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.08</RBSF_NatureConnectionOffset>
 		</statBases>
 		<weaponTags>
 			<li>Fae</li>

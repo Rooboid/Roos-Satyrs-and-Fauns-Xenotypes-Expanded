@@ -78,11 +78,10 @@
 			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.3</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
-			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.15</PruningSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelMisc</li>
@@ -133,11 +132,10 @@
 			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.3</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
-			<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">0.15</PruningSpeed>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -187,7 +185,7 @@
 			<StuffEffectMultiplierInsulation_Cold>1.6</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.7</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.6</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.21</RBSF_NatureConnectionOffset>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -271,7 +269,7 @@
 			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.5</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -327,7 +325,7 @@
 			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>13</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.75</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.5</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.25</MoveSpeed>
@@ -391,7 +389,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 			<Flammability>1.5</Flammability>
-			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<Beauty>0.15</Beauty>
@@ -485,7 +483,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 			<Flammability>1.5</Flammability>
-			<RBSF_NatureConnectionOffset>0.45</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 		</statBases>
 		<apparel>
