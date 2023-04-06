@@ -10,13 +10,14 @@
 			<li>(57,116,67)</li>
 			<li>(60,70,50)</li>
 		</colorSpectrum>
+		<rescueesCanJoin>true</rescueesCanJoin>
 		<hostileToFactionlessHumanlikes>false</hostileToFactionlessHumanlikes>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>35</configurationListOrderPriority>
 		<naturalEnemy>false</naturalEnemy>
 		<categoryTag>Tribal</categoryTag>
 		<listOrderPriority>22</listOrderPriority>
-		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<settlementGenerationWeight>0.8</settlementGenerationWeight>
 		<requiredCountAtGameStart>0</requiredCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>false</canSiege>
@@ -29,7 +30,7 @@
 			<li>RBSFE_FaeCulture</li>
 		</allowedCultures>
 		<requiredMemes>
-		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_Vegan</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_GauranlenSupremacy</li>
@@ -117,7 +118,7 @@
 		<leaderTitle>paragon</leaderTitle>
 		<caravanTraderKinds>
 			<li>Caravan_Neolithic_BulkGoods</li>
-			<li>RBSFE_Visitor_Fae_Bards</li><!-- TODO: Add musical trader -->
+			<li>RBSF_Visitor_Bards</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>
 			<li>Visitor_Neolithic_Standard</li>
@@ -131,7 +132,7 @@
 				<li>(0, 0.5)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
-		<raidLootMaker>TribeRaidLootMaker</raidLootMaker><!-- TODO: Add musical loot maker -->
+		<raidLootMaker>RBSFE_FaeRaidLootMaker</raidLootMaker>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,65)</li>
@@ -147,12 +148,22 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<RBSF_FaeBard>1</RBSF_FaeBard>
+					<RBSF_FaeBard>0.5</RBSF_FaeBard>
 					<RBSF_FaeArcher>15</RBSF_FaeArcher>
 					<RBSF_FaeCleric>1</RBSF_FaeCleric>
 					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
 					<RBSF_FaeGuardian>4</RBSF_FaeGuardian>
 					<RBSF_Lansquenet>3</RBSF_Lansquenet>
+					<!-- Bard Types (2.5) -->
+					<RBSF_SatyrBardSonata>0.6</RBSF_SatyrBardSonata>
+					<RBSF_SatyrBardHealing>0.6</RBSF_SatyrBardHealing>
+					<!-- Uncommon -->
+					<RBSF_SatyrBardWarcall>0.4</RBSF_SatyrBardWarcall>
+					<RBSF_SatyrBardHymn>0.4</RBSF_SatyrBardHymn>
+					<RBSF_SatyrBardTwoAbility>0.3</RBSF_SatyrBardTwoAbility>
+					<!-- Rare -->
+					<RBSF_SatyrBardThreeAbility>0.1</RBSF_SatyrBardThreeAbility>
+					<RBSF_SatyrBardLullaby>0.1</RBSF_SatyrBardLullaby>
 				</options>
 			</li>
 			<li>
@@ -168,9 +179,9 @@
 				</options>
 			</li>
 			<li>
-				<!-- Ranged Raid -->
+				<!-- Ranged Raid - Rare -->
 				<kindDef>Combat</kindDef>
-				<commonality>40</commonality>
+				<commonality>2</commonality>
 				<options>
 					<Tribal_Archer>10</Tribal_Archer>
 					<Tribal_Hunter>10</Tribal_Hunter>
@@ -183,13 +194,23 @@
 			<li>
 				<!-- Bards -->
 				<kindDef>Peaceful</kindDef>
-				<commonality>2</commonality>
+				<commonality>10</commonality>
 				<options>
-					<RBSF_FaeBard>10</RBSF_FaeBard>
-					<RBSF_SatyrBard>7</RBSF_SatyrBard>
+					<RBSF_FaeBard>7</RBSF_FaeBard>
 					<RBSF_FaeNudist>3</RBSF_FaeNudist>
 					<RBSF_FaeCleric>2</RBSF_FaeCleric>
 					<RBSF_FaeArtificer>2</RBSF_FaeArtificer>
+					<!-- Bard Types (10.2) -->
+					<RBSF_SatyrBardSonata>3</RBSF_SatyrBardSonata>
+					<RBSF_SatyrBardHealing>3</RBSF_SatyrBardHealing>
+					<!-- Uncommon -->
+					<RBSF_SatyrBardWarcall>2</RBSF_SatyrBardWarcall>
+					<RBSF_SatyrBardHymn>2</RBSF_SatyrBardHymn>
+					<RBSF_SatyrBardTwoAbility>2</RBSF_SatyrBardTwoAbility>
+					<!-- Rare -->
+					<RBSF_SatyrBardThreeAbility>0.5</RBSF_SatyrBardThreeAbility>
+					<RBSF_SatyrBardLullaby>0.5</RBSF_SatyrBardLullaby>
+					<RBSF_SatyrBardElegy>0.2</RBSF_SatyrBardElegy>
 				</options>
 			</li>
 			<li>
@@ -203,6 +224,7 @@
 					<RBSF_FaeCleric>1</RBSF_FaeCleric>
 					<RBSF_FaeBard>1</RBSF_FaeBard>
 					<RBSF_Paragon>0.08</RBSF_Paragon>
+					<RBSF_SatyrBardElegy>0.08</RBSF_SatyrBardElegy>
 				</options>
 			</li>
 			<li>
@@ -245,6 +267,17 @@
 					<RBSF_FaeGuardian>6</RBSF_FaeGuardian>
 					<RBSF_Lansquenet>3</RBSF_Lansquenet>
 					<RBSF_Paragon>0.2</RBSF_Paragon>
+					<!-- Bard Types (1.9) -->
+					<RBSF_SatyrBardSonata>0.5</RBSF_SatyrBardSonata>
+					<RBSF_SatyrBardHealing>0.5</RBSF_SatyrBardHealing>
+					<!-- Uncommon -->
+					<RBSF_SatyrBardWarcall>0.2</RBSF_SatyrBardWarcall>
+					<RBSF_SatyrBardHymn>0.2</RBSF_SatyrBardHymn>
+					<RBSF_SatyrBardTwoAbility>0.2</RBSF_SatyrBardTwoAbility>
+					<!-- Rare -->
+					<RBSF_SatyrBardThreeAbility>0.1</RBSF_SatyrBardThreeAbility>
+					<RBSF_SatyrBardLullaby>0.1</RBSF_SatyrBardLullaby>
+					<RBSF_SatyrBardElegy>0.1</RBSF_SatyrBardElegy>
 				</options>
 			</li>
 			<li>
@@ -259,6 +292,7 @@
 					<Tribal_HeavyArcher>6</Tribal_HeavyArcher>
 					<Tribal_ChiefRanged>3</Tribal_ChiefRanged>
 					<RBSF_Paragon>0.2</RBSF_Paragon>
+					<RBSF_SatyrBardElegy>0.1</RBSF_SatyrBardElegy>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
@@ -293,4 +327,64 @@
 		<settlementTexturePath>World/WorldObjects/RBSFE_FaeSettlement</settlementTexturePath>
 		<!-- Mod Extensions added via a patch-->
 	</FactionDef>
+	
+	<ThingSetMakerDef>
+		<defName>RBSFE_FaeRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>Gold</li>
+						<li>Jade</li>
+						<li>MedicineHerbal</li>
+						<li>SmokeleafJoint</li>
+						<li>RawRice</li>
+						<li>RawBerries</li>
+						<li>RawHops</li>
+						<li>SmokeleafLeaves</li>
+						<li>DevilstrandCloth</li>
+						<li>BabyFood</li>
+			
+						<li>RBSF_MelodicHymnSheet</li>
+						<li>RBSF_MelodicSonataSheet</li>
+						<li>RBSF_MelodicLullabySheet</li>
+						<li>RBSF_MelodicWarcallSheet</li>
+						<li>RBSF_MelodicHealingSongSheet</li>
+						<li>RBSF_MelodicElegySheet</li>
+			
+						<li MayRequire="sarg.alphaanimals">AA_CactipineQuill</li>
+						<li MayRequire="sarg.alphaanimals">AA_AgariluxRawFungus</li>
+						<li MayRequire="sarg.alphaanimals">AA_BlackTruffles</li>
+			
+						<li MayRequire="xrushha.AnimaGear">AnimaFiber</li>
+			
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientWood</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_MealRationsVegetarian</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Straw</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Spices</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawCotton</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawGrapes</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawCabbages</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Honey</li>
+			
+						<li MayRequire="VanillaExpanded.VBrewE">VBE_RawTea</li>
+						<li MayRequire="VanillaExpanded.VBrewE">VBE_Whiskey</li>
+			
+						<li MayRequire="VanillaExpanded.VCookE">VCE_CookedStewFine</li>
+			
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawPear</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawPeas</li>
+						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawCabbage</li>
+						
+						<li MayRequire="xrushha.EldersFaction">SacOfKnowledge</li>
+						<li MayRequire="xrushha.EldersFaction">AnimaTea</li>
+						<li MayRequire="xrushha.EldersFaction">AnimaJoint</li>
+			
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+
 </Defs>

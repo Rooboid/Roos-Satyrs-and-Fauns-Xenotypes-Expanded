@@ -269,6 +269,9 @@
 			</li>
 		</skills>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+		<abilities>
+		<li>RBSF_MelodicWarcall</li>
+		</abilities>
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
@@ -361,6 +364,13 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
+		<techHediffsRequired>
+		<li>PsychicAmplifier</li>
+		</techHediffsRequired>
+		<abilities MayRequire="Ludeon.RimWorld.Royalty">
+		<li>Painblock</li>
+		<li>BlindingPulse</li>
+		</abilities>
 		<weaponMoney>200~1500</weaponMoney>
 		<weaponTags>
 			<li>FaeStaff</li>
@@ -520,6 +530,9 @@
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
+		<abilities>
+		<li>RBSF_MelodicLullaby</li>
+		</abilities>
 		<requiredWorkTags>
 			<li>Social</li>
 		</requiredWorkTags>
@@ -588,6 +601,9 @@
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
+		<abilities>
+		<li>RBSF_MelodicSonata</li>
+		</abilities>
 		<requiredWorkTags>
 			<li>Artistic</li>
 			<li>Violent</li>
@@ -664,6 +680,9 @@
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
+		<abilities>
+		<li>RBSF_MelodicHymn</li>
+		</abilities>
 		<inventoryOptions>
 			<skipChance>0.3</skipChance>
 			<subOptionsChooseOne>
@@ -1297,10 +1316,6 @@
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>20~50</initialResistanceRange>
 		<factionHostileOnDeath>true</factionHostileOnDeath>
-		<royalTitleChance>1</royalTitleChance>
-		<titleSelectOne>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Knight</li>
-		</titleSelectOne>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
 		<backstoryFiltersOverride>
@@ -1357,6 +1372,9 @@
 				<range>14~17</range>
 			</li>
 		</skills>
+		<techHediffsRequired>
+		<li>PsychicAmplifier</li>
+		</techHediffsRequired>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances>

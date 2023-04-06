@@ -130,6 +130,10 @@
 							<li>BorealForest</li>
 							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientForest</li>
 							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkForest</li>
+							<li MayRequire="sarg.alphabiomes">AB_IdyllicMeadows</li>
+							<li MayRequire="sarg.alphabiomes">AB_TarPits</li>
+							<li MayRequire="sarg.alphabiomes">AB_MechanoidIntrusion</li>
+							<li MayRequire="sarg.alphabiomes">AB_MiasmicMangrove</li>
 						</allowedBiomes>
 				
 						<startingGoodwillByFactionDefs>

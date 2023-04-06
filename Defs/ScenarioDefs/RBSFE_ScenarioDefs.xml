@@ -172,7 +172,7 @@
 					<overrideKinds>
 						<li>
 							<xenotype>RBSF_Satyr</xenotype>
-							<pawnKind>RBSF_SatyrBard</pawnKind>
+							<pawnKind>RBSF_SatyrBardTalentless</pawnKind>
 						</li>
 					</overrideKinds>
 					<xenotypeCounts>

@@ -88,7 +88,7 @@
 				<li>RBSFE_FaeStaff</li>
 				<li>RBSF_MelodicHealingSongSheet</li>
 				<li>RBSF_MelodicSonataSheet</li>
-				<li>RBSFE_MelodicHymnSheet</li>
+				<li>RBSF_MelodicHymnSheet</li>
 				<li>RBSF_MelodicWarcallSheet</li>
 				<li>RBSF_MelodicLullabySheet</li>
 				<li MayRequire="Ludeon.Rimworld.Ideology">GauranlenSeed</li>

@@ -119,7 +119,7 @@
 		<label>musical troupe</label>
 		<description>A community founded by a troupe of musicians.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>RBSF_SatyrBard</basicMemberKind>
+		<basicMemberKind>RBSF_SatyrBardTalentless</basicMemberKind>
 		<categoryTag>Outlander</categoryTag>
 		<pawnSingular>outlander</pawnSingular>
 		<pawnsPlural>outlanders</pawnsPlural>

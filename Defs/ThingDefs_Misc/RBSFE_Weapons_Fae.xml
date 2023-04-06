@@ -18,7 +18,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
-		<relicChance Inherit ="False">0</relicChance>
+		<relicChance Inherit="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Neolithic</techLevel>
 		<weaponTags>
@@ -97,7 +97,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.5</drawSize>
 		</graphicData>
-		<relicChance Inherit ="False">0</relicChance>
+		<relicChance Inherit="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Neolithic</techLevel>
 		<weaponTags>
@@ -161,7 +161,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
-		<relicChance Inherit ="False">0</relicChance>
+		<relicChance Inherit="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Neolithic</techLevel>
 		<weaponTags>
@@ -261,7 +261,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
-		<relicChance Inherit ="False">0</relicChance>
+		<relicChance Inherit="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
@@ -356,7 +356,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.2</drawSize>
 		</graphicData>
-		<relicChance Inherit ="False">0</relicChance>
+		<relicChance Inherit="False">0</relicChance>
 		<soundInteract>RBSFE_FaeEquip</soundInteract>
 		<stuffCategories>
 			<li>Woody</li>
@@ -454,7 +454,7 @@
 			<MarketValue>4400</MarketValue>
 			<WorkToMake>9300</WorkToMake>
 			<Mass>1</Mass>
-			<RBSF_NatureConnectionOffset>1.3</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.8</RBSF_NatureConnectionOffset>
 			<RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
 			<MaxHitPoints>200</MaxHitPoints>
 			<RoyalFavorValue>2</RoyalFavorValue>
@@ -488,6 +488,11 @@
 				</targetParams>
 			</li>
 		</verbs>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2.3</glowRadius>
+				<glowColor>(110,116,125,0)</glowColor>
+			</li></comps>
 		<modExtensions>
 			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
 				<usableWithShields>false</usableWithShields>
@@ -639,35 +644,9 @@
 		<soundExplosion>RBSFE_FaeExplosion</soundExplosion>
 	</DamageDef>
 	
-	<!--====================== Vine Stun Shite ======================-->
-	<!-- TODO: Zelan, I can't get the whip to work >:( Delete this if we can't figure it out <3 -->
-	
-	<!-- 		<DamageDef ParentName="StunBase">
-		<defName>RBSFE_VineStun</defName>
-		<workerClass>DamageWorker_Stun</workerClass>
-		<label>constricted</label>
-		<defaultDamage>20</defaultDamage>
-		<externalViolence>true</externalViolence>
-		<deathMessage>{0} was stunned to death.</deathMessage>
-		<isRanged>false</isRanged>
-		<additionalHediffs>
-			<li>
-				<hediff>RBSFE_VineWrapHeDiff</hediff>
-				<severityPerDamageDealt>1</severityPerDamageDealt>
-				<victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
-			</li>
-		</additionalHediffs>
-		<damageEffecter>VineWhip_Effect</damageEffecter>
-		<explosionCellFleck>AirPuff</explosionCellFleck>
-		<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
-		<explosionColorEdge>(0.3, 0.70, 0.88, 0.05)</explosionColorEdge>
-		<soundExplosion>RBSFE_FaeExplosion</soundExplosion>
-		<combatLogRules>Damage_Stun</combatLogRules>
-	</DamageDef> -->
-	
 	<!-- Thought given to pawns constricted by the ChokevineGrip Ability who then gain the Vine Wrap HeDiff -->
   
-	<!-- 	<ThoughtDef>
+	<ThoughtDef>
 		<defName>RBSFE_ConstrictedThought</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
 		<hediff>RBSFE_VineWrapHeDiff</hediff>
@@ -681,11 +660,11 @@
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
-	</ThoughtDef> -->
+	</ThoughtDef>
 	
 	<!-- Constricted (This HeDiff does not last as long as RBSF_VineWrapHeDiffLong, just because it would make the Anima Rod too OP -->
 
-		<HediffDef>
+	<HediffDef>
 		<defName>RBSFE_VineWrapHeDiff</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>constricted</label>

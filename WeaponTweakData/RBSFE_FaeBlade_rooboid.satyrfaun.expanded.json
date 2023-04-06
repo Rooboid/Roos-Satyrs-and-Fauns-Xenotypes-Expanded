@@ -1,0 +1,15 @@
+{
+  "TextureModID": "rooboid.satyrfaun.expanded",
+  "ItemDefName": "RBSFE_FaeBlade",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.479908139,
+  "OffY": 0.011481056,
+  "Rotation": 45.0,
+  "ScaleX": 1.3,
+  "ScaleY": 1.3,
+  "HandsMode": 1,
+  "BladeStart": 0.1859931,
+  "BladeEnd": 1.10907006,
+  "MeleeWeaponType": 6
+}
