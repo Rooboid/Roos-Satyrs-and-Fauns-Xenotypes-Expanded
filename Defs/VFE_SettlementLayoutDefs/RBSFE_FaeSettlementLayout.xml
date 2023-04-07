@@ -30,23 +30,7 @@
 			<mainRoadMinDistance>6</mainRoadMinDistance>
 			<addLinkRoadProps>false</addLinkRoadProps>
 			<linkRoadMinDistance>9</linkRoadMinDistance>
-			<scatterProps>true</scatterProps>
-			<scatterMinDistance>8</scatterMinDistance>
-			<scatterMaxAmount>150</scatterMaxAmount>
-			<scatterPropsDefs>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenLogs</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenLogsLarge</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenWagon</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_Anvil</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_ArrowCage</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BucketEmpty</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BrazierEmpty</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BucketwithWater</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_BucketwithWater</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenChest</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenChestLarge</li>
-				<li MayRequire="VanillaExpanded.VFEPropsandDecor">VFEPD_WoodenSign</li>
-			</scatterPropsDefs>
+			<scatterProps>false</scatterProps>
 		</propsOptions>
 		<roadOptions>
 			<addMainRoad>false</addMainRoad>
@@ -62,7 +46,7 @@
 			<addSandbags>false</addSandbags>
 			<addTurrets>false</addTurrets>
 			<addMortars>false</addMortars>
-			<pawnGroupMultiplier>1.3</pawnGroupMultiplier>
+			<pawnGroupMultiplier>1</pawnGroupMultiplier>
 		</defenseOptions>
 		<stockpileOptions>
 			<fillStorageBuildings>true</fillStorageBuildings>

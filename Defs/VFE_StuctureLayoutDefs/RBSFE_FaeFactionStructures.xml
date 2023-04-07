@@ -40,6 +40,69 @@
 			<li>FaeSpecial</li>
 		</tags>
 	</KCSG.StructureLayoutDef>
+	
+	<KCSG.StructureLayoutDef>
+		<defName>FaeNurserySmall</defName>
+		<isStorage>true</isStorage>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo</li>
+				<li>Plant_TreeBamboo,.,.,.,.,.,Plant_TreeBamboo</li>
+				<li>Plant_TreeBamboo,Crib_WoodLog_South,Crib_WoodLog_South,Crib_WoodLog_South,.,ShelfSmall_WoodLog_South,Plant_TreeBamboo</li>
+				<li>Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo,Plant_TreeBamboo,RBSFE_LeafTrap_WoodLog,Plant_TreeBamboo,Plant_TreeBamboo</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,BabyFood,.</li>
+				<li>.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<needRoofClearance>true</needRoofClearance>
+		<tags>
+			<li>FaeSpecial</li>
+		</tags>
+		<modRequirements>
+			<li>ludeon.rimworld.biotech</li>
+			<li>rooboid.satyrfaun.expanded</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	
+	<KCSG.StructureLayoutDef>
+		<defName>FaeWatchtower</defName>
+		<isStorage>true</isStorage>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,RBSFE_LeafTrap_WoodLog,.,.,RBSFE_LeafTrap_WoodLog,.,.</li>
+				<li>.,TorchLamp,Wall_WoodLog,.,.,Wall_WoodLog,TorchLamp,.</li>
+				<li>RBSFE_LeafTrap_WoodLog,Wall_WoodLog,Wall_WoodLog,Fence_WoodLog,Fence_WoodLog,Wall_WoodLog,Wall_WoodLog,RBSFE_LeafTrap_WoodLog</li>
+				<li>.,WoodLog,Fence_WoodLog,.,.,Fence_WoodLog,.,.</li>
+				<li>.,.,Fence_WoodLog,.,.,Fence_WoodLog,.,.</li>
+				<li>RBSFE_LeafTrap_WoodLog,Wall_WoodLog,Wall_WoodLog,Fence_WoodLog,Fence_WoodLog,Wall_WoodLog,Wall_WoodLog,RBSFE_LeafTrap_WoodLog</li>
+				<li>.,TorchLamp,Wall_WoodLog,.,.,Wall_WoodLog,TorchLamp,.</li>
+				<li>.,.,RBSFE_LeafTrap_WoodLog,.,.,RBSFE_LeafTrap_WoodLog,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,StrawMatting,StrawMatting,.,.,.</li>
+			<li>.,.,.,StrawMatting,StrawMatting,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<forceGenerateRoof>true</forceGenerateRoof>
+		<tags>
+			<li>FaeSpecial</li>
+		</tags>
+		<modRequirements>
+			<li>rooboid.satyrfaun.expanded</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 
 	<KCSG.StructureLayoutDef>
 		<defName>FaeDevilstrandSite</defName>
@@ -314,6 +377,81 @@
 			<li>FaeSpecial</li>
 		</tags>
 	</KCSG.StructureLayoutDef>
+	
+	<KCSG.StructureLayoutDef>
+		<defName>FaeCampfireSongSite</defName>
+		<isStorage>true</isStorage>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Plant_Bush,Plant_Bush,Plant_Bush,.,RBSFE_LeafTrap_WoodLog,.,Plant_Bush,Plant_Bush,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,Stool_WoodLog_North,Campfire_North,Stool_WoodLog_North,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,RBSF_MelodicWarcallSheet,Stool_WoodLog_North,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush</li>
+			</li>
+		</layouts>
+		<needRoofClearance>true</needRoofClearance>
+		<tags>
+			<li>FaeSpecial</li>
+		</tags>
+		<modRequirements>
+			<li>rooboid.satyrfaun.expanded</li>
+			<li>rooboid.satyr</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+
+	<KCSG.StructureLayoutDef>
+		<defName>FaeElegySite</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,Plant_Chokevine,Plant_Chokevine,RBSFE_LeafTrap_WoodLog,.,Plant_Chokevine,.,Plant_Chokevine,.</li>
+				<li>Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Plant_Chokevine,Wall_BlocksMarble,Door_BlocksMarble,Wall_BlocksMarble,Plant_Chokevine,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble</li>
+				<li>Plant_Chokevine,Plant_Chokevine,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,.,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Plant_Chokevine,Plant_Chokevine</li>
+				<li>Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,.,.,.,.,.,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,Sarcophagus_BlocksMarble_North,Wall_BlocksMarble,.,.,.,.,.,Wall_BlocksMarble,Sarcophagus_BlocksMarble_North,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,.,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Door_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,.,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,.,.,.,.,.,.,.,.,.,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,.,Column_BlocksMarble,.,.,RBSF_MelodicElegySheet,.,.,Column_BlocksMarble,.,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,.,TorchLamp,.,.,.,.,.,TorchLamp,.,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,Plant_Chokevine,.,.,.</li>
+				<li>.,.,.,Plant_TreeBamboo,.,.,.,Plant_TreeBamboo,.,.,.</li>
+				<li>Plant_TreeBamboo,Plant_TreeBamboo,.,.,.,.,.,.,.,Plant_TreeBamboo,Plant_TreeBamboo</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,WaterShallow,.,.,.,.,.</li>
+			<li>.,.,.,.,.,WaterShallow,.,.,.,.,.</li>
+			<li>.,.,.,WaterShallow,WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,.,.</li>
+			<li>.,TileMarble,.,WaterShallow,WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,TileMarble,.</li>
+			<li>.,TileMarble,.,.,.,WaterShallow,.,.,.,TileMarble,.</li>
+			<li>.,TileMarble,TileMarble,TileMarble,SilverTile,FlagstoneMarble,SilverTile,TileMarble,TileMarble,TileMarble,.</li>
+			<li>.,TileMarble,TileMarble,TileMarble,FlagstoneMarble,GoldTile,FlagstoneMarble,TileMarble,TileMarble,TileMarble,.</li>
+			<li>.,TileMarble,TileMarble,TileMarble,SilverTile,FlagstoneMarble,SilverTile,TileMarble,TileMarble,TileMarble,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<needRoofClearance>true</needRoofClearance>
+		<tags>
+			<li>FaeSpecial</li>
+		</tags>
+		<modRequirements>
+			<li>rooboid.satyrfaun.expanded</li>
+			<li>rooboid.satyr</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 
 	<KCSG.StructureLayoutDef>
 		<defName>FaeSteeleSite</defName>
@@ -514,6 +652,7 @@
 
 	<KCSG.StructureLayoutDef>
 		<defName>FaeRuinsSite</defName>
+		 <isStorage>true</isStorage>
 		<spawnConduits>false</spawnConduits>
 		<layouts>
 			<li>
@@ -1209,6 +1348,36 @@
 			<li>ludeon.rimworld.biotech</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	
+	<KCSG.StructureLayoutDef>
+		<defName>FaeRectBuildTraps</defName>
+		<isStorage>true</isStorage>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,RBSFE_LeafTrap_WoodLog,.,.,.,.,RBSFE_LeafTrap_WoodLog,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.</li>
+				<li>Wall_WoodLog,Wall_WoodLog,AnimalFlap_DevilstrandCloth,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,AnimalFlap_DevilstrandCloth,Wall_WoodLog,Wall_WoodLog</li>
+				<li>Wall_WoodLog,TorchLamp,.,.,.,.,.,.,TorchLamp,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,.</li>
+			<li>.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.</li>
+			<li>.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<tags>
+			<li>FaeStorage</li>
+		</tags>
+		<modRequirements>
+			<li>rooboid.satyrfaun.expanded</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 
 	<KCSG.StructureLayoutDef>
 		<defName>FaeBrewerySite</defName>
@@ -1387,6 +1556,59 @@
 			<li>FaeStorage</li>
 		</tags>
 	</KCSG.StructureLayoutDef>
+	
+	<KCSG.StructureLayoutDef>
+		<defName>FaeMusicSchool</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>TorchLamp,Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,AnimalFlap_DevilstrandCloth,Wall_WoodLog,AnimalFlap_DevilstrandCloth,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Fence_WoodLog,Fence_WoodLog,Fence_WoodLog,.</li>
+				<li>Plant_Chokevine,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Plant_TreeBamboo,Plant_TreeBamboo,Fence_WoodLog,.</li>
+				<li>Plant_Bush,Wall_WoodLog,.,Stool_WoodLog_North,.,Stool_WoodLog_North,.,Stool_WoodLog_North,.,Wall_WoodLog,Plant_TreeBamboo,Plant_TreeBamboo,Fence_WoodLog,.</li>
+				<li>Plant_Chokevine,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.</li>
+				<li>Plant_Chokevine,Wall_WoodLog,.,Stool_WoodLog_North,.,Stool_WoodLog_North,.,Stool_WoodLog_North,.,Wall_WoodLog,Shelf_WoodLog_North,.,Wall_WoodLog,.</li>
+				<li>Plant_Bush,Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog,.</li>
+				<li>Plant_Chokevine,Wall_WoodLog,TorchLamp,.,.,DiningChair_WoodLog_South,.,.,TorchLamp,.,.,.,Wall_WoodLog,.</li>
+				<li>Plant_Chokevine,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,.,Shelf_WoodLog_South,Wall_WoodLog,.</li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+				<li>TorchLamp,Wall_WoodLog,Plant_Chokevine,Plant_Bush,Plant_Chokevine,Plant_Bush,Plant_Bush,Plant_Chokevine,Plant_Chokevine,Plant_Bush,Plant_Chokevine,Plant_Bush,Wall_WoodLog,TorchLamp</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,RBSF_Lute,.,RBSF_Lute,.,RBSF_ReedFlute,.,.,.,.,.,.</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,RBSF_Lyre,.,RBSF_Lyre,.,RBSF_ReedFlute,.,.,Milk,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,RBSF_MelodicLullabySheet,WoodLog,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,Plant_Bush,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,.,.,.,.</li>
+			<li>.,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,.,.,.,.</li>
+			<li>.,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,.,.,.,.</li>
+			<li>.,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,StrawMatting,.,.</li>
+			<li>.,.,StrawMatting,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,.</li>
+			<li>.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,StrawMatting,StrawMatting,StrawMatting,.,.</li>
+			<li>.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,StrawMatting,StrawMatting,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<needRoofClearance>true</needRoofClearance>
+		<tags>
+			<li>FaeStorage</li>
+		</tags>
+		<modRequirements>
+			<li>rooboid.satyr</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 
 	<KCSG.StructureLayoutDef>
 		<defName>FaeBoxStoreSite</defName>
@@ -1477,6 +1699,7 @@
 
 	<KCSG.StructureLayoutDef>
 		<defName>FaeBedroomBSite</defName>
+		 <isStorage>true</isStorage>
 		<spawnConduits>false</spawnConduits>
 		<layouts>
 			<li>
@@ -1742,6 +1965,107 @@
 		</tags>
 		<modRequirements>
 			<li>rooboid.satyrfaun.expanded</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	
+	<KCSG.StructureLayoutDef>
+		<defName>FaeBushBedrooms</defName>
+		<isStorage>true</isStorage>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Plant_TreeCecropia,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_TreeCecropia,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_TreeCecropia</li>
+				<li>Plant_Bush,.,.,.,.,Plant_Bush,Plant_TreeCecropia,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,Plant_Bush,Plant_TreeCecropia,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,BedrollDouble_WoolAlpaca_South,.,Plant_Bush,Plant_TreeCecropia,Plant_Bush,.,.,BedrollDouble_WoolAlpaca_South,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,Plant_Bush,Plant_Bush,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Campfire_North,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,Plant_Bush,Plant_Bush,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,BedrollDouble_WoolAlpaca_North,.,.,Plant_Bush,Plant_TreeCecropia,Plant_Bush,.,BedrollDouble_WoolAlpaca_North,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,Plant_Bush,Plant_TreeCecropia,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,.,Plant_Bush,Plant_TreeCecropia,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_TreeCecropia,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_TreeCecropia,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_TreeCecropia</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,SoilRich,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,SoilRich,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,SoilRich,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,SoilRich,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,SoilRich,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,Soil,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,Soil,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich,Soil,SoilRich,StrawMatting,StrawMatting,StrawMatting,StrawMatting,SoilRich</li>
+			<li>SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,Soil,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich,SoilRich</li>
+		</terrainGrid>
+		<needRoofClearance>true</needRoofClearance>
+		<tags>
+			<li>FaeBedroom</li>
+		</tags>
+	</KCSG.StructureLayoutDef>
+
+	<KCSG.StructureLayoutDef>
+		<defName>FaeMaze</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,.,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,.,.,.,.,.</li>
+				<li>.,.,.,.,Plant_Bush,.,.,.,.,RBSFE_LeafTrap_WoodLog,.,.,.,.,.</li>
+				<li>.,.,.,.,Plant_Bush,.,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush</li>
+				<li>.,.,.,.,Plant_Bush,.,Plant_Bush,.,.,.,.,.,.,.,Plant_Bush</li>
+				<li>.,.,.,.,Plant_Bush,.,Plant_Bush,.,.,TorchLamp,.,Plant_Bush,.,.,Plant_Bush</li>
+				<li>Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,.,Plant_Bush,.,.,Plant_Bush,.,Plant_Bush,.,Shelf_WoodLog_South,Plant_Bush</li>
+				<li>RBSFE_LeafTrap_WoodLog,.,.,.,.,.,Plant_Bush,.,.,Plant_Bush,.,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush</li>
+				<li>Plant_Grass,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,.,Plant_Bush,.,PlantPot_BlocksMarble,Plant_Bush,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Grass,.,.,.,Plant_Bush,.,Plant_Bush,.,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,.,Plant_Bush</li>
+				<li>Plant_Bush,.,ShelfSmall_WoodLog_North,.,Plant_Bush,.,Plant_Bush,.,Plant_Bush,TorchLamp,.,TorchLamp,Plant_Bush,.,Plant_Bush</li>
+				<li>Plant_Bush,.,.,.,Plant_Bush,.,Plant_Bush,.,Plant_Bush,.,RBSF_MelodicLullabySheet,.,Plant_Bush,.,Plant_Bush</li>
+				<li>Plant_Bush,Plant_Bush,.,Plant_Bush,Plant_Bush,.,Plant_Bush,.,Plant_Bush,.,.,.,Plant_Bush,.,Plant_Bush</li>
+				<li>Plant_Grass,.,.,.,.,.,.,.,Plant_Bush,.,.,.,.,.,Plant_Bush</li>
+				<li>Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush,Plant_Bush</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,.,.</li>
+			<li>WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,StrawMatting,.,.,.,.,.,.,.,.,.</li>
+			<li>WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,StrawMatting,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.</li>
+			<li>WaterShallow,WaterShallow,WaterShallow,WaterShallow,.,StrawMatting,.,StrawMatting,StrawMatting,.,StrawMatting,.,StrawMatting,StrawMatting,.</li>
+			<li>.,.,.,.,.,StrawMatting,.,StrawMatting,StrawMatting,.,StrawMatting,.,StrawMatting,StrawMatting,.</li>
+			<li>StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,StrawMatting,.,StrawMatting,.,.,.,.</li>
+			<li>.,.,.,.,.,StrawMatting,.,StrawMatting,StrawMatting,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.</li>
+			<li>.,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,.,StrawMatting,.,.,.,.,.,StrawMatting,.</li>
+			<li>.,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,.,StrawMatting,.,TileMarble,TileMarble,TileMarble,.,StrawMatting,.</li>
+			<li>.,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,.,StrawMatting,.,TileMarble,TileMarble,TileMarble,.,StrawMatting,.</li>
+			<li>.,.,StrawMatting,.,.,StrawMatting,.,StrawMatting,.,TileMarble,TileMarble,TileMarble,.,StrawMatting,.</li>
+			<li>.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.,StrawMatting,StrawMatting,StrawMatting,StrawMatting,StrawMatting,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<needRoofClearance>true</needRoofClearance>
+		<tags>
+			<li>FaeBedroom</li>
+		</tags>
+		<modRequirements>
+			<li>rooboid.satyrfaun.expanded</li>
+			<li>rooboid.satyr</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
 

@@ -130,17 +130,27 @@
 							<li>BorealForest</li>
 							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientForest</li>
 							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkForest</li>
+							
 							<li MayRequire="sarg.alphabiomes">AB_IdyllicMeadows</li>
 							<li MayRequire="sarg.alphabiomes">AB_TarPits</li>
 							<li MayRequire="sarg.alphabiomes">AB_MechanoidIntrusion</li>
 							<li MayRequire="sarg.alphabiomes">AB_MiasmicMangrove</li>
+							
+							<li MayRequire="zylle.MoreVanillaBiomes">ZBiome_Grasslands</li>
+
+							<li MayRequire="BiomesTeam.BiomesIslands">BiomesIslands_TropicalIsland</li>
+							
 						</allowedBiomes>
 				
 						<startingGoodwillByFactionDefs>
 							<OutlanderCivil>33</OutlanderCivil>
 							<TribeCivil>33</TribeCivil>
-							<TribeMinotaur MayRequire="Rooboid.Minotaur">33</TribeMinotaur>
-							<SerenCivilBase MayRequire="odysseylotus.seren">33</SerenCivilBase>
+							
+							<TribeMinotaur MayRequire="Rooboid.Minotaur">75</TribeMinotaur>
+							<SerenCivilBase MayRequire="odysseylotus.seren">75</SerenCivilBase>
+							<SerenPlayerBase MayRequire="odysseylotus.seren">75</SerenPlayerBase>
+							<AztecCivil MayRequire="odysseylotus.AztecAllTogether">33</AztecCivil>
+
 						</startingGoodwillByFactionDefs>
 					</li>
 			

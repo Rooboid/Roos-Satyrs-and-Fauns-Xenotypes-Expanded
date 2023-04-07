@@ -6,7 +6,7 @@
 	<CultureDef>
 		<defName>RBSFE_FaeCulture</defName>
 		<label>fae</label>
-		<description>A free-spirited culture celebrated by those who dwell peacefully within the forests of the rim.</description>
+		<description>A free-spirited culture celebrated by those who dwell within the forests of the rim.</description>
 		<pawnNameMaker>NamerPersonFae_Male</pawnNameMaker>
 		<pawnNameMakerFemale>NamerPersonFae_Female</pawnNameMakerFemale>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFae_Ideo</ideoNameMaker>

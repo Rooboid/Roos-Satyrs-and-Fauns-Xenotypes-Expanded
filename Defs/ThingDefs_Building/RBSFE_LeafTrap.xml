@@ -2,12 +2,11 @@
 <Defs>
 
 	<!--==================== Leaf Trap ======================== -->
-	<!-- TODO: Can pawns who trigger this trap get the RBSF_LeafTrapHeDiff HeDiff? -->
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>RBSFE_LeafTrap</defName>
 		<label>leaf trap</label>
-		<description>A deep pit, concealed by a pile of leaves, that traps unsuspecting foes within it for a short time. Since the pit is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+		<description>A deep pit, concealed by a pile of leaves, that traps unsuspecting foes within it for a short time. It takes very few resources to make, but a long time to build. Animals can sense these when calm.</description>
 		<thingClass>Building_TrapDamager</thingClass>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
@@ -31,7 +30,7 @@
 		<statBases>
 			<Mass>0.5</Mass>
 			<MaxHitPoints>40</MaxHitPoints>
-			<WorkToBuild>6200</WorkToBuild>
+			<WorkToBuild>6220</WorkToBuild>
 			<Flammability>1</Flammability>
 			<Beauty>-10</Beauty>
 			<Cleanliness>-8</Cleanliness>
@@ -61,7 +60,6 @@
 	</ThingDef>
   
 	<!--====================== Leaf Trap HeDiff ======================-->
-	<!-- TODO: Give pawns who trigger the leaf trap this HeDiff -->
 
 	<HediffDef>
 		<defName>RBSF_LeafTrapHeDiff</defName>

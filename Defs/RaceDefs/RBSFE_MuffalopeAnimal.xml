@@ -8,14 +8,13 @@
 		<defName>RBSFE_Muffalope</defName>
 		<label>muffalope</label>
 		<!-- <devNote>cow-1</devNote> -->
-		<description>A crossbreed of a deer and a muffalo with mysterious origins; while some theorise it to merely be the product of genetic engineering, others follow a legend that it was the creation of a tribal psycaster. The muffalope is smaller, weaker and eats less than it’s blue counterpart, but it's more insulated against the elements and has a tendency to nuzzle more often.</description>
+		<description>A crossbreed of a deer and a muffalo with mysterious origins; while some theorise it to be the product of a genetic engineering experiment, a legend exists that it was the creation of a talented psycaster. The muffalope is smaller, weaker and eats less than its blue counterpart, but it's more insulated against the elements and has a tendency to nuzzle more often.</description>
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<MarketValue>280</MarketValue>
 			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
-			<ComfyTemperatureMax>48</ComfyTemperatureMax>
+			<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<FilthRate>14</FilthRate>
-			<CaravanRidingSpeedFactor>1.1</CaravanRidingSpeedFactor>
 		</statBases>
 		<uiIconScale>1.35</uiIconScale>
 		<comps>
@@ -28,8 +27,8 @@
 		<race>
 			<herdAnimal>true</herdAnimal>
 			<body>QuadrupedAnimalWithHooves</body>
-			<baseBodySize>2.2</baseBodySize>
-			<baseHealthScale>1.15</baseHealthScale>
+			<baseBodySize>2.3</baseBodySize>
+			<baseHealthScale>1.55</baseHealthScale>
 			<baseHungerRate>0.435</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
@@ -71,6 +70,7 @@
 		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
+			<li>AnimalFarm</li>
 		</tradeTags>
 		<tools>
 			<li>

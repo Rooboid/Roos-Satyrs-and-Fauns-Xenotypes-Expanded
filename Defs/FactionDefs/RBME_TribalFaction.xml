@@ -5,7 +5,7 @@
 		<label>fae tribe</label>
 		<pawnSingular>fae</pawnSingular>
 		<pawnsPlural>fae</pawnsPlural>
-		<description>A seldom-seen miscellany of forest-dwelling creatures whose love of revelry and peace supersedes their need for power. Their population dwindles due to the rampant deforestation of their territory at the hands of mechanoids, which the fae’s primitive weaponry stands no chance against. \n\nCurious xenos from this faction may seek to make peace with a charitable colony, provided there is enough wine and music to go around.</description>
+		<description>A seldom-seen miscellany of forest-dwelling creatures whose love of revelry and peace supersedes their need for power. Their population dwindles due to the rampant deforestation of their territory at the hands of mechanoids, which the fae’s primitive weaponry stands no chance against.</description>
 		<colorSpectrum>
 			<li>(57,116,67)</li>
 			<li>(60,70,50)</li>
@@ -169,26 +169,23 @@
 			<li>
 				<!-- High-Class Fighter Raid -->
 				<kindDef>Combat</kindDef>
-				<commonality>30</commonality>
+				<commonality>10</commonality>
 				<options>
 					<RBSF_FaeArcher>8</RBSF_FaeArcher>
 					<RBSF_FaeCleric>0.5</RBSF_FaeCleric>
-					<RBSF_FaeGuardian>10</RBSF_FaeGuardian>
-					<RBSF_Lansquenet>6</RBSF_Lansquenet>
-					<RBSF_Paragon>0.02</RBSF_Paragon>
+					<RBSF_FaeGuardian>7</RBSF_FaeGuardian>
+					<RBSF_Lansquenet>3</RBSF_Lansquenet>
+					<RBSF_Paragon>1</RBSF_Paragon>
 				</options>
 			</li>
 			<li>
 				<!-- Ranged Raid - Rare -->
 				<kindDef>Combat</kindDef>
-				<commonality>2</commonality>
+				<commonality>10</commonality>
 				<options>
-					<Tribal_Archer>10</Tribal_Archer>
-					<Tribal_Hunter>10</Tribal_Hunter>
-					<Tribal_HeavyArcher>10</Tribal_HeavyArcher>
-					<Tribal_ChiefRanged>5</Tribal_ChiefRanged>
-					<RBSF_FaeArcher>15</RBSF_FaeArcher>
-					<RBSF_Paragon>0.02</RBSF_Paragon>
+					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
+					<RBSF_FaeArcher>10</RBSF_FaeArcher>
+					<RBSF_Paragon>0.5</RBSF_Paragon>
 				</options>
 			</li>
 			<li>

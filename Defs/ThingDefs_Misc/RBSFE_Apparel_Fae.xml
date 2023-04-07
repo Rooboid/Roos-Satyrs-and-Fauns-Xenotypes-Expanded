@@ -462,7 +462,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBSFE_Faecap</defName>
 		<label>faecap</label>
-		<description>A large cap worn by fae clerics. It strengthens the wearer’s connection with nature.</description>
+		<description>A large cap worn by clerics. It strengthens the wearer’s connection with nature and slightly boosts their psychic sensitivity.</description>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecap/RBSFE_FaecapIC</texPath>

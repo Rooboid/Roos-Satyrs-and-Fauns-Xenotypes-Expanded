@@ -7,9 +7,9 @@
 	<ScenarioDef>
 		<defName>RBSFE_TheFaunScientists</defName>
 		<label>The Faun Scientists</label>
-		<description>You embark on a journey far below your pay grade. But it’s for science. And you love science.\n\nYou and two lesser-minded scientists depart from your Glitterworld space station onto the surface of a Rimworld. Your goal, or rather, their goal (your goals are much more grandiose) is to establish a laboratory on the rim and study the local fauna. But be warned, rumours of your arrival have spread far and wide, and very few communities on the Rim welcome invaders.</description>
+		<description>You embark on a journey far below your pay grade. But it’s for science. And you love science.\n\nYou and your lesser-minded subordinates depart from your Glitterworld space station onto the surface of a Rimworld to establish a laboratory there and study the local fauna. But be warned, rumours of your arrival have spread far and wide, and very few communities on the rim welcome invaders.</description>
 		<scenario>
-			<summary>Difficulty: Easy\nThree Fauns establish a laboratory on the rim.</summary>
+			<summary>Three Fauns establish a laboratory on the rim. A comfortable start.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerTheFaunScientists</factionDef>
@@ -141,7 +141,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>It’s a journey far below your pay grade. But it’s for science. And you love science. \n\nA minor slip-up during your residency on a Glitterworld space station had you sentenced to five months of ‘charity work’: an obligation to lend your superior intellect to the lesser scientists of the station and support them in their (simple-minded) studies. \n\nYour latest case-study leads you, and the plebians you mentor, down onto the surface of a Rimworld to collect samples, write reports and endure the inevitability of making small-talk. The space station has, and will continue to, send you cargo pods of useful supplies. Establish a laboratory on the surface and remember: your subordinates are your responsibility. Protect them.
+					<text>It’s a journey far below your pay grade. But it’s for science. And you love science. \n\nA minor slip-up during your residency on a Glitterworld space station had you sentenced to five months of ‘charity work’: an obligation to lend your superior intellect to the lesser scientists of the station and support them in their (simple-minded) studies. The space station has, and will continue to, send you cargo pods of useful supplies, provided you work towards establishing a laboratory on the rim and collect research on the local fauna.
 					</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
@@ -155,10 +155,10 @@
 	<ScenarioDef>
 		<defName>RBSFE_SabotagedBards</defName>
 		<label>Sabotaged Bards</label>
-		<description>Your four-piece band vowed to take the Rim by storm with your music. But on your travels, your troupe are forced to defend themselves against a band of brigands, armed with nothing more than your musical instruments. \n\nSomehow, you prevail, but are left stranded in the remains of your hopes and dreams. Now, more than ever, the four of you must pull yourselves together in order to survive.
+		<description>Your four-piece band vowed to take the Rim by storm with your music. But along the way, your troupe are forced to defend themselves against a band of brigands, armed with nothing more than your musical instruments. \n\nSomehow, you prevail, but are left stranded in the remains of your hopes and dreams. Now, more than ever, the four of you must pull yourselves together in order to survive.
 		</description>
 		<scenario>
-			<summary>Difficulty: Medium\n Four Satyrs vow to become musical sensations.</summary>
+			<summary>Four Satyrs vow to become musical sensations. Medium difficulty.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerSabotagedBards</factionDef>
@@ -292,7 +292,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>“You’ll see our names in lights someday, ma! Just you wait.” \n\nYour ‘ma’ just sighed. Though she didn’t want to, she couldn’t help but believe in you. And with that final goodbye, you and your bard-mates rode into the sunset, high on ma’s hopes for you (and a little bit of smokeleaf). \n\nSoon, the wagon faltered. You awoke. Something fired towards you and tore the vehicle into planks. Brigands swarmed the remains, holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat each of them, one by one, into surrender. Standing over the rubble of you and your band’s hopes and dreams, you ponder how you will ever make it to stardom now.
+					<text>You and your plucky bandmates were ready to take the Rim by storm with your sound, high on your ma’s hopes for you (and a little bit of smokeleaf). \n\nThe four of you hopped in your wagon and set off for the Empire, but as night fell, brigands swarmed the vehicle, smashing it to pieces and holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat them surrender. Standing over the rubble of your hopes and dreams, you ponder how you will ever make it to stardom now.
 					</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
@@ -303,12 +303,12 @@
 	<!--====================== Last Fae Standing ======================-->
 	<!-- Difficulty: Hard -->
 
-	<ScenarioDef>
+	<ScenarioDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
 		<defName>RBSFE_LastFaeStanding</defName>
 		<label>Last Fae Standing</label>
-		<description>You were the one to birth your tribe. And you were also the one to lay it to rest at the hand of mechanoids. \n\nYou start this scenario at the site of your old tribe: Mechanoids are running rampant and only you survive. See what you can recover from the debris, before the mechanoids spot you, then rebuild your community in the name of revenge. \n\nNote: This scenario is very difficult and works best with Vanilla Expanded’s Framework.</description>
+		<description>You were the one to birth your tribe. And you were also the one to lay it to rest at the hand of mechanoids. \n\nYou start this scenario at the site of your old tribe: Mechanoids are running rampant and only you survive. See what you can recover from the debris, before the mechanoids spot you, then rebuild your community in the name of revenge. \n\nNote: This scenario is unfair, as you start on a map with hostile mechanoids.</description>
 		<scenario>
-			<summary>Difficulty: Hard \nOne powerful tribe leader seeks revenge.</summary>
+			<summary>One powerful tribe leader seeks revenge. Unfair.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerLastFaeStanding</factionDef>
@@ -415,7 +415,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>What an honour it was; to oversee the success of your beautiful tribe. And what a horror it was to see it fall. A forest once abundant in frolicking fauns and singing satyrs is now flattened and rife with mechanical giants. \n\nArmed with the formidable Anima rod of your ancestors, you watch the destruction from behind the foliage. See what you can pilfer from the foresty remains, before setting out on a quest to resurrect your glory. \n\nWarning: There are mechanoids currently on the map. Be careful.</text>
+					<text>What an honour it was; to oversee the success of your beautiful tribe. And what a horror it was, to see it fall. A forest once abundant in frolicking fauns and singing satyrs is now flattened and rife with mechanical giants. \n\nArmed with a formidable weapon, you watch the destruction from behind the foliage. See what you can pilfer from the foresty remains, before setting out on a quest to resurrect your glory. \n\nWarning: There are mechanoids currently on the map. Be careful your pawn doesn't wander into the crossfire.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>

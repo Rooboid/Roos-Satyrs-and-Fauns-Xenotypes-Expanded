@@ -35,15 +35,15 @@ Giddy-Up 2: https://steamcommunity.com/sharedfiles/filedetails/?id=2934245647
 Roo's Faun Xenotype:
 - Extends the Satyr name pool to include more names for Satyrs, as well as unique nicknames.
 
-Consolidated Traits: https://steamcommunity.com/sharedfiles/filedetails/?id=1507384362&searchtext=consolidated
+Consolidated Traits: https://steamcommunity.com/sharedfiles/filedetails/?id=1507384362
 - The uncouth trait clashes with Consolidated Traits' diplomat trait.
 - Specific consolidated traits can appear in satyr backstories.
 
-Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655&searchtext=traits+expanded
+Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
 - The uncouth trait clashes with VE's prude and anxious traits.
 - Specific consolidated traits can appear in satyr backstories.
 
-Way Better Romance: https://steamcommunity.com/sharedfiles/filedetails/?id=2877731755&searchtext=way+better+romance
+Way Better Romance: https://steamcommunity.com/sharedfiles/filedetails/?id=2877731755
 - The uncouth trait clashes with Consolidated Traits' faithful trait.
 
 Elders Faction: https://steamcommunity.com/sharedfiles/filedetails/?id=2282867140
@@ -53,7 +53,7 @@ Elders Faction: https://steamcommunity.com/sharedfiles/filedetails/?id=228286714
 RJW:
 - Uncouth pawns have an increased "hand-holding" frequency.
 
-[Alien/Race] Seren, from Stardust: https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783&searchtext=seren
+[Alien/Race] Seren, from Stardust: https://steamcommunity.com/sharedfiles/filedetails/?id=2704627783
 - A new gene has been added: 'Seren Goat Horns'. No pawns will spawn with this gene natively, but you can use it to make your own Seren-Satyr hybrids!
 
 Melee Animations: https://steamcommunity.com/sharedfiles/filedetails/?id=2944488802
@@ -124,7 +124,7 @@ Alpha Animals: https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856
 - Certain items will appear as loot in fae settlements, as well as in the inventories of fae pawns.
 - The Last Fae Standing scenario will always start with a tamed Anima Colossus.
 
-Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655&searchtext=traits+expanded
+Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
 - Specific traits can appear in backstories.
 
 Giddy-Up 2: https://steamcommunity.com/sharedfiles/filedetails/?id=2934245647
@@ -173,3 +173,6 @@ Melee Animation: https://steamcommunity.com/sharedfiles/filedetails/?id=29444888
 
 More Religious Origins: https://steamcommunity.com/sharedfiles/filedetails/?id=2620745910
 - Fae faction may have a Druidic structure.
+
+Hair Modding Plus: https://steamcommunity.com/sharedfiles/filedetails/?id=2947607004
+- Alpha masks added to new hairstyles.

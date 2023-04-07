@@ -82,7 +82,7 @@
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.05</LTS_Elfin>
 			</xenotypeChances>
 		</xenotypeSet>
-				<inventoryOptions>
+		<inventoryOptions>
 			<skipChance>0.7</skipChance>
 			<subOptionsChooseOne>
 				<li>
@@ -270,7 +270,7 @@
 		</skills>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
 		<abilities>
-		<li>RBSF_MelodicWarcall</li>
+			<li>RBSF_MelodicWarcall</li>
 		</abilities>
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
@@ -365,11 +365,10 @@
 			</li>
 		</backstoryFiltersOverride>
 		<techHediffsRequired>
-		<li>PsychicAmplifier</li>
+			<li>PsychicAmplifier</li>
 		</techHediffsRequired>
 		<abilities MayRequire="Ludeon.RimWorld.Royalty">
-		<li>Painblock</li>
-		<li>BlindingPulse</li>
+			<li>Painblock</li>
 		</abilities>
 		<weaponMoney>200~1500</weaponMoney>
 		<weaponTags>
@@ -531,7 +530,7 @@
 			</xenotypeChances>
 		</xenotypeSet>
 		<abilities>
-		<li>RBSF_MelodicLullaby</li>
+			<li>RBSF_MelodicLullaby</li>
 		</abilities>
 		<requiredWorkTags>
 			<li>Social</li>
@@ -602,7 +601,7 @@
 			</xenotypeChances>
 		</xenotypeSet>
 		<abilities>
-		<li>RBSF_MelodicSonata</li>
+			<li>RBSF_MelodicSonata</li>
 		</abilities>
 		<requiredWorkTags>
 			<li>Artistic</li>
@@ -681,7 +680,7 @@
 			</xenotypeChances>
 		</xenotypeSet>
 		<abilities>
-		<li>RBSF_MelodicHymn</li>
+			<li>RBSF_MelodicHymn</li>
 		</abilities>
 		<inventoryOptions>
 			<skipChance>0.3</skipChance>
@@ -1114,19 +1113,16 @@
 	
 	<PawnKindDef Parent="FaeBase">
 		<defName>RBSF_Paragon</defName>
+		<label>paragon</label>
 		<race>Human</race>
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
+		<factionLeader>true</factionLeader>
 		<isFighter>True</isFighter>
-		<label>paragon</label>
 		<maxGenerationAge>100</maxGenerationAge>
 		<combatPower>165</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>20~50</initialResistanceRange>
 		<factionHostileOnDeath>true</factionHostileOnDeath>
-		<royalTitleChance>1</royalTitleChance>
-		<titleSelectOne>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Knight</li>
-		</titleSelectOne>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
 		<backstoryFiltersOverride>
@@ -1302,6 +1298,13 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 		<techHediffsChance>0.22</techHediffsChance>
+		<techHediffsRequired>
+			<li>PsychicAmplifier</li>
+		</techHediffsRequired>
+		<abilities MayRequire="Ludeon.RimWorld.Royalty">
+			<li>Painblock</li>
+			<li>Burden</li>
+		</abilities>
 	</PawnKindDef>
 	
 	<!-- Fae Paragon - Player version -->
@@ -1373,7 +1376,7 @@
 			</li>
 		</skills>
 		<techHediffsRequired>
-		<li>PsychicAmplifier</li>
+			<li>PsychicAmplifier</li>
 		</techHediffsRequired>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
