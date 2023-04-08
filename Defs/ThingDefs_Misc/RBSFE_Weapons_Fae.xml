@@ -541,7 +541,7 @@
 			<texPath>Things/Projectile/RBSFE_AnimaBullet</texPath>
 			<graphicClass>Graphic_Flicker</graphicClass>
 		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
+		<thingClass>Roos_Satyrs_and_Fauns_Expanded.Anima_Rod_Projectile</thingClass>
 		<projectile>
 			<damageDef>RBSFE_AnimaDamage</damageDef>
 			<explosionRadius>5.6</explosionRadius>
@@ -662,7 +662,7 @@
 	<!-- Constricted (This HeDiff does not last as long as RBSF_VineWrapHeDiffLong, just because it would make the Anima Rod too OP -->
 
 	<HediffDef>
-		<defName>RBSFE_VineWrapHeDiff</defName>
+		<defName>RBSF_VineWrapHeDiff</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>constricted</label>
 		<labelNoun>constriction</labelNoun>
@@ -677,7 +677,7 @@
 		<initialSeverity>1</initialSeverity>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-73</severityPerDay>
+				<severityPerDay>-400</severityPerDay>
 			</li>
 			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
 				<otherHediff>HeDiffSeeRed</otherHediff>
