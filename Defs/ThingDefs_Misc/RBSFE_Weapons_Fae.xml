@@ -647,7 +647,7 @@
 	<ThoughtDef>
 		<defName>RBSFE_ConstrictedThought</defName>
 		<workerClass>ThoughtWorker_Hediff</workerClass>
-		<hediff>RBSFE_VineWrapHeDiff</hediff>
+		<hediff>RBSF_VineWrapHeDiff</hediff>
 		<validWhileDespawned>true</validWhileDespawned>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ChokevineThought/RBSF_ChokevineThought</icon>
