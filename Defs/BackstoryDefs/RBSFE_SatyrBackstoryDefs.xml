@@ -199,7 +199,7 @@
 		<title>barsong hero</title>
 		<titleShort>drunk</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] sang songs of merriment, songs of joy, songs that others couldn't help but sing along to, to entertain the guests at [PAWN_possessive] village inn. The innkeepers gained so much business from these nightly sing-songs that [PAWN_nameDef] could have all the beer [PAWN_pronoun] liked, which was [PAWN_possesive] favourite form of payment.</baseDesc>
+		<baseDesc>[PAWN_nameDef] sang songs of merriment, songs of joy, songs that others couldn't help but sing along to, to entertain the guests at [PAWN_possessive] village inn. The innkeepers gained so much business from these nightly sing-songs that [PAWN_nameDef] could have all the beer [PAWN_pronoun] liked, which was [PAWN_possessive] favourite form of payment.</baseDesc>
 		<bodyTypeMale>Fat</bodyTypeMale>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>

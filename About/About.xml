@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Roo's Satyr and Faun Xenotypes Expanded</name>
-<author>Rooboid</author>
-<supportedVersions>
+	<name>Roo's Satyr and Faun Xenotypes Expanded</name>
+	<author>Rooboid, Zelan</author>
+	<supportedVersions>
 		<li>1.4</li>
-</supportedVersions>
-<packageId>Rooboid.SatyrFaun.Expanded</packageId>
+	</supportedVersions>
+	<packageId>Rooboid.SatyrFaun.Expanded</packageId>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
@@ -15,18 +15,11 @@
 		<li>Owlchemist.GiddyUp</li>
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>VanillaExpanded.VMemesE</li>
-		<li>VanillaExpanded.VanillaTraitsExpanded</li>
-		<li>VanillaExpanded.VanillaAnimalsExpanded</li>
-		<li>Sarg.AlphaMemes</li>
-		<li>sarg.alphaanimals</li>
-		<li>LimeTreeSnake.Xenotech</li>
-		<li>xrushha.animagear</li>
-		<li>hh.xrushha.AnimaAnimalsCombined</li>
 		<li>Rooboid.Minotaur</li>
 		<li>Rooboid.Faun</li>
 		<li>Rooboid.Satyr</li>
 	</loadAfter>
-		<modDependencies>
+	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
@@ -45,12 +38,32 @@
 			<downloadUrl>https://steamcommunity.com/id/rooboid</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/id/rooboid</steamWorkshopUrl>
 		</li>
-				<li>
+		<li>
 			<packageId>Rooboid.Satyr</packageId>
 			<displayName>Roo's Satyr Xenotype</displayName>
 			<downloadUrl>https://steamcommunity.com/id/rooboid</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/id/rooboid</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-<description> Tasty Decription </description>
+	<description>Lead your own tribe of Mother Nature’s finest warriors in this expanded module of Roo’s Satyr and Faun Xenotypes expanded. Craft leaves into ornate weaponry and apparel, tame the soft and cuddly Muffalope, and explore uniquely generated fae settlements as you embark on your quest for the ultimate fae weapon: The Anima Rod.
+
+&lt;size=25&gt;• Features&lt;/size&gt;
+
+• A huge new faction of mysterious satyrs and fauns that oppose the mechanoid uprising.
+• 25+ backstories.
+• 25 hairstyles, perfect for your satyr and fauns.
+• 7 new pieces of apparel.
+• 6 ornate weapons.
+• 3 new starting scenarios that'll really test your skills.
+• Various DLC add-ons and compatibilities with other great mods.
+
+&lt;size=25&gt;• For More…&lt;/size&gt;
+
+If you’re looking for more features, check out Roo’s Satyr and Faun Xenotypes Expanded, which fleshes out the two xenotypes with factions, apparel, hairstyles and more. For more information on mod compatibilities, bugs or plans for the future, please visit my steam workshop page or receive behind-the-scenes updates on my patreon: https://www.patreon.com/Rooboid
+
+&lt;size=25&gt;• Credits&lt;/size&gt;
+
+All credits can be found in the mod's 'About' folder.
+A special thanks to my patrons for making this mod possible and keeping me sane.
+Britton McGrane, Brandon Pollastri, Eric Celmer, Johnsilker, دانيال أيفان مولار مارتينز, Clement C, Alexandra Milan, John Hamilton, Lau Rosenkilde Birk, Thomas, Shaelyn Rivers-Green, SpaceMarines1, Daedalus, Greg Bunger, D-Train, Dodo, Prince Gerald S and Bardest</description>
 </ModMetaData>
