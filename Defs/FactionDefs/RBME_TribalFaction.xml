@@ -170,9 +170,9 @@
 					<RBSF_SatyrBardLullaby>0.1</RBSF_SatyrBardLullaby>
 					<!-- Animals -->
 					<RBSFE_Muffalope>0.5</RBSFE_Muffalope>
-					<AA_MeadowAve MayRequire="sarg.alphaanimals">0.5</AA_MeadowAve>
-					<AA_GreyCoatedMouflon MayRequire="sarg.alphaanimals">0.5</AA_GreyCoatedMouflon>
-					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">3</MM_CeryneianHind>
+					<AA_MeadowAve MayRequire="sarg.alphaanimals">0.3</AA_MeadowAve>
+					<AA_GreyCoatedMouflon MayRequire="sarg.alphaanimals">0.3</AA_GreyCoatedMouflon>
+					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">0.3</MM_CeryneianHind>
 				</options>
 			</li>
 			<li>
@@ -187,8 +187,8 @@
 					<RBSF_Paragon>1</RBSF_Paragon>
 					<!-- Animals -->
 					<RBSFE_Muffalope>2</RBSFE_Muffalope>
-					<AA_AnimaColossus MayRequire="sarg.alphaanimals">0.5</AA_AnimaColossus>
-					<AnimaThrumbo MayRequire="hh.xrushha.AnimaAnimalsCombined">0.5</AnimaThrumbo>
+					<AA_AnimaColossus MayRequire="sarg.alphaanimals">0.2</AA_AnimaColossus>
+					<AnimaThrumbo MayRequire="hh.xrushha.AnimaAnimalsCombined">0.2</AnimaThrumbo>
 				</options>
 			</li>
 			<li>
@@ -201,10 +201,10 @@
 					<RBSF_Paragon>0.5</RBSF_Paragon>
 					<!-- Animals -->
 					<RBSFE_Muffalope>1</RBSFE_Muffalope>
-					<MM_Griffin MayRequire="sarg.magicalmenagerie">2</MM_Griffin>
-					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">2</Bast_Ethereal_Lion>
-					<Bast_Scire MayRequire="Scurvyez.Bastyon">2</Bast_Scire>
-					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">4</AnimaWarg>
+					<MM_Griffin MayRequire="sarg.magicalmenagerie">0.5</MM_Griffin>
+					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.4</Bast_Ethereal_Lion>
+					<Bast_Scire MayRequire="Scurvyez.Bastyon">0.4</Bast_Scire>
+					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.4</AnimaWarg>
 				</options>
 			</li>
 			<li>
@@ -296,9 +296,9 @@
 					<RBSF_SatyrBardElegy>0.1</RBSF_SatyrBardElegy>
 					<!-- Animals -->
 					<RBSFE_Muffalope>0.3</RBSFE_Muffalope>
-					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">2</Bast_Ethereal_Lion>
-					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">4</AnimaWarg>
-					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">1</MM_CeryneianHind>
+					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.3</Bast_Ethereal_Lion>
+					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.5</AnimaWarg>
+					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">0.5</MM_CeryneianHind>
 				</options>
 			</li>
 			<li>
