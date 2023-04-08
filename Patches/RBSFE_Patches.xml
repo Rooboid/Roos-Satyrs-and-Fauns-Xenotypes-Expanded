@@ -165,7 +165,7 @@
 							<li>Gold</li>
 							<li>Silver</li>
 						</scatterThings>
-						<scatterChance>0.2</scatterChance>
+						<scatterChance>0.05</scatterChance>
 	
 						<chooseFromSettlements>
 							<li>RBSFE_FaeSettlement</li>

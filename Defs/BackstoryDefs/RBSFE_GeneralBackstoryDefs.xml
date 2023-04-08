@@ -43,7 +43,7 @@
 
 	<BackstoryDef>
 		<defName>RBSFE_FreeSpirit</defName>
-		<title>freespirit</title>
+		<title>free spirit</title>
 		<titleShort>free</titleShort>
 		<slot>Adulthood</slot>
 		<baseDesc>[PAWN_nameDef] lived alongside satyrs and fauns in a free-spirited pod far away from any human influence. From sunrise to sunset, [PAWN_nameDef] lived [PAWN_possessive] life carefreely, penning wonderful pieces of poetry, playing the lyre and showering under the glistening pour of a waterfall.</baseDesc>

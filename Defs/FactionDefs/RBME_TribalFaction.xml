@@ -11,6 +11,10 @@
 			<li>(60,70,50)</li>
 		</colorSpectrum>
 		<rescueesCanJoin>true</rescueesCanJoin>
+		<disallowedRaidStrategies>
+			<li>ImmediateAttackSappers</li>
+			<li>ImmediateAttackBreaching</li>
+		</disallowedRaidStrategies>
 		<hostileToFactionlessHumanlikes>false</hostileToFactionlessHumanlikes>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>35</configurationListOrderPriority>
@@ -150,10 +154,10 @@
 				<options>
 					<RBSF_FaeBard>0.5</RBSF_FaeBard>
 					<RBSF_FaeArcher>15</RBSF_FaeArcher>
-					<RBSF_FaeCleric>1</RBSF_FaeCleric>
+					<RBSF_FaeCleric>3</RBSF_FaeCleric>
 					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
-					<RBSF_FaeGuardian>4</RBSF_FaeGuardian>
-					<RBSF_Lansquenet>3</RBSF_Lansquenet>
+					<RBSF_FaeGuardian>3</RBSF_FaeGuardian>
+					<RBSF_Lansquenet>2</RBSF_Lansquenet>
 					<!-- Bard Types (2.5) -->
 					<RBSF_SatyrBardSonata>0.6</RBSF_SatyrBardSonata>
 					<RBSF_SatyrBardHealing>0.6</RBSF_SatyrBardHealing>
@@ -164,6 +168,11 @@
 					<!-- Rare -->
 					<RBSF_SatyrBardThreeAbility>0.1</RBSF_SatyrBardThreeAbility>
 					<RBSF_SatyrBardLullaby>0.1</RBSF_SatyrBardLullaby>
+					<!-- Animals -->
+					<RBSFE_Muffalope>0.5</RBSFE_Muffalope>
+					<AA_MeadowAve MayRequire="sarg.alphaanimals">0.3</AA_MeadowAve>
+					<AA_GreyCoatedMouflon MayRequire="sarg.alphaanimals">0.3</AA_GreyCoatedMouflon>
+					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">0.3</MM_CeryneianHind>
 				</options>
 			</li>
 			<li>
@@ -176,6 +185,10 @@
 					<RBSF_FaeGuardian>7</RBSF_FaeGuardian>
 					<RBSF_Lansquenet>3</RBSF_Lansquenet>
 					<RBSF_Paragon>1</RBSF_Paragon>
+					<!-- Animals -->
+					<RBSFE_Muffalope>2</RBSFE_Muffalope>
+					<AA_AnimaColossus MayRequire="sarg.alphaanimals">0.2</AA_AnimaColossus>
+					<AnimaThrumbo MayRequire="hh.xrushha.AnimaAnimalsCombined">0.2</AnimaThrumbo>
 				</options>
 			</li>
 			<li>
@@ -186,6 +199,12 @@
 					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
 					<RBSF_FaeArcher>10</RBSF_FaeArcher>
 					<RBSF_Paragon>0.5</RBSF_Paragon>
+					<!-- Animals -->
+					<RBSFE_Muffalope>1</RBSFE_Muffalope>
+					<MM_Griffin MayRequire="sarg.magicalmenagerie">0.5</MM_Griffin>
+					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.4</Bast_Ethereal_Lion>
+					<Bast_Scire MayRequire="Scurvyez.Bastyon">0.4</Bast_Scire>
+					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.4</AnimaWarg>
 				</options>
 			</li>
 			<li>
@@ -275,6 +294,11 @@
 					<RBSF_SatyrBardThreeAbility>0.1</RBSF_SatyrBardThreeAbility>
 					<RBSF_SatyrBardLullaby>0.1</RBSF_SatyrBardLullaby>
 					<RBSF_SatyrBardElegy>0.1</RBSF_SatyrBardElegy>
+					<!-- Animals -->
+					<RBSFE_Muffalope>0.3</RBSFE_Muffalope>
+					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.3</Bast_Ethereal_Lion>
+					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.5</AnimaWarg>
+					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">0.5</MM_CeryneianHind>
 				</options>
 			</li>
 			<li>

@@ -829,7 +829,7 @@
 		<isFighter>True</isFighter>
 		<label>jack-of-all-trades</label>
 		<maxGenerationAge>55</maxGenerationAge>
-		<combatPower>68</combatPower>
+		<combatPower>78</combatPower>
 		<initialWillRange>0~2</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -922,7 +922,7 @@
 		<isFighter>True</isFighter>
 		<label>fae guardian</label>
 		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>98</combatPower>
+		<combatPower>120</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~17</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -1027,7 +1027,7 @@
 		<isFighter>True</isFighter>
 		<label>lansquenet</label>
 		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>123</combatPower>
+		<combatPower>145</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>6~40</initialResistanceRange>
 		<royalTitleChance>0.04</royalTitleChance>

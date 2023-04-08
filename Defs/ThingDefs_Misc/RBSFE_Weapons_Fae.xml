@@ -532,9 +532,9 @@
 		</projectile>
 	</ThingDef>
 	
-	<!-- Used by Anima Rod. -->
+	<!-- Anima bullet (Used by Anima Rod.) -->
   
-	<ThingDef ParentName="BaseProjectileNeolithic">
+	<ThingDef ParentName="BaseBullet">
 		<defName>RBSFE_AnimaBullet</defName>
 		<label>animus energy</label>
 		<graphicData>
@@ -545,7 +545,6 @@
 		<projectile>
 			<damageDef>RBSFE_AnimaDamage</damageDef>
 			<explosionRadius>5.6</explosionRadius>
-			<stoppingPower>3</stoppingPower>
 			<damageAmountBase>12</damageAmountBase>
 			<armorPenetrationBase>0.86</armorPenetrationBase>
 			<screenShakeFactor>1</screenShakeFactor>
@@ -578,7 +577,7 @@
 	</DamageDef>
 	
 	<!--====================== Anima Damage (Anima Explosion) ======================-->
-	<!-- Used by Anima Rod. -->
+	<!-- Used by the Anima bullet. -->
 
 	<DamageDef ParentName="Flame">
 		<defName>RBSFE_AnimaDamage</defName>
