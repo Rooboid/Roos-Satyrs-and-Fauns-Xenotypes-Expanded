@@ -245,7 +245,7 @@
 		
 	<ThingDef ParentName="FaeApparelBase">
 		<defName>RBSFE_Faeleaf</defName>
-		<label>fae leaf</label>
+		<label>faeleaf</label>
 		<description>A precariously placed leaf that covers the wearer’s modesty. Nudists don’t mind “wearing” this.</description>
 		<recipeMaker>
 			<displayPriority>333</displayPriority>
@@ -368,7 +368,7 @@
 	
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBSFE_Faecrown</defName>
-		<label>fae crown</label>
+		<label>faecrown</label>
 		<description>A beautiful crown of leaves that strengthens the wearer’s connection with nature.</description>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>

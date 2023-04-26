@@ -157,14 +157,15 @@
 					<li Class="KCSG.CustomGenOption">
 						<preventBridgeable>true</preventBridgeable>
 						<tryFindFreeArea>false</tryFindFreeArea>
-<!-- 						<symbolResolvers>
+						<symbolResolvers>
 							<li>kcsg_scatterstuffaround</li>
 						</symbolResolvers>
+						<!-- Testing -->
 						<scatterThings>
 							<li>Gold</li>
 							<li>Silver</li>
 						</scatterThings>
-						<scatterChance>0.01</scatterChance> -->
+						<scatterChance>0.05</scatterChance>
 	
 						<chooseFromSettlements>
 							<li>RBSFE_FaeSettlement</li>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 <KCSG.StructureLayoutDef>
   <defName>RBSFE_LastFaeStandingStart</defName>
   <spawnConduits>false</spawnConduits>
@@ -573,6 +574,8 @@
   <modRequirements>
     <li>rooboid.satyrfaun</li>
     <li>rooboid.satyrfaun.expanded</li>
+<!--     <li>ludeon.rimworld.ideology</li>
+    <li>ludeon.rimworld.royalty</li> -->
     <li>ludeon.rimworld.biotech</li>
   </modRequirements>
 </KCSG.StructureLayoutDef>
@@ -628,4 +631,5 @@
   <spawnFilthAround>false</spawnFilthAround>
   <defendSpawnPoint>true</defendSpawnPoint>
 </KCSG.SymbolDef>
+
 </Defs>
