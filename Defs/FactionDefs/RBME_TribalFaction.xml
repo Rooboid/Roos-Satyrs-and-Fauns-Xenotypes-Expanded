@@ -40,6 +40,7 @@
 			<li MayRequire="Sarg.AlphaMemes">AM_GauranlenSupremacy</li>
 		</requiredMemes>
 		<disallowedMemes>
+			<li MayRequire="sarg.alphaanimals">AA_BiologicalCorruptors</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_Madness</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
