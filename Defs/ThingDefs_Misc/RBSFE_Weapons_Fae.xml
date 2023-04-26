@@ -645,11 +645,10 @@
   
 	<ThoughtDef>
 		<defName>RBSFE_ConstrictedThought</defName>
-		<workerClass>ThoughtWorker_Hediff</workerClass>
-		<hediff>RBSF_VineWrapHeDiff</hediff>
 		<validWhileDespawned>true</validWhileDespawned>
 		<showBubble>true</showBubble>
 		<icon>Things/Mote/ChokevineThought/RBSF_ChokevineThought</icon>
+		<durationDays>0.5</durationDays>
 		<stages>
 			<li>
 				<label>trapped in vines</label>
