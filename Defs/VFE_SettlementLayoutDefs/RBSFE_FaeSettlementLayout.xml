@@ -2,7 +2,7 @@
 <Defs>
 
 	<KCSG.SettlementLayoutDef>
-	<defName>RBSFE_FaeSettlement</defName>
+		<defName>RBSFE_FaeSettlement</defName>
 		<settlementSize>62,62</settlementSize>
 		<centerBuildings>
 			<centerSize>62,62</centerSize>

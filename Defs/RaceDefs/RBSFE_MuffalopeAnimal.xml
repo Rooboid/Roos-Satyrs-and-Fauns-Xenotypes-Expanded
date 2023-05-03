@@ -8,7 +8,7 @@
 		<defName>RBSFE_Muffalope</defName>
 		<label>muffalope</label>
 		<!-- <devNote>cow-1</devNote> -->
-		<description>A crossbreed of a deer and a muffalo with mysterious origins; while some theorise it to be the product of a genetic engineering experiment, a legend exists that it was the creation of a talented psycaster. The muffalope is smaller, weaker and eats less than its blue counterpart, but it's more insulated against the elements and has a tendency to nuzzle more often.</description>
+		<description>An adorable deer-muffalo hybrid with mysterious origins; while some theorise it to be the product of a genetic engineering experiment, a legend exists that it was the creation of a talented psycaster. The muffalope is smaller, weaker and eats less than its blue counterpart, but it's more insulated against the elements and has a tendency to nuzzle more often.</description>
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<MarketValue>280</MarketValue>
