@@ -28,7 +28,7 @@ namespace Roos_Satyrs_and_Fauns_Expanded
             Hediff hediff = HediffMaker.MakeHediff(appliedHediffDef, pawn);
             pawn.health.AddHediff(hediff);
             Log.Message("Pawn: " + pawn.Name + " given hediff " + hediff.Label);
-            pawn.stances.stunner.StunFor(100, this);
+            pawn.stances.stunner.StunFor(180, this);
             return;
         }
     }
