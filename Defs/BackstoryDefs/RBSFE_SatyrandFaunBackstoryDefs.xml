@@ -10,7 +10,7 @@
 		<title>palm reader</title>
 		<titleShort>palmist</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] resided within a grassy woodland and made a living reading the palms of passerby travellers. The silver [PAWN_pronoun] was given in return was merely a novelty to [PAWN_nameDef], as living solitarily left [PAWN_objective] with no use for currency. Everything [PAWN_pronoun] needed was provided already by Mother Earth.</baseDesc>
+		<baseDesc>[PAWN_nameDef] made a living reading the palms of passerby travellers. The silver [PAWN_pronoun] was given in return was merely a novelty to [PAWN_nameDef], as living solitarily left [PAWN_objective] with no use for currency. Everything [PAWN_pronoun] needed was already provided by Mother Earth.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -239,7 +239,7 @@
 		<title>potter</title>
 		<titleShort>potter</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] sought pleasure in the alchemy of pottery, and spun unique and abstract art pieces in [PAWN_possessive] isolated forest workshop. [PAWN_possessive] sudden disappearance from [PAWN_possessive] workshop prompted wealthy humans to pay an arm and a leg for [PAWN_possessive] works, and many believe [PAWN_objective] to have skyrocketed to fame because of [PAWN_possessive] "death". \n\nIn truth, [PAWN_nameDef] went into the pottery field for some peace and quiet, and merely left [PAWN_possessive] workshop behind when [PAWN_pronoun] started to gain popularity.</baseDesc>
+		<baseDesc>[PAWN_nameDef] crafted unique and abstract art pieces in [PAWN_possessive] isolated forest workshop.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>

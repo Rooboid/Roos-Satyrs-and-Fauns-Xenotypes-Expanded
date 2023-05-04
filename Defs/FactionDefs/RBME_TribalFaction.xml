@@ -44,9 +44,8 @@
 			<li MayRequire="Sarg.AlphaMemes">AM_Madness</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
-			<li MayRequire="Sarg.AlphaMemes">AM_Combat</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_Gladiator</li>
-			<li MayRequire="VanillaExpanded.VMemesE">VME_Proselytism</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_HardcoreIndustrialism</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_Progressive</li>
 			<li MayRequire="VanillaExpanded.VMemesE">VME_Republic</li>
@@ -89,8 +88,8 @@
 		</disallowedPrecepts>
 		<xenotypeSet>
 			<xenotypeChances>
-				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">0.95</RBSF_Faun>
-				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">0.95</RBSF_Satyr>
+				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
+				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.02</RBM_Minotaur>
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.07</LTS_Elfin>
 			</xenotypeChances>
@@ -183,7 +182,7 @@
 				<options>
 					<RBSF_FaeArcher>8</RBSF_FaeArcher>
 					<RBSF_FaeCleric>0.5</RBSF_FaeCleric>
-					<RBSF_FaeGuardian>7</RBSF_FaeGuardian>
+					<RBSF_FaeGuardian>5</RBSF_FaeGuardian>
 					<RBSF_Lansquenet>3</RBSF_Lansquenet>
 					<RBSF_Paragon>1</RBSF_Paragon>
 					<!-- Animals -->

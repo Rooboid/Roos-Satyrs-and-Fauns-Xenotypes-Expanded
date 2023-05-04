@@ -3,10 +3,11 @@
 
 	<!--============================== Roo's Satyr and Faun Xenotype Patches ============================-->
 
-	<!--============================== Weapon patches ============================-->
-	<!-- Patches weapons based on DLC installed -->
+	<!--============================== DLC patches ============================-->
+	<!-- Patches mod based on DLC installed -->
 	
 	<!-- Faemore - require a Gauranlen seed to craft -->
+	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Ideology</li>
@@ -17,6 +18,53 @@
 				<costList>
 					<GauranlenSeed>1</GauranlenSeed>
 				</costList>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Give Player Paragons Psycaster Abilities -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBSF_PlayerParagonPawn"]</xpath>
+			<value>
+				<abilities>
+					<li>Painblock</li>
+					<li>Burden</li>
+				</abilities>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Give Clerics Psycaster Abilities -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/PawnKindDef[defName="RBSF_FaeCleric"]</xpath>
+			<value>
+				<abilities>
+					<li>Painblock</li>
+				</abilities>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Add NamerIdeoGlobal to NamerFae_Ideo -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RulePackDef[defName="NamerFae_Ideo"]/include</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoGlobal</li>
 			</value>
 		</match>
 	</Operation>
@@ -157,7 +205,7 @@
 					<li Class="KCSG.CustomGenOption">
 						<preventBridgeable>true</preventBridgeable>
 						<tryFindFreeArea>false</tryFindFreeArea>
-<!-- 						<symbolResolvers>
+						<!-- 						<symbolResolvers>
 							<li>kcsg_scatterstuffaround</li>
 						</symbolResolvers>
 						<scatterThings>
@@ -332,9 +380,7 @@
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/BackstoryDef[defName="RBSFE_CarefreeHermit"]/forcedTraits/Industriousness</xpath>
 					<value>
-						<forcedTraits>
-							<VTE_Rebel>0</VTE_Rebel>
-						</forcedTraits>
+						<VTE_Rebel>0</VTE_Rebel>
 					</value>
 				</li>
 	

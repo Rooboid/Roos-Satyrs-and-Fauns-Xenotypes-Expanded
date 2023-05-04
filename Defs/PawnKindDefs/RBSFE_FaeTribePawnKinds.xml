@@ -367,9 +367,6 @@
 		<techHediffsRequired>
 			<li>PsychicAmplifier</li>
 		</techHediffsRequired>
-		<abilities MayRequire="Ludeon.RimWorld.Royalty">
-			<li>Painblock</li>
-		</abilities>
 		<weaponMoney>200~1500</weaponMoney>
 		<weaponTags>
 			<li>FaeStaff</li>
@@ -974,8 +971,8 @@
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances>
-				<RBM_Minotaur MayRequire="Rooboid.Minotaur">10</RBM_Minotaur>
-				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">5</LTS_Elfin>
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">1</RBM_Minotaur>
+				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">1</LTS_Elfin>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
 			</xenotypeChances>
@@ -1298,13 +1295,6 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 		<techHediffsChance>0.22</techHediffsChance>
-		<techHediffsRequired>
-			<li>PsychicAmplifier</li>
-		</techHediffsRequired>
-		<abilities MayRequire="Ludeon.RimWorld.Royalty">
-			<li>Painblock</li>
-			<li>Burden</li>
-		</abilities>
 	</PawnKindDef>
 	
 	<!-- Fae Paragon - Player version -->
