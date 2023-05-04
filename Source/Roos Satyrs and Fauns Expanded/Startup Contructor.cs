@@ -10,7 +10,7 @@ namespace Roos_Satyrs_and_Fauns_Expanded
         {
             Harmony harmony = new Harmony("rimworld.mod.rooboid.satyrandfaunexpanded");
             harmony.PatchAll();
-            Log.Message("SFAUNS AND SATYRS EXPANDED MOD LOADED.");
+            Log.Message("Roos_Satyrs_and_Fauns_Expanded Mod Harmony Patches Loaded");
         }
     }
 }
