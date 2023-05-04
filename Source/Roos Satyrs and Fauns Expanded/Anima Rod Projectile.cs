@@ -9,6 +9,12 @@ namespace Roos_Satyrs_and_Fauns_Expanded
             Map map = base.Map;
             IntVec3 explodePosition = base.Position;
             float explosionRadius = 5;
+            DamageDef damageDef = this.def.projectile.damageDef;
+            int damageAmount = this.DamageAmount;
+            float armorPenetration = this.ArmorPenetration;
+
+            GenExplosion.DoExplosion(explodePosition, map, explosionRadius, damageDef, null, damageAmount, armorPenetration, null, null, null, null, null, 0f, 1, null, false, null, 0f, 1, 0f, false, null, null, null, true, 1f, 0f, true, null, 1f);
+
 
             foreach (Pawn pawn in map.mapPawns.AllPawnsSpawned)
             {
@@ -28,7 +34,7 @@ namespace Roos_Satyrs_and_Fauns_Expanded
             Hediff hediff = HediffMaker.MakeHediff(appliedHediffDef, pawn);
             pawn.health.AddHediff(hediff);
             Log.Message("Pawn: " + pawn.Name + " given hediff " + hediff.Label);
-            pawn.stances.stunner.StunFor(100, this);
+            pawn.stances.stunner.StunFor(180, this);
             return;
         }
     }

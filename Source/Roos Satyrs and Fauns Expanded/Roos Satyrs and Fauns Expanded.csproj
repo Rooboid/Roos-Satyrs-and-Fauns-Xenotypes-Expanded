@@ -55,6 +55,7 @@
     <Compile Include="Anima Rod Projectile.cs" />
     <Compile Include="DefOfs.cs" />
     <Compile Include="Mech Cluster Goodwill.cs" />
+    <Compile Include="Pitfall Trap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup Contructor.cs" />
   </ItemGroup>
