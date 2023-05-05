@@ -147,7 +147,6 @@
 		<defName>NamerFae_Ideo</defName>
 		<include>
 			<li>NamerSatyrFaunBaseExpanded</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoGlobal</li>
 		</include>
 		<rulePack>
 			<rulesStrings>

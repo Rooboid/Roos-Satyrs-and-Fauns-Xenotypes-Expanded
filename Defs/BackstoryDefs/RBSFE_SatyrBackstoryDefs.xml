@@ -10,7 +10,7 @@
 		<title>duffer</title>
 		<titleShort>thief</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>To make ends meet for [PAWN_possessive] family, [PAWN_nameDef] and [PAWN_possessive] siblings would lurk behind the bushes of nearby ranches, only to emerge during the night and steal the cattle and peddle it for money the next day. This little game eventually came to a halt, when [PAWN_nameDef]’s eldest sibling was shot and killed during a heist by an onlooking rancher.</baseDesc>
+		<baseDesc>To make ends meet for [PAWN_possessive] family, [PAWN_nameDef] and [PAWN_possessive] siblings came out at night to steal cattle from nearby farms and pawn them off to a willing buyer the next day.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -128,7 +128,7 @@
 		<title>shill</title>
 		<titleShort>shill</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] and [PAWN_possessive] partner-in-crime performed public scams to swindle money out of passers-by. This fraudulent lifestyle had it’s ups and downs, but came to a halt following the assault of [PAWN_possessive] partner-in-crime. \n\n[PAWN_nameDef] couldn’t show [PAWN_possessive] face to [PAWN_possessive] partner again, instead harbouring all of the guilt for not being able to stop the attack, and spiralling into a lifelong depression.</baseDesc>
+		<baseDesc>[PAWN_nameDef] and [PAWN_possessive] partner-in-crime performed public scams to swindle money out of passers-by. This fraudulent lifestyle had its ups and downs, but came to a halt following the assault of [PAWN_possessive] partner-in-crime, causing [PAWN_nameDef] to spiral into a lifelong depression.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -242,7 +242,7 @@
 		<title>tourist</title>
 		<titleShort>tourist</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>With little more than the hand-woven satchel on [PAWN_possessive] back, [PAWN_nameDef] set out on a quest to travel across the globe and learn about other xenotype cultures. Now very educated, [PAWN_nameDef] wishes to pass on what they learned to other satyrs...if only they would pay attention.</baseDesc>
+		<baseDesc>With little more than the hand-woven satchel on [PAWN_possessive] back, [PAWN_nameDef] set out on a quest to travel across the globe and learn about other xenotype cultures. Now very educated, [PAWN_nameDef] wishes to pass on what [PAWN_pronoun] learned to other satyrs...if only they would pay attention.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -284,7 +284,7 @@
 		<title>fifer</title>
 		<titleShort>fifer</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] played the fife while [PAWN_possessive] battalion marched to face its foes. [PAWN_nameDef] witnessed so much bloodshed that very little can phase [PAWN_objective] anymore.</baseDesc>
+		<baseDesc>[PAWN_nameDef] played the fife while [PAWN_possessive] battalion marched into battle. [PAWN_nameDef] witnessed so much bloodshed that very little can phase [PAWN_objective] anymore.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
