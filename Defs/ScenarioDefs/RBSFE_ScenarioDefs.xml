@@ -122,11 +122,6 @@
 					<thingDef>VFEPD_ServerRack</thingDef>
 					<count>1</count>
 				</li>
-				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>VBE_BookIntellectual</thingDef>
-					<count>1</count>
-				</li>
 				<!-- Scattered Items Throughout Map -->
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
@@ -257,16 +252,6 @@
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>WoodLog</thingDef>
 					<count>100</count>
-				</li>
-				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>VBE_Map</thingDef>
-					<count>1</count>
-				</li>
-				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>VBE_BookArt</thingDef>
-					<count>1</count>
 				</li>
 				<!-- Scattered Items Throughout Map -->
 				<li Class="ScenPart_ScatterThingsAnywhere">

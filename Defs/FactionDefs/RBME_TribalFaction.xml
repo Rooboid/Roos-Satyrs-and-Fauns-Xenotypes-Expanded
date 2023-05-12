@@ -392,8 +392,6 @@
 						<li MayRequire="VanillaExpanded.VBrewE">VBE_RawTea</li>
 						<li MayRequire="VanillaExpanded.VBrewE">VBE_Whiskey</li>
 			
-						<li MayRequire="VanillaExpanded.VCookE">VCE_CookedStewFine</li>
-			
 						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawPear</li>
 						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawPeas</li>
 						<li MayRequire="VanillaExpanded.VPlantsE">VCE_RawCabbage</li>

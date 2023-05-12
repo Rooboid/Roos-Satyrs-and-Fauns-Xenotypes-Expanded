@@ -349,7 +349,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_Faerrow</defName>
 		<label>faerrow</label>
-		<description>An ornate, swift bow often wielded by satyrs and fauns alike. It's long ranged but weak. It slightly strengthens the wielder’s connection with nature.</description>
+		<description>An ornate, swift bow often wielded by satyrs and fauns alike. It's long-ranged but weak. It slightly strengthens the wielder’s connection with nature.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponRanged/RBSFE_Faerrow</texPath>
@@ -367,8 +367,8 @@
 			<Mass>0.6</Mass>
 			<AccuracyTouch>0.27</AccuracyTouch>
 			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.90</AccuracyMedium>
-			<AccuracyLong>0.80</AccuracyLong>
+			<AccuracyMedium>0.97</AccuracyMedium>
+			<AccuracyLong>0.92</AccuracyLong>
 			<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
 			<RBSF_NatureConnectionOffset>0.08</RBSF_NatureConnectionOffset>
 		</statBases>
@@ -397,7 +397,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RBSFE_FaeBullet</defaultProjectile>
 				<warmupTime>1.25</warmupTime>
-				<range>28</range>
+				<range>33</range>
 				<soundCast>Bow_Small</soundCast>
 			</li>
 		</verbs>

@@ -1287,14 +1287,11 @@
 				<Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
 			</xenotypeChances>
 		</xenotypeSet>
-		<requiredWorkTags>
-			<li>Intellectual</li>
-		</requiredWorkTags>
-		<techHediffsMoney>2000~3000</techHediffsMoney>
+		<techHediffsMoney>2000~3500</techHediffsMoney>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
-		<techHediffsChance>0.22</techHediffsChance>
+		<techHediffsChance>0.5</techHediffsChance>
 	</PawnKindDef>
 	
 	<!-- Fae Paragon - Player version -->
@@ -1308,7 +1305,6 @@
 		<combatPower>100</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>20~50</initialResistanceRange>
-		<factionHostileOnDeath>true</factionHostileOnDeath>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
 		<backstoryFiltersOverride>
@@ -1352,22 +1348,6 @@
 				<color>(57,116,67)</color>
 			</li>
 		</specificApparelRequirements>
-		<requiredWorkTags>
-			<li>Violent</li>
-		</requiredWorkTags>
-		<skills>
-			<li>
-				<skill>Melee</skill>
-				<range>8~17</range>
-			</li>
-			<li>
-				<skill>Shooting</skill>
-				<range>14~17</range>
-			</li>
-		</skills>
-		<techHediffsRequired>
-			<li>PsychicAmplifier</li>
-		</techHediffsRequired>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances>
