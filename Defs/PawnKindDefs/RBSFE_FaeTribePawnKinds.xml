@@ -8,6 +8,7 @@
 		<chemicalAddictionChance>0.01</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0.03</backstoryCryptosleepCommonality>
 		<acceptArrestChanceFactor>1.2</acceptArrestChanceFactor>
+		<invNutrition>2</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -49,7 +50,6 @@
 		<label>fae</label>
 		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>22</combatPower>
-		<invNutrition>1</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<apparelAllowHeadgearChance>0.05</apparelAllowHeadgearChance>
@@ -126,7 +126,6 @@
 		<label>fae</label>
 		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>13</combatPower>
-		<invNutrition>0.5</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -163,7 +162,6 @@
 		<label>fae</label>
 		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>18</combatPower>
-		<invNutrition>1</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~8</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -206,7 +204,6 @@
 		<label>fae artificer</label>
 		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>38</combatPower>
-		<invNutrition>0.5</invNutrition>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
 		<itemQuality>Good</itemQuality>
@@ -827,6 +824,7 @@
 		<label>jack-of-all-trades</label>
 		<maxGenerationAge>55</maxGenerationAge>
 		<combatPower>78</combatPower>
+		<invNutrition>0.5</invNutrition>
 		<initialWillRange>0~2</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -922,6 +920,7 @@
 		<combatPower>120</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~17</initialResistanceRange>
+		<invNutrition>1</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1028,6 +1027,7 @@
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>6~40</initialResistanceRange>
 		<royalTitleChance>0.04</royalTitleChance>
+		<invNutrition>0.5</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1122,6 +1122,7 @@
 		<factionHostileOnDeath>true</factionHostileOnDeath>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
+		<invNutrition>0</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1150,7 +1151,7 @@
 			<!-- Medieval Overhaul -->
 			<li>DankPyon_Necklaces</li>
 		</apparelTags>
-		<apparelMoney>500~9999</apparelMoney>
+		<apparelMoney>500~2500</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -1235,6 +1236,7 @@
 		<initialResistanceRange>1~10</initialResistanceRange>
 		<apparelMoney>50~450</apparelMoney>
 		<gearHealthRange>1~1</gearHealthRange>
+		<invNutrition>0</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1307,6 +1309,7 @@
 		<initialResistanceRange>20~50</initialResistanceRange>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
+		<invNutrition>0</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1336,7 +1339,7 @@
 			<!-- Medieval Overhaul -->
 			<li>DankPyon_Necklaces</li>
 		</apparelTags>
-		<apparelMoney>500~9999</apparelMoney>
+		<apparelMoney>500~3000</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -1376,6 +1379,51 @@
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
+	</PawnKindDef>
+	
+	<PawnKindDef Parent="FaeBase">
+		<defName>RBSF_PlayerFaeBard</defName>
+		<race>Human</race>
+		<defaultFactionType>RBSFE_PlayerSabotagedBards</defaultFactionType>
+		<label>bard</label>
+		<maxGenerationAge>80</maxGenerationAge>
+		<combatPower>30</combatPower>
+		<initialWillRange>0~0</initialWillRange>
+		<initialResistanceRange>2~5</initialResistanceRange>
+		<invNutrition>0</invNutrition>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>SatyrOnly</li>
+					<li>Bard</li>
+					<li>SatyrandFaun</li>
+					<li>Tribal</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>SatyrOnly</li>
+					<li>Bard</li>
+					<li>SatyrandFaun</li>
+					<li>Tribal</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponMoney>200</weaponMoney>
+		<weaponTags>
+			<li>Instrument</li>
+		</weaponTags>
+		<apparelMoney>130~430</apparelMoney>
+		<apparelTags>
+			<li>Apparel_Yttakin</li>
+			<!-- Medieval Overhaul -->
+			<li>DankPyon_Peasant</li>
+			<li>DankPyon_BrigandThug</li>
+		</apparelTags>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<xenotypeSet>
+			<xenotypeChances>
+				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
+			</xenotypeChances>
+		</xenotypeSet>
 	</PawnKindDef>
 
 </Defs>
