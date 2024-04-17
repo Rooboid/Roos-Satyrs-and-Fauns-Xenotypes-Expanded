@@ -17,18 +17,9 @@
 			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
+			<Social>4</Social>
+			<Medicine>3</Medicine>
+			<Plants>3</Plants>
 		</skillGains>
 		<forcedTraits>
 			<Ascetic>0</Ascetic>
@@ -41,10 +32,7 @@
 			<DrugDesire>1</DrugDesire>
 		</disallowedTraits>
 		<possessions>
-			<li>
-				<key>Silver</key>
-				<value>10</value>
-			</li>
+			<Silver>10</Silver>
 		</possessions>
 	</BackstoryDef>
 	
@@ -63,14 +51,8 @@
 			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Medicine</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
+			<Medicine>8</Medicine>
+			<Plants>3</Plants>
 		</skillGains>
 		<forcedTraits>
 			<Recluse>0</Recluse>
@@ -87,10 +69,7 @@
 			<li>Caring</li>
 		</requiredWorkTags>
 		<possessions>
-			<li>
-				<key>MedicineHerbal</key>
-				<value>5</value>
-			</li>
+			<MedicineHerbal>5</MedicineHerbal>
 		</possessions>
 	</BackstoryDef>
 	
@@ -109,14 +88,8 @@
 			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Animals</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-5</value>
-			</li>
+			<Animals>2</Animals>
+			<Social>-5</Social>
 
 		</skillGains>
 		<forcedTraits>
@@ -142,28 +115,13 @@
 			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Cooking</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>-3</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-3</value>
-			</li>
+			<Cooking>5</Cooking>
+			<Plants>4</Plants>
+			<Intellectual>-3</Intellectual>
+			<Social>-3</Social>
 		</skillGains>
 		<possessions>
-			<li>
-				<key>RawBerries</key>
-				<value>10</value>
-			</li>
+			<RawBerries>10</RawBerries>
 		</possessions>
 	</BackstoryDef>
 	
@@ -182,18 +140,9 @@
 			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
+			<Social>5</Social>
+			<Intellectual>5</Intellectual>
+			<Plants>3</Plants>
 		</skillGains>
 		<disallowedTraits>
 			<Kind>0</Kind>
@@ -221,10 +170,7 @@
 			<li>Bard</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>4</value>
-			</li>
+			<Artistic>4</Artistic>
 		</skillGains>
 		<forcedTraits>
 			<RBSF_Uncouth>0</RBSF_Uncouth>
@@ -246,18 +192,9 @@
 			<li>SatyrandFaun</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-8</value>
-			</li>
+			<Artistic>6</Artistic>
+			<Crafting>6</Crafting>
+			<Social>-8</Social>
 		</skillGains>
 		<forcedTraits>
 			<TorturedArtist>0</TorturedArtist>

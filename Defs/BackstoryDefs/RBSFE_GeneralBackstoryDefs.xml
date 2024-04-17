@@ -18,14 +18,8 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>4</value>
-			</li>
+			<Artistic>4</Artistic>
+			<Crafting>4</Crafting>
 		</skillGains>
 		<forcedTraits>
 			<SlowLearner>0</SlowLearner>
@@ -55,22 +49,10 @@
 			<li>Tribal</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>2</value>
-			</li>
+			<Artistic>6</Artistic>
+			<Plants>6</Plants>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
 		</skillGains>
 		<forcedTraits>
 			<Industriousness>-1</Industriousness>
@@ -94,10 +76,7 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>4</value>
-			</li>
+			<Social>4</Social>
 		</skillGains>
 		<forcedTraits>
 			<Pyromaniac>0</Pyromaniac>
@@ -126,30 +105,12 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>11</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-6</value>
-			</li>
-			<li>
-				<key>Construction</key>
-				<value>-6</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>-6</value>
-			</li>
+			<Intellectual>11</Intellectual>
+			<Mining>8</Mining>
+			<Plants>8</Plants>
+			<Social>-6</Social>
+			<Construction>-6</Construction>
+			<Cooking>-6</Cooking>
 		</skillGains>
 		<forcedTraits>
 			<Nerves>-2</Nerves>
@@ -172,31 +133,16 @@
 			<li>Offworld</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Animals</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-6</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>-6</value>
-			</li>
+			<Plants>3</Plants>
+			<Animals>3</Animals>
+			<Social>-6</Social>
+			<Intellectual>-6</Intellectual>
 		</skillGains>
 		<forcedTraits>
 			<Recluse>0</Recluse>
 		</forcedTraits>
 		<possessions>
-			<li>
-				<key>Steel</key>
-				<value>5</value>
-			</li>
+			<Steel>5</Steel>
 		</possessions>
 	</BackstoryDef>
 	

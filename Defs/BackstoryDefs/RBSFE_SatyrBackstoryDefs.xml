@@ -18,18 +18,9 @@
 			<li>SatyrWild</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
+			<Social>4</Social>
+			<Medicine>3</Medicine>
+			<Plants>3</Plants>
 		</skillGains>
 		<forcedTraits>
 			<SpeedOffset>2</SpeedOffset>
@@ -62,18 +53,9 @@
 			<li>Hellgoat</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>3</value>
-			</li>
+			<Plants>7</Plants>
+			<Mining>6</Mining>
+			<Melee>3</Melee>
 		</skillGains>
 		<forcedTraits>
 			<NaturalMood>-1</NaturalMood>
@@ -100,10 +82,7 @@
 			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>10</value>
-			</li>
+			<Social>10</Social>
 		</skillGains>
 		<forcedTraits>
 			<Greedy>0</Greedy>
@@ -113,10 +92,7 @@
 			<li>ManualDumb</li>
 		</workDisables>
 		<possessions>
-			<li>
-				<key>Silver</key>
-				<value>50</value>
-			</li>
+			<Silver>50</Silver>
 		</possessions>
 	</BackstoryDef>
 	
@@ -135,31 +111,16 @@
 			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>-2</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>-2</value>
-			</li>
+			<Social>7</Social>
+			<Intellectual>4</Intellectual>
+			<Shooting>-2</Shooting>
+			<Melee>-2</Melee>
 		</skillGains>
 		<forcedTraits>
 			<NaturalMood>-1</NaturalMood>
 		</forcedTraits>
 		<possessions>
-			<li>
-				<key>Silver</key>
-				<value>75</value>
-			</li>
+			<Silver>75</Silver>
 		</possessions>
 	</BackstoryDef>
 	
@@ -184,10 +145,7 @@
 			<Asexual>0</Asexual>
 		</disallowedTraits>
 		<possessions>
-			<li>
-				<key>Beer</key>
-				<value>10</value>
-			</li>
+			<Beer>10</Beer>
 		</possessions>
 	</BackstoryDef>
 	
@@ -206,18 +164,9 @@
 			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>2</value>
-			</li>
+			<Social>5</Social>
+			<Cooking>2</Cooking>
+			<Artistic>2</Artistic>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -227,10 +176,7 @@
 			<Psychopath>0</Psychopath>
 		</disallowedTraits>
 		<possessions>
-			<li>
-				<key>Beer</key>
-				<value>5</value>
-			</li>
+			<Beer>5</Beer>
 		</possessions>
 	</BackstoryDef>
 	
@@ -249,18 +195,9 @@
 			<li>SatyrOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>8</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Plants</key>
-				<value>3</value>
-			</li>
+			<Intellectual>8</Intellectual>
+			<Cooking>3</Cooking>
+			<Plants>3</Plants>
 		</skillGains>
 		<requiredWorkTags>
 			<li>Intellectual</li>
@@ -292,18 +229,9 @@
 			<li>Bard</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Artistic</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>4</value>
-			</li>
+			<Artistic>4</Artistic>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
 		</skillGains>
 		<forcedTraits>
 			<Psychopath>0</Psychopath>

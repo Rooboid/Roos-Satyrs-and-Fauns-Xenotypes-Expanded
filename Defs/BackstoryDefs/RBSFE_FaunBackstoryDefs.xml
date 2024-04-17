@@ -18,10 +18,7 @@
 			<li>FaunOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>5</value>
-			</li>
+			<Social>5</Social>
 		</skillGains>
 		<forcedTraits>
 			<Nimble>0</Nimble>
@@ -50,18 +47,9 @@
 			<li>FaunWild</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Cooking</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>4</value>
-			</li>
+			<Plants>4</Plants>
+			<Cooking>4</Cooking>
+			<Mining>4</Mining>
 		</skillGains>
 		<forcedTraits>
 			<Industriousness>-1</Industriousness>
@@ -84,22 +72,10 @@
 			<li>FaunOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Artistic</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Mining</key>
-				<value>2</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>2</value>
-			</li>
+			<Plants>4</Plants>
+			<Artistic>4</Artistic>
+			<Mining>2</Mining>
+			<Crafting>2</Crafting>
 		</skillGains>
 		<disallowedTraits>
 			<Undergrounder>0</Undergrounder>
@@ -126,14 +102,8 @@
 			<li>FaunOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Social</key>
-				<value>7</value>
-			</li>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
+			<Social>7</Social>
+			<Melee>5</Melee>
 		</skillGains>
 		<forcedTraits>
 			<Nimble>0</Nimble>
@@ -162,18 +132,9 @@
 			<li>FaunScientist</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Plants</key>
-				<value>9</value>
-			</li>
-			<li>
-				<key>Medicine</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>6</value>
-			</li>
+			<Plants>9</Plants>
+			<Medicine>6</Medicine>
+			<Intellectual>6</Intellectual>
 		</skillGains>
 		<forcedTraits>
 			<Neurotic>1</Neurotic>
@@ -206,14 +167,8 @@
 			<li>FaunScientist</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Medicine</key>
-				<value>6</value>
-			</li>
-			<li>
-				<key>Intellectual</key>
-				<value>4</value>
-			</li>
+			<Medicine>6</Medicine>
+			<Intellectual>4</Intellectual>
 		</skillGains>
 		<forcedTraits>
 			<Immunity>1</Immunity>
@@ -238,14 +193,8 @@
 			<li>FaunOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Intellectual</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>3</value>
-			</li>
+			<Intellectual>3</Intellectual>
+			<Social>3</Social>
 		</skillGains>
 		<forcedTraits>
 			<Kind>0</Kind>
@@ -267,18 +216,9 @@
 			<li>FaunOnly</li>
 		</spawnCategories>
 		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>10</value>
-			</li>
-			<li>
-				<key>Shooting</key>
-				<value>4</value>
-			</li>
-			<li>
-				<key>Social</key>
-				<value>-8</value>
-			</li>
+			<Melee>10</Melee>
+			<Shooting>4</Shooting>
+			<Social>-8</Social>
 		</skillGains>
 		<forcedTraits>
 			<Bisexual>0</Bisexual>
