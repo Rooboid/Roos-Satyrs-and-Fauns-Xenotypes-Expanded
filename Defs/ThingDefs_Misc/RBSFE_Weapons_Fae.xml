@@ -661,11 +661,11 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-330</severityPerDay>
 			</li>
-			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
+<!-- 			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
 				<otherHediff>HeDiffSeeRed</otherHediff>
 				<stages>2~</stages>
 				<mtbHours>0</mtbHours>
-			</li>
+			</li> -->
 			<li Class="HediffCompProperties_Effecter">
 				<stateEffecter>VineStun_Effect</stateEffecter>
 			</li>

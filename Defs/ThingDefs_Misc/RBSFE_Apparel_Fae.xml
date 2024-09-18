@@ -399,7 +399,6 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecrown/RBSFE_Faecrown</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<layers>
 				<li>Overhead</li>
