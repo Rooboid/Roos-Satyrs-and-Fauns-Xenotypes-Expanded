@@ -274,6 +274,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Legs</li>
+				<li>Torso</li>
 			</bodyPartGroups>
 			<layers>
 				<li>OnSkin</li>
