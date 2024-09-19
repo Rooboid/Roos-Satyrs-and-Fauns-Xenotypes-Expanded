@@ -659,7 +659,7 @@
 		<initialSeverity>1</initialSeverity>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-330</severityPerDay>
+				<severityPerDay>-200</severityPerDay>
 			</li>
 <!-- 			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
 				<otherHediff>HeDiffSeeRed</otherHediff>
