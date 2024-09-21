@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>RBSFE_LeafTrap</defName>
 		<label>leaf trap</label>
-		<description>A deep pit, concealed by a pile of leaves, that traps unsuspecting foes within it for a short time. It takes very few resources to make, but a long time to build. Animals can sense these when calm.</description>
+		<description>A deep pit concealed by a pile of leaves. Though it doesn't do much damage, it traps unsuspecting foes within it for a short time, stunning them. It takes very few resources to make but a long time to build. Animals can sense these when calm.</description>
 		<thingClass>Roos_Satyrs_and_Fauns_Expanded.RBSF_Building_LeafTrap</thingClass>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
@@ -67,7 +67,7 @@
 		<label>trapped</label>
 		<labelNoun>entrapment</labelNoun>
 		<defaultLabelColor>(105, 165, 80)</defaultLabelColor>
-		<description>The pawn has fallen down a concealed pit, and is trying to climb out.</description>
+		<description>The pawn has fallen down a concealed pit and is stunned until they climb out.</description>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<makesSickThought>false</makesSickThought>
 		<tendable>false</tendable>
@@ -120,7 +120,7 @@
 		<stages>
 			<li>
 				<label>trapped</label>
-				<description>Ugh! I fell down a hole. I gotta dig myself out.</description>
+				<description>Ugh! I fell down a hole! I need to dig myself out quickly!</description>
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>

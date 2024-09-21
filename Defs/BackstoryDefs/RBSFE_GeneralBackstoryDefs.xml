@@ -40,7 +40,7 @@
 		<title>free spirit</title>
 		<titleShort>free</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] lived alongside satyrs and fauns in a free-spirited pod far away from any human influence. From sunrise to sunset, [PAWN_nameDef] lived [PAWN_possessive] life carefreely, penning wonderful pieces of poetry, playing the lyre and showering under the glistening pour of a waterfall.</baseDesc>
+		<baseDesc>[PAWN_nameDef] lived alongside satyrs and fauns in a free-spirited pod far away from human influence. From sunrise to sunset, [PAWN_nameDef] lived [PAWN_possessive] life carefreely, penning wonderful pieces of poetry, playing the lyre and showering under the glistening pour of a waterfall.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -68,7 +68,7 @@
 		<title>fendersmith</title>
 		<titleShort>fendersmith</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] maintained the palace fireplaces for a number of royal families. One of the royals took quite a romantic interest in [PAWN_nameDef], despite their disparity in status, but [PAWN_nameDef] was much more infatuated with the sight, the feeling and the power of a scorching fire than [PAWN_pronoun] could be with any other living creature.</baseDesc>
+		<baseDesc>[PAWN_nameDef] maintained the palace fireplaces for a number of royal families. One of the royals took quite a romantic interest in [PAWN_nameDef], despite their disparity in status, but [PAWN_nameDef] was much more infatuated with the sight, the feeling and the power of a scorching fire than [PAWN_pronoun] could be with any other living thing.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -125,7 +125,7 @@
 		<title>curio collector</title>
 		<titleShort>collector</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] defected from society and was welcomed into a tribe of fauns. The tribe were meek; almost “humanphobic”, and made haste at the mere sound of company passing through their land. Once travellers had passed by, [PAWN_nameDef] would scour the ground for mementos, and eventually amassed a trove of bottle caps, scrunched-up papers and other trash to remind [PAWN_objective] of human presence.</baseDesc>
+		<baseDesc>[PAWN_nameDef] defected from society and was welcomed into a tribe of fauns. The tribe were meek — almost “humanphobic” — and made haste at the mere sound of company passing through their land. Once travellers had passed by, [PAWN_nameDef] would scour the ground for mementos, and eventually amassed a trove of bottle caps, scrunched-up papers and other trash that was left behind.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>

@@ -10,7 +10,7 @@
 		<title>palm reader</title>
 		<titleShort>palmist</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] made a living reading the palms of passerby travellers. The silver [PAWN_pronoun] was given in return was merely a novelty to [PAWN_nameDef], as living solitarily left [PAWN_objective] with no use for currency. Everything [PAWN_pronoun] needed was already provided by Mother Earth.</baseDesc>
+		<baseDesc>[PAWN_nameDef] made a living reading the palms of passerby travellers. The silver [PAWN_pronoun] was given in return was merely a novelty. Everything [PAWN_pronoun] needed was already provided by Mother Earth.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -81,7 +81,7 @@
 		<title>circus act</title>
 		<titleShort>traveller</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was a featured member of a travelling circus, and fascinated humans who had never seen another xeno before. Unlike the rest of the troupe, [PAWN_nameDef] was kept in a cage alongside the animals, and was fed like one too.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was a member of a travelling circus troupe that fascinated humans who had never seen another xeno before. Unlike the rest of the troupe, [PAWN_nameDef] was kept in a cage alongside the animals, and was subsequently fed like one too.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -108,7 +108,7 @@
 		<title>fermenter</title>
 		<titleShort>fermenter</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was raised in a ramshackled market town by [PAWN_possessive] grandmother. The duo specialised in fermenting foods, drinks and sauces for the, albeit infrequent, passers-by. [PAWN_nameDef]’s grandmother passed away before [PAWN_pronoun] ever learned what happened to [PAWN_possessive] parents, but the state of ruin that [PAWN_possessive] town was in gave [PAWN_pronoun] an inkling that it was poverty that took their lives.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was raised in a ramshackled market town by [PAWN_possessive] adoptive grandmother. The duo specialised in fermenting foods, drinks and sauces for the, albeit infrequent, passersby. [PAWN_nameDef]’s grandmother passed away before [PAWN_pronoun] ever learned what happened to [PAWN_possessive] parents, but the state of ruin that [PAWN_possessive] town was in gave [PAWN_pronoun] an inkling that it was poverty that took their lives.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -133,7 +133,7 @@
 		<title>trickster</title>
 		<titleShort>trickster</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was raised in the whimsical heart of a forest rumoured for its magical influence. Plucky adventurers came and went, in search of mythical xenos and artefacts, but [PAWN_nameDef] knew better than to share information with humans without something in exchange. Being a natural prankster, [PAWN_nameDef] often conned travellers out of their most prized possessions with cunning tricks and riddles.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was raised in the whimsical heart of a forest rumoured for its magical aura. Plucky adventurers came and went, in search of mythical xenos and artefacts, but [PAWN_nameDef] knew better than to share information with humans without something in exchange. Being a natural prankster, [PAWN_nameDef] often conned travellers out of their most prized possessions with cunning tricks and riddles.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
