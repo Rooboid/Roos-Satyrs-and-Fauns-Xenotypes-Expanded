@@ -10,7 +10,7 @@
 		<title>duffer</title>
 		<titleShort>thief</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>To make ends meet for [PAWN_possessive] family, [PAWN_nameDef] and [PAWN_possessive] siblings came out at night to steal cattle from nearby farms and pawn them off to a willing buyer the next day.</baseDesc>
+		<baseDesc>To make ends meet for [PAWN_possessive] family, [PAWN_nameDef] and [PAWN_possessive] siblings would steal livestock from nearby farms in the dead of night. The next day, they would sell them in the market for a pretty penny. To make such a dubious living, [PAWN_nameDef] had to be nimble, quiet and heartless.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>
@@ -45,7 +45,7 @@
 		<title>honorary impid</title>
 		<titleShort>farmer</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>Having sustained harsh injuries while exploring a sprawl of desert ruins, [PAWN_nameDef] sought refuge in an Impid community, who imprisoned and nursed [PAWN_objective] back to health. [PAWN_nameDef] soon sweet-talked [PAWN_possessive] way out of [PAWN_possessive] dank jail cell and onto a patch of Impid soil where [PAWN_pronoun] grew exotic crops and trees.</baseDesc>
+		<baseDesc>Having sustained harsh injuries while exploring a sprawl of desert ruins, [PAWN_nameDef] sought refuge in an impid community, who imprisoned and nursed [PAWN_objective] back to health. [PAWN_nameDef] soon sweet-talked [PAWN_possessive] way out of [PAWN_possessive] dank jail cell and became part of their community. [PAWN_nameDef] grew exotic crops and trees for the impids, and in return, they taught [PAWN_objective] a few tricks in self-defence.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -75,7 +75,7 @@
 		<title>moirologist</title>
 		<titleShort>actor</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was a professional mourner. [PAWN_pronoun] lurked outside places of worship and mourning, offering [PAWN_possessive] services to the deceased’s family in exchange for silver coin or two. During the funeral, [PAWN_nameDef] would wail and weep for the deceased, making it seem that their passing was truly heartbreaking for [PAWN_objective], when in reality, it really made [PAWN_possessive] day, for [PAWN_pronoun] was much richer for it.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was a professional mourner. [PAWN_pronoun] lurked outside places of mourning, offering [PAWN_possessive] services to the deceased’s family in exchange for silver coin or two. During the funeral, [PAWN_nameDef] would wail and weep for the deceased, making it seem that their passing was truly heartbreaking for [PAWN_objective], when in reality, it really made [PAWN_possessive] day, for [PAWN_pronoun] was much, much richer for it.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -104,7 +104,7 @@
 		<title>shill</title>
 		<titleShort>shill</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] and [PAWN_possessive] partner-in-crime performed public scams to swindle money out of passers-by. This fraudulent lifestyle had its ups and downs, but came to a halt following the assault of [PAWN_possessive] partner-in-crime, causing [PAWN_nameDef] to spiral into a lifelong depression.</baseDesc>
+		<baseDesc>[PAWN_nameDef] and [PAWN_possessive] partner-in-crime performed public scams to swindle money out of passersby. This fraudulent lifestyle had its ups and downs, but came to a halt following the murder of [PAWN_possessive] partner-in-crime, causing [PAWN_nameDef] to spiral into a lifelong depression.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -157,7 +157,7 @@
 		<title>barsong hero</title>
 		<titleShort>drunk</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] sang songs of merriment, songs of joy, songs that others couldn't help but sing along to, to entertain the guests at [PAWN_possessive] village inn. The innkeepers gained so much business from these nightly sing-songs that [PAWN_nameDef] could have all the beer [PAWN_pronoun] liked, which was [PAWN_possessive] favourite form of payment.</baseDesc>
+		<baseDesc>[PAWN_nameDef] entertained the travellers at [PAWN_possessive] village inn with drunken bar songs. The innkeepers gained so much business from these nightly sing-songs that [PAWN_nameDef] could have all the beer [PAWN_pronoun] liked, which just so happened to be [PAWN_possessive] favourite form of payment.</baseDesc>
 		<bodyTypeMale>Fat</bodyTypeMale>
 		<bodyTypeFemale>Fat</bodyTypeFemale>
 		<spawnCategories>

@@ -423,7 +423,7 @@
 	<ThingDef ParentName="BaseWeapon">
 		<defName>RBSFE_AnimaRod</defName>
 		<label>anima rod</label>
-		<description>Few fae tribes can survive the loss of their precious Anima tree; Legend has it that this weapon is proof of one such exception. \n\nIn a time of great bloodshed and desperation one tribe begged nature for some small defense against the hoard - and their Anima tree, in its dying moments, gave them the power to devastate instead. \n\nToday, these mighty rods are carried by the high elders of the fae in honour of their fallen brethren, and as a reminder to others of what they learned back then - that sometimes peace can only be achieved with overwhelming might.</description>
+		<description>Few fae tribes can survive the loss of their precious Anima tree; and legend has it that this weapon is proof of one such exception. \n\nThe legendary tale of the Anima Rod originates from a time of great bloodshed and desperation. An ancient fae tribe was on the brink of death under the relentless heel of mankind, and they begged Mother Earth for a sliver of hope. Their Anima tree, in its dying moments, gave them that hope, and contorted into what we know now as the Anima Rod; the mighty weapon that prevented the extinction of the fauns. \n\nToday, these mighty weapons are carved out of fallen Anima trees to honour the lives that died with them. Their verdant glow serves as a reminder that oppression can always be thwarted by hope.</description>
 		<!-- BaseWeaponNeolithic -->
 		<thingCategories>
 			<li>WeaponsRanged</li>

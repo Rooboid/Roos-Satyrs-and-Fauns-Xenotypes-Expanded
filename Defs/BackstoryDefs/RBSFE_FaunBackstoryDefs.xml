@@ -39,7 +39,7 @@
 		<title>carefree hermit</title>
 		<titleShort>hermit</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed in living from the fruits of the earth and not concerning [PAWN_objective]self with the shackles of manual labour. Instead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possessive] childhood, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed that the earth provided everything one could ever need, and thusly abhorred the idea of manual labour. Instead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possessive] childhood, living off of wild berries, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -95,7 +95,7 @@
 		<title>faunstar</title>
 		<titleShort>escort</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] earned money as an escort. Fauns were highly sought after by lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course. Alongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing.</baseDesc>
+		<baseDesc>[PAWN_nameDef] earned money as an escort. After all, fauns are highly sought after by lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course. Alongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -159,7 +159,7 @@
 		<title>bacteriologist</title>
 		<titleShort>bacteriologist</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] studied grounded and airborne bacteria, and ultimately worked for a much cleaner and healthier future. Or so [PAWN_pronoun] tried. [PAWN_pronoun] was forcibly stationed on a sparsely-populated rimworld to experiment with a highly contagious, yet contained, virus. Negligent actions lead to this virus spreading across the rim like wildfire, with the illness of many weighing on [PAWN_nameDef]’s conscience.</baseDesc>
+		<baseDesc>[PAWN_nameDef] studied grounded and airborne bacteria, striving for a cleaner and healthier future. Or so [PAWN_pronoun] hoped. [PAWN_pronoun] was forcibly stationed on a sparsely-populated rimworld to experiment with a highly contagious, yet contained, virus. Negligent actions lead to this virus spreading across the rim like wildfire, with the illness of many weighing on [PAWN_nameDef]’s conscience.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -186,7 +186,7 @@
 		<title>glimmering faun</title>
 		<titleShort>daydreamer</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>A psychite-tea-induced trip took [PAWN_nameDef] to another world. In [PAWN_possessive] dream, [PAWN_nameDef] encountered, and helped, a sprightly young dragon to collect fourteen talismans and save the world from an evil overlord. \n\nBut this was just a dream. Right?</baseDesc>
+		<baseDesc>A psychite-tea-induced trip took [PAWN_nameDef] to another world. In [PAWN_possessive] dream, [PAWN_objective] encountered and helped a sprightly young dragon to collect fourteen talismans to save the world from an evil overlord. \n\nBut that was just a dream. Right?</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -209,7 +209,7 @@
 		<title>sentinel</title>
 		<titleShort>sentinel</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>Built like a wall, and just as stoic as one, [PAWN_nameDef] was an odd faun who pledged [PAWN_possessive] life and loyalty to [PAWN_possessive] queen. Many suspected the two were romantically entangled behind the scenes, but [PAWN_nameDef] denied these rumors, and continued to serve the family with dignity and finesse.</baseDesc>
+		<baseDesc>Built like a wall (and just as stoic), [PAWN_nameDef] was an odd faun who pledged [PAWN_possessive] life and loyalty to [PAWN_possessive] queen. Many suspected the two were romantically entangled behind the scenes, but [PAWN_nameDef] denied these rumors, and continued to serve the family with dignity and finesse.</baseDesc>
 		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Hulk</bodyTypeFemale>
 		<spawnCategories>

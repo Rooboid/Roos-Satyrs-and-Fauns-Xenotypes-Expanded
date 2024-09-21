@@ -400,7 +400,6 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecrown/RBSFE_Faecrown</wornGraphicPath>
-			<useWornGraphicMask>true</useWornGraphicMask> <!--?-->
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<renderSkipFlags>
 				<li>None</li>

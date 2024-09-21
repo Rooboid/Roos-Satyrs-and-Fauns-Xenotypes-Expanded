@@ -74,7 +74,7 @@
 						<clipPath>RBSFE_WeaponSounds/RBSFE_AnimaRod/RBSFE_AnimaRodEquip</clipPath>
 					</li>
 				</grains>
-				<volumeRange>55</volumeRange>
+				<volumeRange>30</volumeRange>
 				<pitchRange>1</pitchRange>
 			</li>
 		</subSounds>
@@ -93,7 +93,7 @@
 						<clipPath>RBSFE_WeaponSounds/RBSFE_AnimaRod/RBSFE_AnimaRodFire</clipPath>
 					</li>
 				</grains>
-				<volumeRange>45</volumeRange>
+				<volumeRange>40</volumeRange>
 				<pitchRange>0.9~1.1</pitchRange>
 			</li>
 		</subSounds>
@@ -112,7 +112,7 @@
 						<clipPath>RBSFE_WeaponSounds/RBSFE_AnimaRod/RBSFE_AnimaRodExplosion</clipPath>
 					</li>
 				</grains>
-				<volumeRange>80</volumeRange>
+				<volumeRange>50</volumeRange>
 				<pitchRange>0.8~1.2</pitchRange>
 			</li>
 		</subSounds>
