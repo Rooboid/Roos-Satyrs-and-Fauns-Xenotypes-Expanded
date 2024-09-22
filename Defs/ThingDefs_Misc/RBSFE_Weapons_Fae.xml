@@ -527,7 +527,7 @@
 		<projectile>
 			<damageDef>RBSFE_FaemoreDamage</damageDef>
 			<stoppingPower>4</stoppingPower>
-			<damageAmountBase>9.2</damageAmountBase>
+			<damageAmountBase>9</damageAmountBase>
 			<speed>50</speed>
 		</projectile>
 	</ThingDef>
