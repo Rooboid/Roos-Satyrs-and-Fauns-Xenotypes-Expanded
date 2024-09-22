@@ -11,7 +11,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>RBSFE_FaeBlade</defName>
 		<label>fae blade</label>
-		<description>A nimble blade favoured by fauns. Its mysterious aura seems to strengthen the wielder’s connection with nature.</description>
+		<description>A nimble blade favoured by fauns. Its mysterious aura seems to strengthen the wielder’s connection to nature.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeBlade</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -59,16 +59,16 @@
 					<li>Cut</li>
 				</capacities>
 				<power>14</power>
-				<cooldownTime>1.6</cooldownTime>
+				<cooldownTime>1.2</cooldownTime>
 			</li>
 			<li>
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>14.5</power>
+				<power>15</power>
 				<armorPenetration>0.30</armorPenetration>
-				<cooldownTime>1.7</cooldownTime>
+				<cooldownTime>1.4</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>
@@ -90,7 +90,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_FaeStaff</defName>
 		<label>fae staff</label>
-		<description>A long staff traditionally known as a ‘thyrsus’. It's adorned with flora, like pinecones and vines, and it greatly strengthens the wielder's connection to nature.</description>
+		<description>A long staff traditionally known as a ‘thyrsus’. It's adorned with various kinds of flora, like pinecones and vines, and it greatly strengthens the wielder's connection to nature.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -138,7 +138,7 @@
 		<recipeMaker>
 			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>3</Crafting>
+				<Crafting>4</Crafting>
 			</skillRequirements>
 			<displayPriority>442</displayPriority>
 		</recipeMaker>
@@ -154,7 +154,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_FaeWhip</defName>
 		<label>fae whip</label>
-		<description>A spiked whip fashioned from vines that slightly strengthens the wielder's connection to nature.</description>
+		<description>A spiked whip fashioned from vines that strengthens the wielder's connection to nature.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeWhip</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -219,7 +219,7 @@
 		<recipeMaker>
 			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>2</Crafting>
+				<Crafting>3</Crafting>
 			</skillRequirements>
 			<displayPriority>443</displayPriority>
 		</recipeMaker>
@@ -254,7 +254,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>RBSFE_Faemore</defName>
 		<label>faemore</label>
-		<description>A two-handed sword that's formidable in close-ranged combat, but can also fire a shock-wave of Gauranlen energy at distant foes, powered by the mysterious seed forged into its hilt. \n\nThis blade moderately strengthens the wielders connection with nature.</description>
+		<description>A powerful, two-handed sword that can also sweep shockwaves of energy at distant foes. Powered by the mysterious seed forged into its hilt, this blade moderately strengthens the wielders connection with nature.</description>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_Faemore</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -286,7 +286,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costList>
-			<Gold>1</Gold>
+			<Gold>1</Gold><!--- If ideology is installed, this is patched to be a Gauranlen seed -->
 		</costList>
 		<tools>
 			<li>
@@ -295,15 +295,15 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>8.3</power>
-				<cooldownTime>1.8</cooldownTime>
+				<cooldownTime>1.5</cooldownTime>
 			</li>
 			<li>
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>20</power>
-				<cooldownTime>2.2</cooldownTime>
+				<power>22</power>
+				<cooldownTime>2.0</cooldownTime>
 				<extraMeleeDamages>
 					<li>
 						<def>RBSFE_FaeDamage</def>
@@ -316,8 +316,8 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>20</power>
-				<cooldownTime>2.6</cooldownTime>
+				<power>25</power>
+				<cooldownTime>2.3</cooldownTime>
 			</li>
 		</tools>
 		<verbs>
@@ -325,8 +325,8 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RBSFE_FaemoreBullet</defaultProjectile>
-				<warmupTime>2.45</warmupTime>
-				<range>9.3</range>
+				<warmupTime>2.2</warmupTime>
+				<range>12.5</range>
 				<soundCast>RBSFE_FaemoreFire</soundCast>
 			</li>
 		</verbs>
@@ -349,7 +349,7 @@
 	<ThingDef ParentName="BaseWeaponNeolithic">
 		<defName>RBSFE_Faerrow</defName>
 		<label>faerrow</label>
-		<description>An ornate, swift bow often wielded by satyrs and fauns alike. It's long-ranged but weak. It slightly strengthens the wielder’s connection with nature.</description>
+		<description>An ornate, swift bow often wielded by satyrs and fauns alike. Though it's slightly weaker than a standard bow, it is both lighter to carry and much easier to fire at distant foes. It slightly strengthens the wielder’s connection to nature.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponRanged/RBSFE_Faerrow</texPath>
@@ -408,7 +408,7 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>8</power>
+				<power>5</power>
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
@@ -453,7 +453,7 @@
 			<WorkToMake>9300</WorkToMake>
 			<Mass>1</Mass>
 			<RBSF_NatureConnectionOffset>0.8</RBSF_NatureConnectionOffset>
-			<RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>2.75</RangedWeapon_Cooldown>
 			<MaxHitPoints>200</MaxHitPoints>
 			<RoyalFavorValue>2</RoyalFavorValue>
 		</statBases>
@@ -477,7 +477,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>RBSFE_AnimaBullet</defaultProjectile>
-				<warmupTime>4.7</warmupTime>
+				<warmupTime>4.9</warmupTime>
 				<range>24.4</range>
 				<forcedMissRadius>2.4</forcedMissRadius>
 				<soundCast>RBSFE_AnimaFire</soundCast>
@@ -511,7 +511,7 @@
 		<projectile>
 			<damageDef>RBSFE_FaeDamage</damageDef>
 			<damageAmountBase>10</damageAmountBase>
-			<speed>65</speed>
+			<speed>72</speed>
 		</projectile>
 	</ThingDef>
 	
@@ -526,9 +526,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>RBSFE_FaemoreDamage</damageDef>
-			<stoppingPower>5</stoppingPower>
-			<damageAmountBase>7</damageAmountBase>
-			<speed>27</speed>
+			<stoppingPower>4</stoppingPower>
+			<damageAmountBase>9.2</damageAmountBase>
+			<speed>50</speed>
 		</projectile>
 	</ThingDef>
 	
@@ -546,7 +546,7 @@
 			<damageDef>RBSFE_AnimaDamage</damageDef>
 			<explosionRadius>5.6</explosionRadius>
 			<damageAmountBase>14</damageAmountBase>
-			<armorPenetrationBase>0.86</armorPenetrationBase>
+			<armorPenetrationBase>0.76</armorPenetrationBase>
 			<screenShakeFactor>1</screenShakeFactor>
 			<speed>55</speed>
 		</projectile>
@@ -661,7 +661,7 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-200</severityPerDay>
 			</li>
-<!-- 			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
+			<!-- 			<li Class="HediffCompProperties_RemoveIfOtherHediff" MayRequire="Rooboid.Minotaur">
 				<otherHediff>HeDiffSeeRed</otherHediff>
 				<stages>2~</stages>
 				<mtbHours>0</mtbHours>
