@@ -410,6 +410,7 @@
 			<tags>
 				<li>Fae</li>
 			</tags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 		</apparel>
 		<recipeMaker>
 			<recipeUsers>
@@ -502,6 +503,7 @@
 			<tags>
 				<li>Fae</li>
 			</tags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 		</apparel>
 		<recipeMaker>
 			<recipeUsers>

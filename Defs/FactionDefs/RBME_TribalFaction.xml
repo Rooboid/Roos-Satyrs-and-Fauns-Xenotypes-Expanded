@@ -130,7 +130,7 @@
 		<baseTraderKinds>
 			<li>Base_Neolithic_Standard</li>
 		</baseTraderKinds>
-		<allowedArrivalTemperatureRange>-7~27</allowedArrivalTemperatureRange>
+		<allowedArrivalTemperatureRange>5~42</allowedArrivalTemperatureRange>
 		<raidCommonalityFromPointsCurve>
 			<points>
 				<li>(0, 0.5)</li>

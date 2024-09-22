@@ -1237,6 +1237,7 @@
 		<apparelMoney>50~450</apparelMoney>
 		<gearHealthRange>1~1</gearHealthRange>
 		<invNutrition>0</invNutrition>
+		<favoriteColor>(255,255,255)</favoriteColor>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1268,15 +1269,24 @@
 			<li>Apparel_CollarShirt</li>
 			<li MayRequire="VanillaExpanded.VAPPE">VAE_Apparel_LabCoat</li>
 		</apparelRequired>
-		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
 		<specificApparelRequirements Inherit="False">
 			<li>
-				<bodyPartGroup>FullHead</bodyPartGroup>
-				<stuff>Synthread</stuff>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<color>(255,255,255)</color>
 			</li>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
 				<stuff>Synthread</stuff>
+				<color>(255,255,255)</color>
+			</li>
+			<li>
+				<bodyPartGroup>Legs</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<stuff>Synthread</stuff>
+				<color>(255,255,255)</color>
 			</li>
 		</specificApparelRequirements>
 		<disallowedTraits>

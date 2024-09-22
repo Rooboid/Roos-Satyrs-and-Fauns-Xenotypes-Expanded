@@ -69,6 +69,32 @@
 		</match>
 	</Operation>
 	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+			<li>RBSFE_PlayerLastFaeStanding</li>
+			<li>RBSFE_PlayerTheFaunScientists</li>
+			<li>RBSFE_PlayerSabotagedBards</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rooboid.Minotaur.Expanded</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
+			<value>
+			<li>RBSFE_PlayerLastFaeStanding</li>
+			</value>
+		</match>
+	</Operation>
+	
 	<!--============================== Fae patches ============================-->
 	<!-- Patches that alter vanilla behaviour to account for new fae items -->
 

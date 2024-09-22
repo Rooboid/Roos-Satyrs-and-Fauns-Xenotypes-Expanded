@@ -7,9 +7,9 @@
 	<ScenarioDef>
 		<defName>RBSFE_TheFaunScientists</defName>
 		<label>The Faun Scientists</label>
-		<description>You embark on a journey far below your pay grade. But it’s for science. And you love science.\n\nYou and your lesser-minded subordinates depart from your Glitterworld space station onto the surface of a Rimworld to establish a laboratory there and study the local fauna. But be warned, rumours of your arrival have spread far and wide, and very few communities on the rim welcome invaders.</description>
+		<description>After a little slip-up during your tenure as a space station researcher, you and your team of fauns are dispatched to set up a laboratory on a polluted rimworld instead.\n\nNow, you must work far beyond your paygrade to study the fauna and flora of this disgusting planet. The space station has, and will continue to, send you cargo pods of supplies, but all you want to do is go home...</description>
 		<scenario>
-			<summary>Three Fauns establish a laboratory on the rim. A comfortable start.</summary>
+			<summary>Three Fauns establish a laboratory on the rim. Standard difficulty.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerTheFaunScientists</factionDef>
@@ -133,10 +133,18 @@
 					<thingDef>WoodLog</thingDef>
 					<count>100</count>
 				</li>
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>MicroelectronicsBasics</project></li>
+					
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Batteries</project></li>
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>It’s a journey far below your pay grade. But it’s for science. And you love science. \n\nA minor slip-up during your residency on a Glitterworld space station had you sentenced to five months of ‘charity work’: an obligation to lend your superior intellect to the lesser scientists of the station and support them in their (simple-minded) studies. The space station has, and will continue to, send you cargo pods of useful supplies, provided you work towards establishing a laboratory on the rim and collect research on the local fauna.
+					<text>You and your team of fauns were thrilled when you were asked to conduct research on a newly-launched space station. After all, you're not like the other luddites of your race, you love being surrounded by technology. Or so you thought.\n\nYour superiors gifted you a mechanoid fabricator to aid in your work, but the mere sight of it sent you into a mechanoid-induced panic attack. Your genealogy had a hold on you and your tenure on the space station was cut short. Your superiors dispatched you to set up a laboratory on a polluted rimworld instead.\n\nNow you must waste your superior intellect to study the fauna and flora of this disgusting planet. The space station has, and will continue to, send you cargo pods of supplies. But the only thing you are left wanting is a way to eradicate your crippling fear of mechanoids...
 					</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
@@ -150,7 +158,7 @@
 	<ScenarioDef>
 		<defName>RBSFE_SabotagedBards</defName>
 		<label>Sabotaged Bards</label>
-		<description>Your four-piece band vowed to take the Rim by storm with your music. But along the way, your troupe are forced to defend themselves against a band of brigands, armed with nothing more than your musical instruments. \n\nSomehow, you prevail, but are left stranded in the remains of your hopes and dreams. Now, more than ever, the four of you must pull yourselves together in order to survive.
+		<description>Your four-piece band vowed to take the rim by storm with your music. But along the way, your troupe were forced to defend themselves against a band of brigands, armed with nothing more than your instruments. \n\nSomehow, you prevailed, but your journey to enrapture the leader of the Empire with your music will be much harder now that brigands know your names. Now, more than ever, the four of you must pull yourselves together in order to survive.
 		</description>
 		<scenario>
 			<summary>Four Satyrs vow to become musical sensations. Medium difficulty.</summary>
@@ -163,7 +171,7 @@
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 					<def>ConfigurePawnsXenotypes</def>
 					<pawnChoiceCount>4</pawnChoiceCount>
-					<customSummary>Start with just Satyrs.</customSummary>
+					<customSummary>Start with just satyrs.</customSummary>
 					<overrideKinds>
 						<li>
 							<xenotype>RBSF_Satyr</xenotype>
@@ -287,7 +295,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>You and your plucky bandmates were ready to take the Rim by storm with your sound, high on your ma’s hopes for you (and a little bit of smokeleaf). \n\nThe four of you hopped in your wagon and set off for the Empire, but as night fell, brigands swarmed the vehicle, smashing it to pieces and holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat them surrender. Standing over the rubble of your hopes and dreams, you ponder how you will ever make it to stardom now.
+					<text>You and your plucky bandmates were ready to take the rim by storm with your music, high on your ma’s hopes for you (and a little bit of smokeleaf). \n\nThe four of you hopped in your wagon and set off for the Empire, but as night fell, brigands swarmed the vehicle, smashing it to pieces and holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat them the brigands submission. Standing over the rubble of your hopes and dreams, you each ponder how you will ever make it to stardom now.
 					</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
@@ -301,9 +309,9 @@
 	<ScenarioDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
 		<defName>RBSFE_LastFaeStanding</defName>
 		<label>Last Fae Standing</label>
-		<description>You were the one to birth your tribe. And you were also the one to lay it to rest at the hand of mechanoids. \n\nYou start this scenario at the site of your old tribe: Mechanoids are running rampant and only you survive. See what you can recover from the debris, before the mechanoids spot you, then rebuild your community in the name of revenge. \n\nNote: This scenario is unfair, as you start on a map with hostile mechanoids.</description>
+		<description>You were the founder of a beautiful fae tribe. And you were also the one to lay it to rest at the hands of invading mechanoids. \n\nYou start this scenario in the ruins of your old home, alone and frightened. Salvage what you can from the mechanical wreckage, work with allied factions and eradicate the killing machines that plague your home planet. \n\n- You begin allied with most other factions.\n- Your starting pawn begins with an Anima Rod, an incredible weapon crafted from the corpse of an Anima tree. It has a devastating AOE attack that binds victims in place, making early-game raids much easier.</description>
 		<scenario>
-			<summary>One powerful tribe leader seeks revenge. Unfair.</summary>
+			<summary>One powerful tribe leader seeks revenge. Unfairly difficult.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerLastFaeStanding</factionDef>
@@ -313,7 +321,7 @@
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 					<def>ConfigurePawnsXenotypes</def>
 					<pawnChoiceCount>1</pawnChoiceCount>
-					<customSummary>Start with a Faun.</customSummary>
+					<customSummary>Start with one faun.</customSummary>
 					<overrideKinds>
 						<li>
 							<xenotype>RBSF_Faun</xenotype>
@@ -399,18 +407,20 @@
 					<animalKind MayRequire="sarg.alphaanimals">AA_AnimaColossus</animalKind>
 					<bondToRandomPlayerPawnChance>0.7</bondToRandomPlayerPawnChance>
 				</li>
-				<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="KCSG.ScenPart_AddStartingStructure">
-					<def>VFEC_AddStartingStructure</def>
-					<structureLabel>RBSFE_LastFaeStandingStart</structureLabel>
-					<nearMapCenter>false</nearMapCenter>
-					<chooseFrom>
-						<li>RBSFE_LastFaeStandingStart</li>
-					</chooseFrom>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>DefoliatorShipPart</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>20</count>
 				</li>
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>What an honour it was; to oversee the success of your beautiful tribe. And what a horror it was, to see it fall. A forest once abundant in frolicking fauns and singing satyrs is now flattened and rife with mechanical giants. \n\nArmed with a formidable weapon, you watch the destruction from behind the foliage. See what you can pilfer from the foresty remains, before setting out on a quest to resurrect your glory. \n\nWarning: There are mechanoids currently on the map. Be careful your pawn doesn't wander into the crossfire.</text>
+					<text>What an honour it was to oversee the success of your beautiful tribe. And what a horror it was to see it fall.\n\nA forest once abundant in frolicking fauns and singing satyrs was torn up by mechanical claws, leaving nothing behind but you. The Anima tree you once worshipped was felled in a single swoop, and contorted into its mythical swansong: the formidable weapon of legend, the Anima Rod. You watched the destruction from the overgrowth, waiting for the nightmare to end. Now you must rebuild what you have lost, with only your Anima Rod to protect you.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
