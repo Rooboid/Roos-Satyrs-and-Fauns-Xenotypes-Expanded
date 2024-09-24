@@ -3,7 +3,7 @@ using Verse;
 
 namespace Roos_Satyrs_and_Fauns_Expanded
 {
-     public class RBSF_Building_LeafTrap : Building_TrapDamager
+    public class RBSF_Building_LeafTrap : Building_TrapDamager
     {
 
         protected override void SpringSub(Pawn p)
