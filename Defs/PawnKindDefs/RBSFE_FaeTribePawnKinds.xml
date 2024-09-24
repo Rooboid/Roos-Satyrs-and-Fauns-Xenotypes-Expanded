@@ -8,7 +8,8 @@
 		<chemicalAddictionChance>0.01</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0.03</backstoryCryptosleepCommonality>
 		<acceptArrestChanceFactor>1.2</acceptArrestChanceFactor>
-		<invNutrition>2</invNutrition>
+		<invNutrition>3</invNutrition>
+		<invFoodDef>Berries</invFoodDef>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -824,7 +825,6 @@
 		<label>jack-of-all-trades</label>
 		<maxGenerationAge>55</maxGenerationAge>
 		<combatPower>78</combatPower>
-		<invNutrition>0.5</invNutrition>
 		<initialWillRange>0~2</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -920,7 +920,6 @@
 		<combatPower>120</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~17</initialResistanceRange>
-		<invNutrition>1</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1027,7 +1026,6 @@
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>6~40</initialResistanceRange>
 		<royalTitleChance>0.04</royalTitleChance>
-		<invNutrition>0.5</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1122,7 +1120,7 @@
 		<factionHostileOnDeath>true</factionHostileOnDeath>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
-		<invNutrition>0</invNutrition>
+		<invNutrition>3.55</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1236,7 +1234,6 @@
 		<initialResistanceRange>1~10</initialResistanceRange>
 		<apparelMoney>50~450</apparelMoney>
 		<gearHealthRange>1~1</gearHealthRange>
-		<invNutrition>0</invNutrition>
 		<favoriteColor>(255,255,255)</favoriteColor>
 		<backstoryFiltersOverride>
 			<li>
@@ -1319,7 +1316,6 @@
 		<initialResistanceRange>20~50</initialResistanceRange>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
-		<invNutrition>0</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1400,7 +1396,6 @@
 		<combatPower>30</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>2~5</initialResistanceRange>
-		<invNutrition>0</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>

@@ -9,7 +9,7 @@
 		<label>The Faun Scientists</label>
 		<description>After a little slip-up during your tenure as a space station researcher, you and your team of fauns are dispatched to set up a laboratory on a polluted rimworld instead.\n\nNow, you must work far beyond your paygrade to study the fauna and flora of this disgusting planet. The space station has, and will continue to, send you cargo pods of supplies, but all you want to do is go home...</description>
 		<scenario>
-			<summary>Three Fauns establish a laboratory on the rim. Standard difficulty.</summary>
+			<summary>Three Fauns establish a laboratory on the rim. An easy way to get to know the fauns.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerTheFaunScientists</factionDef>
@@ -161,7 +161,7 @@
 		<description>Your four-piece band vowed to take the rim by storm with your music. But along the way, your troupe were forced to defend themselves against a band of brigands, armed with nothing more than your instruments. \n\nSomehow, you prevailed, but your journey to enrapture the leader of the Empire with your music will be much harder now that brigands know your names. Now, more than ever, the four of you must pull yourselves together in order to survive.
 		</description>
 		<scenario>
-			<summary>Four Satyrs vow to become musical sensations. Medium difficulty.</summary>
+			<summary>Four Satyrs vow to become musical sensations. A moderately difficult way to get to know the satyrs.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>RBSFE_PlayerSabotagedBards</factionDef>
@@ -306,10 +306,10 @@
 	<!--====================== Last Fae Standing ======================-->
 	<!-- Difficulty: Hard -->
 
-	<ScenarioDef MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+	<ScenarioDef>
 		<defName>RBSFE_LastFaeStanding</defName>
 		<label>Last Fae Standing</label>
-		<description>You were the founder of a beautiful fae tribe. And you were also the one to lay it to rest at the hands of invading mechanoids. \n\nYou start this scenario in the ruins of your old home, alone and frightened. Salvage what you can from the mechanical wreckage, work with allied factions and eradicate the killing machines that plague your home planet. \n\n- You begin allied with most other factions.\n- Your starting pawn begins with an Anima Rod, an incredible weapon crafted from the corpse of an Anima tree. It has a devastating AOE attack that binds victims in place, making early-game raids much easier.</description>
+		<description>You were the founder of a beautiful fae tribe. And you were also the only one to survive its destruction at the claws of the mechanoids. \n\nYou start this scenario in the ruins of your old home, alone and frightened. Salvage what you can from the mechanical wreckage and eradicate the killing machines that plague your planet. \n\nYour starting pawn begins with an Anima Rod, an incredibly rare weapon crafted from the corpse of an Anima tree. It has a devastating ranged attack that binds its victims in place.</description>
 		<scenario>
 			<summary>One powerful tribe leader seeks revenge. Unfairly difficult.</summary>
 			<playerFaction>
@@ -347,7 +347,20 @@
 					<def>StartingResearch</def>
 					<project>RBSFE_FaeCraftables</project>
 				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Cocoa</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Brewing</project>
+				</li>
 				<!-- Scattered Items Near Player Start -->
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Silver</thingDef>
+					<count>400</count>
+				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Pemmican</thingDef>
@@ -355,33 +368,30 @@
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>WoodLog</thingDef>
-					<count>1000</count>
-				</li>
-				<!-- Scattered Items Throughout Map -->
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
 					<thingDef>MedicineHerbal</thingDef>
 					<count>40</count>
 				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>Gold</thingDef>
 					<count>40</count>
 				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>ShipChunk</thingDef>
-					<count>8</count>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Chocolate</thingDef>
+					<count>10</count>
 				</li>
+				
+				<!-- Scattered Items Throughout Map -->
+				
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
-					<thingDef>Silver</thingDef>
-					<count>400</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>RBSFE_FaeStaff</thingDef>
+					<thingDef>RBSFE_FaeBlade</thingDef>
 					<stuff>WoodLog</stuff>
 					<count>2</count>
 				</li>
@@ -389,11 +399,6 @@
 					<def>ScatterThingsAnywhere</def>
 					<thingDef>VBE_Map</thingDef>
 					<count>1</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>MealSimple</thingDef>
-					<count>20</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
@@ -409,18 +414,13 @@
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
-					<thingDef>DefoliatorShipPart</thingDef>
-					<count>1</count>
-				</li>
-				<li Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
 					<thingDef>ShipChunk</thingDef>
 					<count>20</count>
 				</li>
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>What an honour it was to oversee the success of your beautiful tribe. And what a horror it was to see it fall.\n\nA forest once abundant in frolicking fauns and singing satyrs was torn up by mechanical claws, leaving nothing behind but you. The Anima tree you once worshipped was felled in a single swoop, and contorted into its mythical swansong: the formidable weapon of legend, the Anima Rod. You watched the destruction from the overgrowth, waiting for the nightmare to end. Now you must rebuild what you have lost, with only your Anima Rod to protect you.</text>
+					<text>What an honour it was to oversee the success of your beautiful tribe. And what a horror it was to see it fall.\n\nA forest once abundant in frolicking fauns and singing satyrs was torn up by mechanical claws, leaving nothing behind but you. The Anima tree you once worshipped was felled in a single swoop, and contorted into its mythical swansong: the formidable weapon of legend, the Anima Rod. You watched the destruction from the overgrowth, waiting for the nightmare to end.\n\nNow you must rebuild what you have lost, with only your Anima Rod to protect you.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
 			</parts>
