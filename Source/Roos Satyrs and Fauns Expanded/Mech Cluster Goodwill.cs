@@ -1,7 +1,6 @@
-﻿using RimWorld;
-using HarmonyLib;
+﻿using HarmonyLib;
+using RimWorld;
 using Verse;
-using System.Collections.Generic;
 
 namespace Roos_Satyrs_and_Fauns_Expanded
 {
@@ -15,7 +14,7 @@ namespace Roos_Satyrs_and_Fauns_Expanded
             //List<Faction> allFaeFactions = null;
             foreach (Faction faction in Find.FactionManager.GetFactions())
             {
-                if (faction?.def == RBSF_DefOf.RBSFE_TribeFae && !faction.defeated) 
+                if (faction?.def == RBSF_DefOf.RBSFE_TribeFae && !faction.defeated)
                 {
                     //allFaeFactions.AddItem(faction);
                     int GoodwillGain = 10;
