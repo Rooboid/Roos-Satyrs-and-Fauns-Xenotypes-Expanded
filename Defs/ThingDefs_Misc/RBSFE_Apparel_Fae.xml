@@ -17,6 +17,7 @@
 			<recipeUsers>
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>
@@ -26,31 +27,31 @@
 			<options>
 				<li>
 					<weight>33</weight>
-					<only>(57,116,67)</only>
+					<only>(57,116,67)</only><!-- Rich Green -->
 				</li>
 				<li>
 					<weight>15</weight>
-					<only>(60,70,50)</only>
+					<only>(60,70,50)</only><!-- Dark Green -->
 				</li>
 				<li>
 					<weight>10</weight>
-					<only>(90,140,25)</only>
+					<only>(90,140,25)</only><!-- Vibrant Green -->
 				</li>
 				<li>
 					<weight>10</weight>
-					<only>(85,60,60)</only>
+					<only>(85,60,60)</only><!-- Warm Brown -->
 				</li>
 				<li>
 					<weight>5</weight>
-					<only>(115,45,55)</only>
+					<only>(115,45,55)</only><!-- Brown -->
 				</li>
 				<li>
 					<weight>5</weight>
-					<only>(200,115,160)</only>
+					<only>(200,115,160)</only><!-- Pink -->
 				</li>
 				<li>
 					<weight>5</weight>
-					<only>(156,114,85)</only>
+					<only>(156,114,85)</only><!-- Orange -->
 				</li>
 			</options>
 		</colorGenerator>
@@ -72,17 +73,13 @@
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>1500</WorkToMake>
+			<WorkToMake>2300</WorkToMake>
 			<Mass>0.4</Mass>
-			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
 		</statBases>
-		<equippedStatOffsets>
-			<PsychicSensitivity>0.05</PsychicSensitivity>
-		</equippedStatOffsets>
 		<thingCategories>
 			<li>ApparelMisc</li>
 		</thingCategories>
@@ -128,11 +125,10 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>1500</WorkToMake>
 			<Mass>0.4</Mass>
-			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
@@ -172,7 +168,7 @@
 		</graphicData>
 		<costList>
 			<Cloth>10</Cloth>
-			<WoodLog>70</WoodLog>
+			<WoodLog>80</WoodLog>
 		</costList>
 		<thingCategories>
 			<li>ApparelMisc</li>
@@ -181,11 +177,14 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>8500</WorkToMake>
 			<Mass>1.5</Mass>
-			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.6</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<ArmorRating_Heat>-0.05</ArmorRating_Heat>
+			<Insulation_Cold>18.5</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
 			<EquipDelay>1.7</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.21</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.20</RBSF_NatureConnectionOffset>
+			<ComfyTemperatureMin>-2</ComfyTemperatureMin>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -262,14 +261,13 @@
 			<li>ApparelMisc</li>
 		</thingCategories>
 		<statBases>
+			<Insulation_Cold>1</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
 			<MaxHitPoints>69</MaxHitPoints>
-			<WorkToMake>500</WorkToMake>
+			<WorkToMake>750</WorkToMake>
 			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.5</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -284,6 +282,10 @@
 			<defaultOutfitTags>
 				<li>Nudist</li>
 			</defaultOutfitTags>
+			<tags>
+			<li>Satyr</li>
+			<li>Fae</li>
+			</tags>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeLeaf/RBSFE_FaeLeaf</wornGraphicPath>
 		</apparel>
@@ -326,7 +328,7 @@
 			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>13</EquipDelay>
-			<RBSF_NatureConnectionOffset>0.5</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.30</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.25</MoveSpeed>
@@ -348,6 +350,7 @@
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faemail/RBSFE_Faemail</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -356,10 +359,10 @@
 				<li>Fae</li>
 				<li>FaeFighter</li>
 			</tags>
+			
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 	</ThingDef>
@@ -370,7 +373,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBSFE_Faecrown</defName>
 		<label>fae crown</label>
-		<description>A beautiful crown of leaves that strengthens the wearer’s connection with nature.</description>
+		<description>A beautiful crown of leaves that strengthens the wearer’s psychic sensitivity and their connection with nature.</description>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecrown/RBSFE_FaecrownIC</texPath>
@@ -382,17 +385,17 @@
 			<WoodLog>10</WoodLog>
 		</costList>
 		<statBases>
+			<Insulation_Cold>1</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
 			<WorkToMake>800</WorkToMake>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>0.05</Mass>
-			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 			<Flammability>1.5</Flammability>
-			<RBSF_NatureConnectionOffset>0.11</RBSF_NatureConnectionOffset>
+			<RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<Beauty>0.15</Beauty>
 		</equippedStatOffsets>
 		<apparel>
@@ -411,6 +414,7 @@
 				<li>Fae</li>
 			</tags>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
 			<recipeUsers>
@@ -466,30 +470,30 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBSFE_Faecap</defName>
 		<label>faecap</label>
-		<description>A large cap worn by clerics. It strengthens the wearer’s connection with nature and slightly boosts their psychic sensitivity.</description>
+		<description>A large cap worn by clerics. It strengthens the wearer’s psychic sensitivity and their connection with nature.</description>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecap/RBSFE_FaecapIC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>0.7</uiIconScale>
 		<costList>
-			<WoodLog>20</WoodLog>
+			<WoodLog>30</WoodLog>
 		</costList>
 		<statBases>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
 			<WorkToMake>2100</WorkToMake>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>0.09</Mass>
-			<StuffEffectMultiplierArmor>0.33</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
-			<Flammability>1.5</Flammability>
-			<RBSF_NatureConnectionOffset>0.2</RBSF_NatureConnectionOffset>
-			<PsychicSensitivity>0.05</PsychicSensitivity>
+			<Flammability>2</Flammability>
+			<RBSF_NatureConnectionOffset>0.15</RBSF_NatureConnectionOffset>
 		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>0.05</PsychicSensitivity>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -553,5 +557,232 @@
 			</options>
 		</colorGenerator>
 	</ThingDef>
-  
+	
+	<!-- Faepron - NEW -->
+
+	<ThingDef ParentName="FaeApparelBase">
+		<defName>RBSFE_Faepron</defName>
+		<label>faepron</label>
+		<description>A leafy apron often worn by fauns and satyrs. It helps pawns work faster and slightly strengthens their connection with nature.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faepron/RBSFE_FaepronIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<WoodLog>85</WoodLog>
+		</costList>
+		<statBases>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4000</WorkToMake>
+			<Mass>0.5</Mass>
+			<EquipDelay>1.5</EquipDelay>
+			<RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
+			<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+			<PlantWorkSpeed>0.10</PlantWorkSpeed>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faepron/RBSFE_Faepron</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		</apparel>
+		<recipeMaker>
+			<displayPriority>331</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<!-- Faescarf -->
+	
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>RBSFE_Faescarf</defName>
+		<label>fae scarf</label>
+		<description>A leafy scarf that covers the jaw, helps to ward off toxins and strengthens the wearer’s connection with nature.</description>
+		<techLevel>Neolithic</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeScarf/RBSFE_FaeScarfIC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<statBases>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+			<WorkToMake>1500</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.09</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>1.5</Flammability>
+			<RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Teeth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeScarf/RBSFE_FaeScarf</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags Inherit="False">
+				<li>Satyr</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<displayPriority>334</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>33</weight>
+					<only>(57,116,67)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(60,70,50)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(90,140,25)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(85,60,60)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(115,45,55)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(200,115,160)</only>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(156,114,85)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+	<!-- Faerose -->
+	
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>RBSFE_Faerose</defName>
+		<label>fae rose</label>
+		<description>A romantic rose held between the teeth of fauns and satyr's looking for love. It slightly strengthens the wearer’s connection with nature, but offers nothing in terms of warmth or armour.</description>
+		<techLevel>Neolithic</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faerose/RBSFE_FaeroseIC</texPath>
+			<maskPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faerose/RBSFE_FaeroseICm</maskPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>0.7</uiIconScale>
+		<costList>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<statBases>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+			<WorkToMake>1500</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.09</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>1.5</Flammability>
+			<RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Teeth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faerose/RBSFE_Faerose</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Satyr</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+			<displayPriority>334</displayPriority>
+		</recipeMaker>
+		<tradeTags>
+			<li>BasicClothing</li>
+			<li>FaeClothing</li>
+		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<comps Inherit="False">
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+
 </Defs>

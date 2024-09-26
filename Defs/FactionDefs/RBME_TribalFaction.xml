@@ -153,9 +153,9 @@
 				<commonality>100</commonality>
 				<options>
 					<RBSF_FaeBard>0.5</RBSF_FaeBard>
-					<RBSF_FaeArcher>15</RBSF_FaeArcher>
+					<RBSF_FaeArcher>10</RBSF_FaeArcher>
 					<RBSF_FaeCleric>3</RBSF_FaeCleric>
-					<RBSF_Jack-of-All-Trades>7</RBSF_Jack-of-All-Trades>
+					<RBSF_Jack-of-All-Trades>5</RBSF_Jack-of-All-Trades>
 					<RBSF_FaeGuardian>3</RBSF_FaeGuardian>
 					<RBSF_Lansquenet>2</RBSF_Lansquenet>
 					<!-- Bard Types (2.5) -->

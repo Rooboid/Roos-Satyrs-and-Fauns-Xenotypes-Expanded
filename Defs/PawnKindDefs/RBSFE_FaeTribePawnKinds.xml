@@ -5,11 +5,12 @@
 	<!-- Fae Base - Standard base for all fae units -->
 	
 	<PawnKindDef Name="FaeBase" Abstract="True">
-		<chemicalAddictionChance>0.01</chemicalAddictionChance>
-		<backstoryCryptosleepCommonality>0.03</backstoryCryptosleepCommonality>
-		<acceptArrestChanceFactor>1.2</acceptArrestChanceFactor>
-		<invNutrition>3</invNutrition>
-		<invFoodDef>Berries</invFoodDef>
+		<!-- Basics -->
+		<race>Human</race>
+		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
+		<maxGenerationAge>90</maxGenerationAge>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>3~8</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -22,60 +23,18 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
-		<apparelTags>
-			<li>Fae</li>
-			<li>Neolithic</li>
-		</apparelTags>
-		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<acceptArrestChanceFactor>1.2</acceptArrestChanceFactor>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<!-- Inventory -->
+		<invNutrition>2.55</invNutrition>
+		<invFoodDef>MealFine_Veg</invFoodDef>
+		<!-- Hediffs -->
 		<techHediffsMoney>0~3000</techHediffsMoney>
 		<techHediffsTags>
 			<li>Poor</li>
 		</techHediffsTags>
 		<techHediffsChance>0.02</techHediffsChance>
-		<gearHealthRange>0.5~1</gearHealthRange>
-	</PawnKindDef>
-	<disallowedTraits>
-		<li>BodyPurist</li>
-	</disallowedTraits>
-	
-	<!--====================== Fae Tribe - Peaceful Pawns ======================-->
-	<!-- Unqiue, none-fighter pawns belonging to the Fae Tribe -->
-	
-	<!-- Fae - Peaceful pawns of satyr or faun xenotypes -->
-	
-	<PawnKindDef Parent="FaeBase">
-		<defName>RBSF_Fae</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
-		<isFighter>False</isFighter>
-		<label>fae</label>
-		<maxGenerationAge>90</maxGenerationAge>
-		<combatPower>22</combatPower>
-		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>3~8</initialResistanceRange>
-		<apparelAllowHeadgearChance>0.05</apparelAllowHeadgearChance>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesChildhood>
-					<li>SatyrandFaun</li>
-					<li>Tribal</li>
-				</categoriesChildhood>
-				<categoriesAdulthood>
-					<li>SatyrandFaun</li>
-					<li>Tribal</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponMoney>200</weaponMoney>
-		<weaponTags>
-			<li>Fae</li>
-			<li>Instrument</li>
-			<li>NeolithicRangedBasic</li>
-			<li>NeolithicMeleeBasic</li>
-		</weaponTags>
-		<apparelMoney>130~430</apparelMoney>
-		<humanPregnancyChance>0.4</humanPregnancyChance>
-		<useFactionXenotypes>false</useFactionXenotypes>
+		<!-- Xenotype -->
 		<xenotypeSet>
 			<xenotypeChances>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
@@ -83,6 +42,61 @@
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.05</LTS_Elfin>
 			</xenotypeChances>
 		</xenotypeSet>
+		<!-- Apparel -->
+		<apparelTags>
+			<li>Fae</li>
+		</apparelTags>
+		<apparelDisallowTags>
+		<li>IndustrialBasic</li>
+		</apparelDisallowTags>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<gearHealthRange>0.5~1</gearHealthRange>
+		<specificApparelRequirements>
+			<li>
+				<colorGenerator Class="ColorGenerator_Options">
+					<options>
+						<li>
+							<weight>10</weight>
+							<only>(57,116,67)</only><!-- Rich Green -->
+						</li>
+						<li>
+							<weight>5</weight>
+							<only>(60,70,50)</only><!-- Dark Green -->
+						</li>
+						<li>
+							<weight>1</weight>
+							<only>(150,70,60)</only><!-- Satyr Brown -->
+						</li>
+						<li>
+							<weight>1</weight>
+							<only>(201,92,54)</only><!-- Faun Brown -->
+						</li>
+					</options>
+				</colorGenerator>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	
+	<!--====================== Fae Tribe - Peaceful Pawns ======================-->
+	<!-- Unqiue, none-fighter pawns belonging to the Fae Tribe -->
+	
+	<!-- Fae - Peaceful pawns of satyr or faun xenotypes -->
+	
+	<PawnKindDef ParentName="FaeBase">
+		<defName>RBSF_Fae</defName>
+		<label>fae</label>
+		<isFighter>False</isFighter>
+		<favoriteColor>(57,116,67)</favoriteColor>
+		<combatPower>22</combatPower>
+		<weaponMoney>200</weaponMoney>
+		<weaponTags>
+			<li>Fae</li>
+			<li>Instrument</li>
+			<li>NeolithicRangedBasic</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<apparelMoney>450</apparelMoney>
+		<humanPregnancyChance>0.05</humanPregnancyChance>
 		<inventoryOptions>
 			<skipChance>0.7</skipChance>
 			<subOptionsChooseOne>
@@ -119,16 +133,12 @@
 	
 	<!-- Fae Child - Peaceful pawns of satyr or faun xenotypes, children only -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeChild</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>False</isFighter>
+		<favoriteColor>(57,116,67)</favoriteColor>
 		<label>fae</label>
-		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>13</combatPower>
-		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>3~8</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -145,65 +155,74 @@
 		<weaponTags>
 			<li>Instrument</li>
 		</weaponTags>
-		<apparelMoney>130~430</apparelMoney>
-		<apparelRequired>
-			<li>RBSFE_KidFaegarms</li>
-		</apparelRequired>
-		<useFactionXenotypes>true</useFactionXenotypes>
+		<apparelMoney>450</apparelMoney>
+		<inventoryOptions>
+			<skipChance>0</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>RawBerries</thingDef>
+					<countRange>10</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 		<pawnGroupDevelopmentStage>Child</pawnGroupDevelopmentStage>
 	</PawnKindDef>
 	
 	<!-- Fae Nudist - Peaceful pawns of satyr or faun xenotypes, always wearing Faeleaf -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeNudist</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>False</isFighter>
+		<favoriteColor>(57,116,67)</favoriteColor>
+		<apparelColor>(57,116,67)</apparelColor>
+		<minGenerationAge>18</minGenerationAge>
 		<label>fae</label>
-		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>18</combatPower>
-		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>3~8</initialResistanceRange>
+		<initialWillRange>0~3</initialWillRange>
+		<initialResistanceRange>8~18</initialResistanceRange>
+		<apparelAllowHeadgearChance Inherit = "False">10</apparelAllowHeadgearChance>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
 					<li>SatyrandFaun</li>
-					<li>Tribal</li>
+					<li>SatyrOnly</li>
+					<li>SatyrWild</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>SatyrandFaun</li>
-					<li>Tribal</li>
+					<li>SatyrOnly</li>
+					<li>SatyrWild</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
-		<weaponMoney>53</weaponMoney>
+		<weaponMoney>112</weaponMoney>
 		<weaponTags>
 			<li>Fae</li>
 			<!-- Anima Gear -->
 			<li>AnimaStaff</li>
 		</weaponTags>
-		<apparelMoney>10</apparelMoney>
+		<apparelMoney>65</apparelMoney>
 		<apparelRequired>
 			<li>RBSFE_Faeleaf</li>
 		</apparelRequired>
+		<apparelTags>
+		<li>Satyr</li>
+		<li>Fae</li>
+		</apparelTags>
 		<forcedTraits>
 			<Nudist>0</Nudist>
 		</forcedTraits>
-		<useFactionXenotypes>true</useFactionXenotypes>
 		<humanPregnancyChance>0.01</humanPregnancyChance>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
 	</PawnKindDef>
 	
 	<!-- Fae Artificer (Satyr Only) - Fae Blacksmiths -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeArtificer</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>False</isFighter>
+		<favoriteColor>(150,70,60)</favoriteColor>
 		<label>fae artificer</label>
-		<maxGenerationAge>90</maxGenerationAge>
 		<combatPower>38</combatPower>
 		<initialWillRange>0~0</initialWillRange>
 		<initialResistanceRange>3~13</initialResistanceRange>
@@ -239,10 +258,18 @@
 			<li>DankPyon_Peasant</li>
 			<li>DankPyon_BrigandThug</li>
 		</apparelTags>
-		<apparelMoney>130~430</apparelMoney>
+		<apparelMoney>550</apparelMoney>
+		<apparelRequired>
+			<li>RBSFE_Faepron</li>
+		</apparelRequired>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>FullHead</bodyPartGroup>
+				<color>(150,70,60)</color>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
 				<color>(150,70,60)</color>
 			</li>
 			<li>
@@ -338,16 +365,15 @@
 
 	<!-- Fae Cleric (Faun only) - Fae healers -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeCleric</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
-		<isFighter>False</isFighter>
+		<isFighter>True</isFighter>
+		<favoriteColor>(140,180,170)</favoriteColor>
 		<label>fae cleric</label>
 		<maxGenerationAge>65</maxGenerationAge>
 		<combatPower>34</combatPower>
-		<initialWillRange>0~3</initialWillRange>
-		<initialResistanceRange>2~15</initialResistanceRange>
+		<initialWillRange>0~5</initialWillRange>
+		<initialResistanceRange>5~15</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -376,7 +402,7 @@
 			<li>RBSFE_Faecloak</li>
 			<li>RBSFE_Faecap</li>
 		</apparelRequired>
-		<apparelMoney>130~430</apparelMoney>
+		<apparelMoney>550</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -385,6 +411,11 @@
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Shell</apparelLayer>
+				<color>(140,180,170)</color>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Middle</apparelLayer>
 				<color>(140,180,170)</color>
 			</li>
 			<li>
@@ -438,7 +469,7 @@
 	
 	<!-- Fae Trader (Satyr Only) - Unique coloured apparel, so easy to spot -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeTrader</defName>
 		<label>fae merchant</label>
 		<race>Human</race>
@@ -483,37 +514,31 @@
 		</weaponTags>
 		<apparelRequired>
 			<li>Apparel_Bandolier</li>
-			<li>Apparel_CollarShirt</li>
-			<li>Apparel_Pants</li>
+			<li>RBSFE_Faegarms</li>
 		</apparelRequired>
-		<apparelMoney>130~430</apparelMoney>
+		<apparelMoney>450~600</apparelMoney>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>FullHead</bodyPartGroup>
-				<color>(54,87,127)</color>
+				<color>(200,115,160)</color>
 			</li>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Shell</apparelLayer>
-				<color>(54,87,127)</color>
+				<color>(200,200,200)</color>
 			</li>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>OnSkin</apparelLayer>
-				<color>(158,120,78)</color>
-				<stuff>Cloth</stuff>
-			</li>
-			<li>
-				<bodyPartGroup>Legs</bodyPartGroup>
-				<apparelLayer>OnSkin</apparelLayer>
-				<color>(158,120,78)</color>
+				<color>(200,115,160)</color>
 				<stuff>Cloth</stuff>
 			</li>
 		</specificApparelRequirements>
 		<apparelTags>
 			<li>VAEA_Utility_Neolithic</li>
 			<li>Fae</li>
+			<li>Satyr</li>
 			<!-- Medieval Overhaul -->
 			<li>DankPyon_Peasant</li>
 			<li>DankPyon_BrigandThug</li>
@@ -538,53 +563,50 @@
 		</skills>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
 		<techHediffsChance>0.15</techHediffsChance>
-		<techHediffsMoney>300~1800</techHediffsMoney>
+		<techHediffsMoney>800~1800</techHediffsMoney>
 		<techHediffsTags>
 			<li>Poor</li>
 		</techHediffsTags>
 	</PawnKindDef>
 
 	<!--====================== Fae Tribe - Violent Pawns ======================-->
-	<!-- Unqiue, fighter pawns belonging to the Fae Tribe -->
+	<!-- Unique, fighter pawns belonging to the Fae Tribe -->
 	
 	<!-- Fae Bard (Satyr only) barely even classable as fighters -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeBard</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>bard</label>
 		<maxGenerationAge>80</maxGenerationAge>
-		<combatPower>29</combatPower>
+		<combatPower>27</combatPower>
 		<initialWillRange>0~3</initialWillRange>
-		<initialResistanceRange>3~9</initialResistanceRange>
+		<initialResistanceRange>3~20</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
 					<li>SatyrOnly</li>
 					<li>Bard</li>
 					<li>SatyrandFaun</li>
-					<li>Tribal</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>SatyrOnly</li>
 					<li>Bard</li>
 					<li>SatyrandFaun</li>
-					<li>Tribal</li>
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
-		<weaponMoney>200</weaponMoney>
+		<weaponMoney>250</weaponMoney>
 		<weaponTags>
 			<li>Instrument</li>
 		</weaponTags>
-		<apparelMoney>130~430</apparelMoney>
+		<apparelMoney>300~600</apparelMoney>
 		<apparelRequired>
 			<li>RBSFE_Faecrown</li>
 		</apparelRequired>
 		<apparelTags>
 			<li>Fae</li>
+			<li>RoyalRobe</li>
 			<!-- Medieval Overhaul -->
 			<li>DankPyon_Peasant</li>
 			<li>DankPyon_BrigandThug</li>
@@ -624,7 +646,7 @@
 	
 	<!-- Fae Thief (Satyr Only) - Short-ranged fighter with minimal, medieval armour, uses knives -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeThief</defName>
 		<race>Human</race>
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
@@ -632,6 +654,7 @@
 		<label>fae thief</label>
 		<maxGenerationAge>60</maxGenerationAge>
 		<combatPower>42</combatPower>
+		<apparelColor>(69,69,69)</apparelColor> <!-- Nice -->
 		<initialWillRange>3~7</initialWillRange>
 		<initialResistanceRange>6~13</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -646,7 +669,7 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
-		<weaponMoney>75~240</weaponMoney>
+		<weaponMoney>450~600</weaponMoney>
 		<weaponTags>
 			<li>FaeRanged</li>
 			<li>NeolithicRangedBasic</li>
@@ -663,7 +686,8 @@
 		</apparelTags>
 		<apparelMoney>40~240</apparelMoney>
 		<apparelRequired>
-			<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Headgear_RedBandana</li>
+			<li>Apparel_HatHood</li>
+			<li>RBSFE_Faegarms</li>
 		</apparelRequired>
 		<requiredWorkTags>
 			<li>Violent</li>
@@ -712,10 +736,6 @@
 					<thingDef>WoolSheep</thingDef>
 					<countRange>10</countRange>
 				</li>
-				<li>
-					<thingDef>RawToxipotato</thingDef>
-					<countRange>10</countRange>
-				</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">
 					<thingDef>GauranlenSeed</thingDef>
 					<countRange>1</countRange>
@@ -750,29 +770,15 @@
 	
 	<!-- Fae Archer - Ranged-only fae fighters, the bread-and-butter of raids -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeArcher</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>fae archer</label>
-		<maxGenerationAge>75</maxGenerationAge>
-		<combatPower>50</combatPower>
-		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>3~8</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesChildhood>
-					<li>SatyrandFaun</li>
-					<li>Tribal</li>
-				</categoriesChildhood>
-				<categoriesAdulthood>
-					<li>SatyrandFaun</li>
-					<li>Tribal</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponMoney>50~200</weaponMoney>
+		<maxGenerationAge>50</maxGenerationAge>
+		<combatPower>45</combatPower>
+		<initialWillRange>0~2</initialWillRange>
+		<initialResistanceRange>4~20</initialResistanceRange>
+		<weaponMoney>450</weaponMoney>
 		<weaponTags>
 			<li>FaeRanged</li>
 			<li>NeolithicRangedBasic</li>
@@ -784,11 +790,15 @@
 		<apparelRequired>
 			<li>Apparel_Bandolier</li>
 		</apparelRequired>
-		<apparelMoney>40~240</apparelMoney>
+		<apparelMoney>140~300</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Shell</apparelLayer>
+				<color>(150,70,60)</color>
+			</li>
+			<li>
+				<bodyPartGroup>FullHead</bodyPartGroup>
 				<color>(150,70,60)</color>
 			</li>
 		</specificApparelRequirements>
@@ -801,7 +811,6 @@
 				<range>5~13</range>
 			</li>
 		</skills>
-		<useFactionXenotypes>true</useFactionXenotypes>
 		<modExtensions>
 			<li MayRequire="Owlchemist.GiddyUp" Class="GiddyUp.CustomMounts">
 				<mountChance>3</mountChance>
@@ -817,34 +826,17 @@
 	
 	<!-- Jack-of-All-Trades - a medium-strength, wildcard fighter with many possibilities for equipment -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_Jack-of-All-Trades</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>jack-of-all-trades</label>
 		<maxGenerationAge>55</maxGenerationAge>
-		<combatPower>78</combatPower>
+		<combatPower>60</combatPower>
 		<initialWillRange>0~2</initialWillRange>
-		<initialResistanceRange>3~13</initialResistanceRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categoriesChildhood>
-					<li>SatyrandFaun</li>
-					<li>Tribal</li>
-				</categoriesChildhood>
-				<categoriesAdulthood>
-					<li>SatyrandFaun</li>
-					<li>Tribal</li>
-				</categoriesAdulthood>
-			</li>
-		</backstoryFiltersOverride>
-		<weaponMoney>73~330</weaponMoney>
+		<initialResistanceRange>5~18</initialResistanceRange>
+		<weaponMoney>550</weaponMoney>
 		<weaponTags>
 			<li>Fae</li>
-			<li>NeolithicMeleeDecent</li>
-			<li>NeolithicRangedDecent</li>
-			<li>MedievalMeleeBasic</li>
 			<!-- Medieval Overhaul -->
 			<li>DankPyon_Grenade_PotFire</li>
 		</weaponTags>
@@ -854,7 +846,7 @@
 		<apparelTags>
 			<li>MedievalMilitary</li>
 		</apparelTags>
-		<apparelMoney>80~460</apparelMoney>
+		<apparelMoney>150~460</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -864,8 +856,6 @@
 		</specificApparelRequirements>
 		<requiredWorkTags>
 			<li>Violent</li>
-			<li>PlantWork</li>
-			<li>Crafting</li>
 		</requiredWorkTags>
 		<skills>
 			<li>
@@ -881,9 +871,8 @@
 				<range>2~8</range>
 			</li>
 		</skills>
-		<useFactionXenotypes>true</useFactionXenotypes>
 		<inventoryOptions>
-			<skipChance>0.95</skipChance>
+			<skipChance>0.80</skipChance>
 			<subOptionsChooseOne>
 				<li>
 					<thingDef>Silver</thingDef>
@@ -910,16 +899,14 @@
 	
 	<!-- Fae Guardian - Hardy guards of high fae ranks. Will usually be minotaur, if Roo's Minotaur Xenotype is installed -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeGuardian</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>fae guardian</label>
-		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>120</combatPower>
-		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>3~17</initialResistanceRange>
+		<maxGenerationAge>50</maxGenerationAge>
+		<combatPower>100</combatPower>
+		<initialWillRange>0~2</initialWillRange>
+		<initialResistanceRange>5~17</initialResistanceRange>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -930,7 +917,7 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
-		<weaponMoney>73~570</weaponMoney>
+		<weaponMoney>180~570</weaponMoney>
 		<weaponTags>
 			<li>Fae</li>
 			<li>NeolithicMeleeAdvanced</li>
@@ -945,12 +932,13 @@
 		<apparelTags>
 			<li>MedievalMilitary</li>
 		</apparelTags>
-		<apparelMoney>120~730</apparelMoney>
+		<apparelMoney>600</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>Shell</apparelLayer>
 				<color>(225,231,226)</color>
+				<stuff>Steel</stuff>
 			</li>
 		</specificApparelRequirements>
 		<requiredWorkTags>
@@ -969,7 +957,7 @@
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances>
-				<RBM_Minotaur MayRequire="Rooboid.Minotaur">1</RBM_Minotaur>
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">2</RBM_Minotaur>
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">1</LTS_Elfin>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
@@ -1015,16 +1003,14 @@
 	
 	<!-- Lansquenet - The highest rank of fae fighter. Typically uses the faemore to fight -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_Lansquenet</defName>
-		<race>Human</race>
-		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<isFighter>True</isFighter>
 		<label>lansquenet</label>
 		<maxGenerationAge>60</maxGenerationAge>
-		<combatPower>145</combatPower>
+		<combatPower>135</combatPower>
 		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>6~40</initialResistanceRange>
+		<initialResistanceRange>8~40</initialResistanceRange>
 		<royalTitleChance>0.04</royalTitleChance>
 		<backstoryFiltersOverride>
 			<li>
@@ -1039,7 +1025,7 @@
 				</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
-		<weaponMoney>400~1050</weaponMoney>
+		<weaponMoney>600</weaponMoney>
 		<weaponTags>
 			<li>FaeMelee</li>
 			<li>MedievalMeleeAdvanced</li>
@@ -1049,11 +1035,12 @@
 			<li>Apparel_ShieldBelt</li>
 		</apparelRequired>
 		<apparelTags>
+		<li>Fae</li>
 			<li>MedievalMilitary</li>
 			<!-- Anima Gear -->
 			<li>AnimaCrown</li>
 		</apparelTags>
-		<apparelMoney>500~730</apparelMoney>
+		<apparelMoney>700~1000</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
@@ -1077,7 +1064,15 @@
 		<forcedTraits>
 			<Tough>0</Tough>
 		</forcedTraits>
-		<useFactionXenotypes>true</useFactionXenotypes>
+				<useFactionXenotypes>false</useFactionXenotypes>
+		<xenotypeSet>
+			<xenotypeChances>
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">2</RBM_Minotaur>
+				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">1</LTS_Elfin>
+				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
+				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
+			</xenotypeChances>
+		</xenotypeSet>
 		<inventoryOptions>
 			<skipChance>0.95</skipChance>
 			<subOptionsChooseOne>
@@ -1106,21 +1101,21 @@
 	
 	<!-- Fae Paragon - Faction Leader. Psycaster mage (if Royalty is installed) -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_Paragon</defName>
 		<label>paragon</label>
 		<race>Human</race>
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<factionLeader>true</factionLeader>
 		<isFighter>True</isFighter>
+		<favoriteColor>(0,0,0)</favoriteColor>
 		<maxGenerationAge>100</maxGenerationAge>
 		<combatPower>165</combatPower>
 		<initialWillRange>0~0</initialWillRange>
-		<initialResistanceRange>20~50</initialResistanceRange>
+		<initialResistanceRange>10~40</initialResistanceRange>
 		<factionHostileOnDeath>true</factionHostileOnDeath>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Excellent</itemQuality>
-		<invNutrition>3.55</invNutrition>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -1149,7 +1144,7 @@
 			<!-- Medieval Overhaul -->
 			<li>DankPyon_Necklaces</li>
 		</apparelTags>
-		<apparelMoney>500~2500</apparelMoney>
+		<apparelMoney>1000</apparelMoney>
 		<specificApparelRequirements>
 			<li>
 				<bodyPartGroup>UpperHead</bodyPartGroup>
@@ -1175,7 +1170,7 @@
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<range>10~19</range>
+				<range>10~15</range>
 			</li>
 		</skills>
 		<forcedTraits>
@@ -1296,16 +1291,23 @@
 				<Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
 			</xenotypeChances>
 		</xenotypeSet>
-		<techHediffsMoney>2000~3500</techHediffsMoney>
+		<techHediffsMoney>2000~7000</techHediffsMoney>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
+		<techHediffsRequired>
+			<li>PsychicAmplifier</li>
+		</techHediffsRequired>
+		<abilities>
+			<li>Painblock</li>
+			<li>Burden</li>
+		</abilities>
 		<techHediffsChance>0.5</techHediffsChance>
 	</PawnKindDef>
 	
 	<!-- Fae Paragon - Player version -->
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_PlayerParagonPawn</defName>
 		<race>Human</race>
 		<defaultFactionType>RBSFE_PlayerLastFaeStanding</defaultFactionType>
@@ -1387,7 +1389,7 @@
 		</inventoryOptions>
 	</PawnKindDef>
 	
-	<PawnKindDef Parent="FaeBase">
+	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_PlayerFaeBard</defName>
 		<race>Human</race>
 		<defaultFactionType>RBSFE_PlayerSabotagedBards</defaultFactionType>
