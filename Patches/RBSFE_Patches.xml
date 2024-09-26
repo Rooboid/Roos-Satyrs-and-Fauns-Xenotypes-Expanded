@@ -22,23 +22,6 @@
 		</match>
 	</Operation>
 	
-	<!-- Give Player Paragons Psycaster Abilities -->
-	
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Royalty</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/PawnKindDef[defName="RBSF_PlayerParagonPawn"]</xpath>
-			<value>
-				<abilities>
-					<li>Painblock</li>
-					<li>Burden</li>
-				</abilities>
-			</value>
-		</match>
-	</Operation>
-	
 	<!-- Give Clerics Psycaster Abilities -->
 	
 	<Operation Class="PatchOperationFindMod">
@@ -220,7 +203,7 @@
 							<OutlanderCivil>33</OutlanderCivil>
 							<TribeCivil>33</TribeCivil>
 							
-							<TribeMinotaur MayRequire="Rooboid.Minotaur">75</TribeMinotaur>
+							<TribeMinotaur MayRequire="Rooboid.Minotaur.Expanded">75</TribeMinotaur>
 							<SerenCivilBase MayRequire="odysseylotus.seren">75</SerenCivilBase>
 							<SerenPlayerBase MayRequire="odysseylotus.seren">75</SerenPlayerBase>
 							<AztecCivil MayRequire="odysseylotus.AztecAllTogether">33</AztecCivil>
@@ -231,15 +214,6 @@
 					<li Class="KCSG.CustomGenOption">
 						<preventBridgeable>true</preventBridgeable>
 						<tryFindFreeArea>false</tryFindFreeArea>
-						<!-- 						<symbolResolvers>
-							<li>kcsg_scatterstuffaround</li>
-						</symbolResolvers>
-						<scatterThings>
-							<li>Gold</li>
-							<li>Silver</li>
-						</scatterThings>
-						<scatterChance>0.01</scatterChance> -->
-	
 						<chooseFromSettlements>
 							<li>RBSFE_FaeSettlement</li>
 						</chooseFromSettlements>

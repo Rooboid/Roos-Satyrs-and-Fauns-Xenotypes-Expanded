@@ -40,7 +40,7 @@
 			<li MayRequire="Sarg.AlphaMemes">AM_GauranlenSupremacy</li>
 		</requiredMemes>
 		<disallowedMemes>
-			<li MayRequire="sarg.alphaanimals">AA_BiologicalCorruptors</li>
+			<li MayRequire="Sarg.AlphaMemes">AM_BiologicalCorruptors</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_Madness</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_Sadist</li>
 			<li MayRequire="Sarg.AlphaMemes">AM_BiologicalDefilers</li>
@@ -380,12 +380,9 @@
 			
 						<li MayRequire="xrushha.AnimaGear">AnimaFiber</li>
 			
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientWood</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_MealRationsVegetarian</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Straw</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Spices</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawCotton</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawGrapes</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawCabbages</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Honey</li>
 			

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ====================================== Fae Apparel - Category =========================================== -->
+	
+	<ThingCategoryDef>
+		<defName>RBSFE_FaeApparelCategory</defName>
+		<label>fae apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+	
+		<!-- ====================================== Fae Weapons - Category =========================================== -->
+	
+	<ThingCategoryDef>
+		<defName>RBSFE_FaeWeaponsCategory</defName>
+		<label>fae weapons</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+	
+</Defs>

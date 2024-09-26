@@ -317,22 +317,6 @@
 					<countRange>5</countRange>
 				</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">
-					<thingDef>DankPyon_RawWood</thingDef>
-					<countRange>0~5</countRange>
-				</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">
-					<thingDef>DankPyon_ElvenWoodLog</thingDef>
-					<countRange>5~10</countRange>
-				</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">
-					<thingDef>DankPyon_DryadWoodLog</thingDef>
-					<countRange>0~5</countRange>
-				</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">
-					<thingDef>DankPyon_Coal</thingDef>
-					<countRange>5~20</countRange>
-				</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">
 					<thingDef>DankPyon_IronOre</thingDef>
 					<countRange>5~20</countRange>
 				</li>
@@ -743,10 +727,6 @@
 				<li MayRequire="DankPyon.Medieval.Overhaul">
 					<thingDef>DankPyon_Cider</thingDef>
 					<countRange>2</countRange>
-				</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">
-					<thingDef>DankPyon_ElvenWoodLog</thingDef>
-					<countRange>10</countRange>
 				</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">
 					<thingDef>DankPyon_RawGrapes</thingDef>

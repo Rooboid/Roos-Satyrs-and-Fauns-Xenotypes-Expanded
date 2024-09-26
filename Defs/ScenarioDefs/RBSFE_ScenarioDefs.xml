@@ -295,7 +295,7 @@
 				<!-- Starting Message -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>You and your plucky bandmates were ready to take the rim by storm with your music, high on your ma’s hopes for you (and a little bit of smokeleaf). \n\nThe four of you hopped in your wagon and set off for the Empire, but as night fell, brigands swarmed the vehicle, smashing it to pieces and holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat them the brigands submission. Standing over the rubble of your hopes and dreams, you each ponder how you will ever make it to stardom now.
+					<text>You and your plucky bandmates were ready to take the rim by storm with your music, high on your ma’s hopes for you (and a little bit of smokeleaf). \n\nThe four of you hopped in your wagon and set off for the Empire, but as night fell, brigands swarmed the vehicle, smashing it to pieces and holding your bard-mates at knifepoint. An unholy resolve flowed through you, and armed only with your instruments, you beat them the brigands submission.\n\nStanding over the rubble of your hopes and dreams, you each ponder how you will ever make it to stardom now.
 					</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>

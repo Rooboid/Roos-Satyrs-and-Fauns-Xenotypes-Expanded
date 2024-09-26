@@ -85,14 +85,12 @@
 		
 				<li MayRequire="xrushha.AnimaGear">AnimaFiber</li>
 		
-				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_BrokenWeapons</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Flour</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Straw</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawHerb</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawGrapes</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawMulberry</li>
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawLentils</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_ElvenWoodLog</li>
 		
 				<li MayRequire="VanillaExpanded.VBrewE">VBE_RawTea</li>
 				<li MayRequire="VanillaExpanded.VBrewE">VBE_AmbrandyMush</li>

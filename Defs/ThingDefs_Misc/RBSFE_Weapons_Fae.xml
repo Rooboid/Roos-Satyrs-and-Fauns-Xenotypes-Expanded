@@ -12,6 +12,9 @@
 		<defName>RBSFE_FaeBlade</defName>
 		<label>fae blade</label>
 		<description>A nimble blade favoured by fauns. Its mysterious aura seems to strengthen the wielder’s connection to nature.</description>
+		<thingCategories>
+			<li>RBSFE_FaeWeaponsCategory</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeBlade</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -91,6 +94,9 @@
 		<defName>RBSFE_FaeStaff</defName>
 		<label>fae staff</label>
 		<description>A long staff traditionally known as a ‘thyrsus’. It's adorned with various kinds of flora, like pinecones and vines, and it greatly strengthens the wielder's connection to nature.</description>
+		<thingCategories>
+			<li>RBSFE_FaeWeaponsCategory</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeStaff</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -155,6 +161,9 @@
 		<defName>RBSFE_FaeWhip</defName>
 		<label>fae whip</label>
 		<description>A spiked whip fashioned from vines that strengthens the wielder's connection to nature.</description>
+		<thingCategories>
+			<li>RBSFE_FaeWeaponsCategory</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_FaeWhip</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -255,6 +264,9 @@
 		<defName>RBSFE_Faemore</defName>
 		<label>faemore</label>
 		<description>A powerful, two-handed sword that can also sweep shockwaves of energy at distant foes. Powered by the mysterious seed forged into its hilt, this blade moderately strengthens the wielders connection with nature.</description>
+		<thingCategories>
+			<li>RBSFE_FaeWeaponsCategory</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_Faemore</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -350,6 +362,9 @@
 		<defName>RBSFE_Faerrow</defName>
 		<label>faerrow</label>
 		<description>An ornate, swift bow often wielded by satyrs and fauns alike. Though it's slightly weaker than a standard bow, it is both lighter to carry and much easier to fire at distant foes. It slightly strengthens the wielder’s connection to nature.</description>
+		<thingCategories>
+			<li>RBSFE_FaeWeaponsCategory</li>
+		</thingCategories>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Equipment/WeaponRanged/RBSFE_Faerrow</texPath>
@@ -424,13 +439,11 @@
 		<defName>RBSFE_AnimaRod</defName>
 		<label>anima rod</label>
 		<description>Few fae tribes can survive the loss of their precious Anima tree; and legend has it that this weapon is proof of one such exception. \n\nThe legendary tale of the Anima Rod originates from a time of great bloodshed and desperation. An ancient fae tribe was on the brink of death under the relentless heel of mankind, and they begged Mother Earth for a sliver of hope. Their Anima tree, in its dying moments, gave them that hope, and contorted into what we know now as the Anima Rod; the mighty weapon that prevented the extinction of the fauns. \n\nToday, these mighty weapons are carved out of fallen Anima trees to honour the lives that died with them. Their verdant glow serves as a reminder that oppression can always be thwarted by hope.</description>
-		<!-- BaseWeaponNeolithic -->
 		<thingCategories>
-			<li>WeaponsRanged</li>
+			<li>RBSFE_FaeWeaponsCategory</li>
 		</thingCategories>
 		<burnableByRecipe>true</burnableByRecipe>
 		<relicChance>1</relicChance>
-		<!-- BaseWeaponNeolithic -->
 		<graphicData>
 			<texPath>Things/Equipment/WeaponMelee/RBSFE_AnimaRod</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
