@@ -687,7 +687,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeScarf/RBSFE_FaeScarfIC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.1</drawSize>
+			<drawSize>1.2</drawSize>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
 		<costList>
@@ -709,6 +709,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Teeth</li>
+				<li>Neck</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RBSFE_FaeScarf/RBSFE_FaeScarf</wornGraphicPath>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
