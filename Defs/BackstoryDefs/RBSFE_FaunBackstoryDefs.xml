@@ -39,7 +39,7 @@
 		<title>carefree hermit</title>
 		<titleShort>hermit</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed that the earth provided everything one could ever need, and thusly abhorred the idea of manual labour. Instead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possessive] childhood, living off of wild berries, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was born, raised and nurtured in the clutches of an isolated forest. [PAWN_possessive] clan believed that the earth provided everything one could ever need, and thusly abhorred the idea of manual labour.\n\nInstead, [PAWN_nameDef] was raised to simply enjoy [PAWN_possessive] childhood, living off of wild berries, napping in the sun’s rays and taking a dip in the hot springs whenever [PAWN_pronoun] felt like it.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
@@ -65,7 +65,7 @@
 		<title>forager</title>
 		<titleShort>forager</titleShort>
 		<slot>Childhood</slot>
-		<baseDesc>[PAWN_nameDef] created art from found things, such as interestingly patterned rocks, bark and leaves. This childhood of foraging taught [PAWN_nameDef] to excavate, to dive and to sustainably harvest flora for [PAWN_possessive] art projects.</baseDesc>
+		<baseDesc>[PAWN_nameDef] created art from found things, such as interestingly patterned rocks, bark and leaves. This childhood of foraging taught [PAWN_nameDef] to excavate, to dive and to sustainably harvest flora for [PAWN_possessive] projects.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -95,7 +95,7 @@
 		<title>faunstar</title>
 		<titleShort>escort</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] earned money as an escort. After all, fauns are highly sought after by lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course. Alongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing.</baseDesc>
+		<baseDesc>[PAWN_nameDef] earned money as an escort. After all, fauns have always been sought after by the lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course.\n\nAlongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing to keep [PAWN_obective]self safe.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>

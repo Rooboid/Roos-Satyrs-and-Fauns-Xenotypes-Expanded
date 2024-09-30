@@ -36,7 +36,7 @@
 		</possessions>
 	</BackstoryDef>
 	
-		<!--============================== Mysterious Healer ============================-->
+	<!--============================== Mysterious Healer ============================-->
 	<!-- Great medical gains, but incapable of many consistent work types and reclusive -->
 
 	<BackstoryDef>
@@ -73,7 +73,7 @@
 		</possessions>
 	</BackstoryDef>
 	
-		<!--============================== Circus Act ============================-->
+	<!--============================== Circus Act ============================-->
 	<!-- Forces cannibal trait, but poor gains -->
 
 	<BackstoryDef>
@@ -86,11 +86,11 @@
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
 			<li>SatyrandFaun</li>
+			<li>Minotaur</li>
 		</spawnCategories>
 		<skillGains>
 			<Animals>2</Animals>
 			<Social>-5</Social>
-
 		</skillGains>
 		<forcedTraits>
 			<Cannibal>0</Cannibal>
@@ -100,7 +100,7 @@
 		</workDisables>
 	</BackstoryDef>
 	
-		<!--============================== Fermenter ============================-->
+	<!--============================== Fermenter ============================-->
 	<!-- Decent gains with no forced or declined traits -->
 
 	<BackstoryDef>
@@ -113,6 +113,7 @@
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
 			<li>SatyrandFaun</li>
+			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
 			<Cooking>5</Cooking>
@@ -125,7 +126,7 @@
 		</possessions>
 	</BackstoryDef>
 	
-		<!--============================== Trickster ============================-->
+	<!--============================== Trickster ============================-->
 	<!-- Well-rounded but locked out of positive industrious traits -->
 
 	<BackstoryDef>
@@ -177,7 +178,7 @@
 		</forcedTraits>
 	</BackstoryDef>
 	
-		<!--============================== Potter ============================-->
+	<!--============================== Potter ============================-->
 	<!-- Great gains in artistic and crafting, but let down by "recluse" trait -->
 
 	<BackstoryDef>
@@ -190,6 +191,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>SatyrandFaun</li>
+			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
 			<Artistic>6</Artistic>

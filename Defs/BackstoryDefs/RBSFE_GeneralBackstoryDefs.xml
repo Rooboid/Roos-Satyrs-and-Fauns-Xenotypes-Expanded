@@ -16,6 +16,7 @@
 		<spawnCategories>
 			<li>SatyrandFaun</li>
 			<li>Offworld</li>
+			<li>Minotaur</li>
 		</spawnCategories>
 		<skillGains>
 			<Artistic>4</Artistic>
@@ -30,7 +31,7 @@
 		</disallowedTraits>
 	</BackstoryDef>
 	
-	<!--============================== Satyr and Faun Backstories - Adulthood ============================-->
+	<!--============================== General Backstories - Adulthood ============================-->
 	
 	<!--============================== Free Spirit ============================-->
 	<!-- Integrated into the faun lore. Great gains, but not keen on working hard -->
@@ -47,6 +48,7 @@
 			<li>SatyrandFaun</li>
 			<li>Bard</li>
 			<li>Tribal</li>
+			<li>Minotaur</li>
 		</spawnCategories>
 		<skillGains>
 			<Artistic>6</Artistic>
@@ -95,7 +97,7 @@
 		<title>biomineralogist</title>
 		<titleShort>biomineralogist</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] was dispatched on a government-funded expedition to the rim to study the relationship between plant life and minerals. [PAWN_possessive] no-nonsense approach to [PAWN_possessive] objective somewhat dampened the morale of [PAWN_possessive] team during transit, but when [PAWN_possessive] shuttle came under fire by spaceborne pirates and [PAWN_nameDef] was the only one to have landed on the rim safely, [PAWN_pronoun] would have given anything to have them back.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was dispatched on a government-funded expedition to the rim to study its plant life. [PAWN_possessive] no-nonsense approach to [PAWN_possessive] objective was at odds with [PAWN_possessive] colleagues' excitement and innocence. But when [PAWN_possessive] shuttle came under fire by spaceborne pirates and [PAWN_nameDef] was the only one to have landed on the rim safely, [PAWN_pronoun] would have given anything to have [PAWN_possessive] lighthearted colleagues back.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
@@ -125,12 +127,13 @@
 		<title>curio collector</title>
 		<titleShort>collector</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] defected from society and was welcomed into a tribe of fauns. The tribe were meek — almost “humanphobic” — and made haste at the mere sound of company passing through their land. Once travellers had passed by, [PAWN_nameDef] would scour the ground for mementos, and eventually amassed a trove of bottle caps, scrunched-up papers and other trash that was left behind.</baseDesc>
+		<baseDesc>[PAWN_nameDef] defected from society and was welcomed into a tribe of fauns. The tribe were meek — almost “humanphobic” — and made haste at the mere sound of humans passing through their land. But [PAWN_nameDef] was fascinated by them.\n\nWhen human travellers passed by, [PAWN_nameDef] would scour the ground for mementos of their existence, and eventually amassed a trove of bottle caps, scrunched-up papers and other trash that they left behind.</baseDesc>
 		<bodyTypeMale>Thin</bodyTypeMale>
 		<bodyTypeFemale>Thin</bodyTypeFemale>
 		<spawnCategories>
 			<li>SatyrandFaun</li>
 			<li>Offworld</li>
+			<li>MinotaurTribe</li>
 		</spawnCategories>
 		<skillGains>
 			<Plants>3</Plants>

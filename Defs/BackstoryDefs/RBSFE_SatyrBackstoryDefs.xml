@@ -16,6 +16,7 @@
 		<spawnCategories>
 			<li>SatyrOnly</li>
 			<li>SatyrWild</li>
+			<li>Minotaur</li>
 		</spawnCategories>
 		<skillGains>
 			<Social>4</Social>
@@ -137,6 +138,7 @@
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 			<li>SatyrOnly</li>
+			<li>Minotaur</li>
 		</spawnCategories>
 		<forcedTraits>
 			<DrugDesire>2</DrugDesire>

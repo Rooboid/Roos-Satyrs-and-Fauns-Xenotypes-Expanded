@@ -59,9 +59,9 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
 			<value>
-			<li>RBSFE_PlayerLastFaeStanding</li>
-			<li>RBSFE_PlayerTheFaunScientists</li>
-			<li>RBSFE_PlayerSabotagedBards</li>
+				<li>RBSFE_PlayerLastFaeStanding</li>
+				<li>RBSFE_PlayerTheFaunScientists</li>
+				<li>RBSFE_PlayerSabotagedBards</li>
 			</value>
 		</match>
 	</Operation>
@@ -73,7 +73,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/FactionDef[defName="OutlanderMinotaur"]/permanentEnemyToEveryoneExcept</xpath>
 			<value>
-			<li>RBSFE_PlayerLastFaeStanding</li>
+				<li>RBSFE_PlayerLastFaeStanding</li>
 			</value>
 		</match>
 	</Operation>
@@ -293,17 +293,27 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/BackstoryDef[defName="RBSFE_Drunk"]/forcedTraits</xpath>
 					<value>
-						<VTE_Slob>0</VTE_Slob>
+						<VTE_DrunkenMaster>0</VTE_DrunkenMaster>
 					</value>
 				</li>
 	
-				<!-- Barsong Hero -->
+				<!-- Shy Potter -->
 
 				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_ShyPotter"]/forcedTraits/TorturedArtist</xpath>
+					<value>
+						<VTE_Technophobe>0</VTE_Technophobe>
+					</value>
+				</li>
+				
+				<!-- Barsong Hero -->
+
+				<li Class="PatchOperationAdd">
 					<xpath>Defs/BackstoryDef[defName="RBSFE_BarsongHero"]</xpath>
 					<value>
 						<forcedTraits>
 							<VTE_FunLoving>0</VTE_FunLoving>
+							<VTE_DrunkenMaster>0</VTE_DrunkenMaster>
 						</forcedTraits>
 					</value>
 				</li>
@@ -315,6 +325,7 @@
 					<value>
 						<forcedTraits>
 							<VTE_Wanderlust>0</VTE_Wanderlust>
+							<VTE_Insatiable>0</VTE_Insatiable>
 						</forcedTraits>
 					</value>
 				</li>
@@ -327,36 +338,7 @@
 						<VTE_Desensitized>0</VTE_Desensitized>
 					</value>
 				</li>
-	
-				<!-- Mysterious Healer -->
 
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/BackstoryDef[defName="RBSFE_MysteriousHealer"]/forcedTraits/Recluse</xpath>
-					<value>
-						<VTE_Schizoid>0</VTE_Schizoid>
-					</value>
-				</li>
-	
-				<!-- Circus Act -->
-
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/BackstoryDef[defName="RBSFE_CircusAct"]/forcedTraits</xpath>
-					<value>
-						<VTE_FunLoving>0</VTE_FunLoving>
-					</value>
-				</li>
-	
-				<!-- Trickster -->
-
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/BackstoryDef[defName="RBSFE_Trickster"]</xpath>
-					<value>
-						<forcedTraits>
-							<VTE_Tycoon>0</VTE_Tycoon>
-						</forcedTraits>
-					</value>
-				</li>
-	
 				<!-- Copyist -->
 
 				<li Class="PatchOperationAdd">
@@ -381,6 +363,7 @@
 					<xpath>Defs/BackstoryDef[defName="RBSFE_CarefreeHermit"]/forcedTraits/Industriousness</xpath>
 					<value>
 						<VTE_Rebel>0</VTE_Rebel>
+						<VTE_Technophobe>0</VTE_Technophobe>
 					</value>
 				</li>
 	
@@ -401,8 +384,75 @@
 					<xpath>Defs/BackstoryDef[defName="RBSFE_Climatologist"]/forcedTraits/Neurotic</xpath>
 					<value>
 						<VTE_Eccentric>0</VTE_Eccentric>
+						<VTE_Ecologist>0</VTE_Ecologist>
 					</value>
 				</li>
+				
+				<!-- Faunstar -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Faunstar"]/forcedTraits/Nimble</xpath>
+					<value>
+						<VTE_MartialArtist>0</VTE_MartialArtist>
+					</value>
+				</li>
+				
+				<!-- Curio Collector -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_CurioCollector"]/forcedTraits/Recluse</xpath>
+					<value>
+						<VTE_Kleptomaniac>0</VTE_Kleptomaniac>
+					</value>
+				</li>
+				
+				<!-- Palm Reader -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_PalmReader"]/forcedTraits</xpath>
+					<value>
+						<VTE_Ecologist>0</VTE_Ecologist>
+					</value>
+				</li>
+			
+				<!-- Caricaturist -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Caricaturist"]/forcedTraits</xpath>
+					<value>
+						<VTE_FunLoving>0</VTE_FunLoving>
+					</value>
+				</li>
+	
+				<!-- Mysterious Healer -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_MysteriousHealer"]/forcedTraits/Recluse</xpath>
+					<value>
+						<VTE_Schizoid>0</VTE_Schizoid>
+					</value>
+				</li>
+				
+				<!-- Trickster -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_Trickster"]</xpath>
+					<value>
+						<forcedTraits>
+							<VTE_Tycoon>0</VTE_Tycoon>
+						</forcedTraits>
+					</value>
+				</li>
+				
+				<!-- Circus Act -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BackstoryDef[defName="RBSFE_CircusAct"]/forcedTraits</xpath>
+					<value>
+						<VTE_AnimalLover>0</VTE_AnimalLover>
+					</value>
+				</li>
+
 			</operations>
 		</match>
 	</Operation>
