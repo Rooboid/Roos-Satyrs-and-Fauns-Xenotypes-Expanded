@@ -2,10 +2,7 @@ Credits:
 
 ○ Roo's Satyr and Faun Xenotypes
 • Graphics and XML: Rooboid
-• C#: Zelan
-
-○ Mod Icons functionality
-• Mod Icons: By Arquebus https://steamcommunity.com/sharedfiles/filedetails/?id=2937699914
+• C# and XML: Zelan
 
 ○ Patreon Supporters (who made this mod possible!)
 Britton McGrane, Brandon Pollastri, Eric Celmer, Johnsilker, دانيال أيفان مولار مارتينز, Clement C, Alexandra Milan, John Hamilton, Lau Rosenkilde Birk, Thomas, Shaelyn Rivers-Green, SpaceMarines1, Daedalus, Greg Bunger, D-Train, Dodo, Prince Gerald S, Bardest, Paul Ollivier, Feeler, Raphael Huddy, MasonWolfy and Tyler Dougherty

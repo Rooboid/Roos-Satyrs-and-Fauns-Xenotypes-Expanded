@@ -1275,13 +1275,6 @@
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
-		<techHediffsRequired>
-			<li>PsychicAmplifier</li>
-		</techHediffsRequired>
-		<abilities MayRequire="Ludeon.RimWorld.Royalty">
-			<li MayRequire="Ludeon.RimWorld.Royalty">Painblock</li>
-			<li MayRequire="Ludeon.RimWorld.Royalty">Burden</li>
-		</abilities>
 		<techHediffsChance>0.5</techHediffsChance>
 	</PawnKindDef>
 	

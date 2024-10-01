@@ -373,7 +373,7 @@
 			<RBSF_NatureConnectionOffset>0.30</RBSF_NatureConnectionOffset>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.25</MoveSpeed>
+			<MoveSpeed>-0.10</MoveSpeed>
 			<Beauty>0.4</Beauty>
 		</equippedStatOffsets>
 		<tradeTags>
@@ -510,7 +510,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBSFE_Faerose</defName>
 		<label>fae rose</label>
-		<description>A romantic rose held between the teeth of fauns and satyr's looking for love. It slightly strengthens the wearer’s connection with nature, but offers nothing in terms of warmth or armour.</description>
+		<description>A romantic rose held between the teeth of fauns and satyrs looking for love. It strengthens the wearer’s social impact and connection with nature, but offers little else.</description>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faerose/RBSFE_FaeroseIC</texPath>

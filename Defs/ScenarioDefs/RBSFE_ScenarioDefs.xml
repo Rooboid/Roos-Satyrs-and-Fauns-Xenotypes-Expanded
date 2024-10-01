@@ -265,12 +265,6 @@
 					<thingDef>RBSF_MelodicSonataSheet</thingDef>
 					<count>1</count>
 				</li>
-				<!-- Scatter some things near player start -->
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
-					<thingDef>WoodLog</thingDef>
-					<count>100</count>
-				</li>
 				<!-- Scattered Items Throughout Map -->
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
@@ -309,7 +303,7 @@
 	<ScenarioDef>
 		<defName>RBSFE_LastFaeStanding</defName>
 		<label>Last Fae Standing</label>
-		<description>You were the founder of a beautiful fae tribe. And you were also the only one to survive its destruction at the claws of the mechanoids. \n\nYou start this scenario in the ruins of your old home, alone and frightened. Salvage what you can from the mechanical wreckage and eradicate the killing machines that plague your planet. \n\nYour starting pawn begins with an Anima Rod, an incredibly rare weapon crafted from the corpse of an Anima tree. It has a devastating ranged attack that binds its victims in place.</description>
+		<description>You were the founder of a beautiful fae tribe. And you were also the only one to survive its destruction at the claws of the mechanoids. \n\nYou start this scenario in the ruins of your old home, alone and frightened. Salvage what you can and eradicate the killing machines that plague your planet. \n\nYour starting pawn begins with an Anima Rod, an incredibly rare weapon crafted from the corpse of an Anima tree. It has a devastating ranged attack that binds its victims in place.</description>
 		<scenario>
 			<summary>One powerful tribe leader seeks revenge. Unfairly difficult.</summary>
 			<playerFaction>
