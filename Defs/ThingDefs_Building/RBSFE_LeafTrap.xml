@@ -116,7 +116,7 @@
 		<hediff>RBSF_LeafTrapHeDiff</hediff>
 		<validWhileDespawned>true</validWhileDespawned>
 		<showBubble>true</showBubble>
-		<icon>Things/Mote/Trapped/RBSFE_Trapped</icon>
+		<icon>Things/Mote/Trapped/RBSFE_TrappedMote</icon>
 		<stages>
 			<li>
 				<label>trapped</label>

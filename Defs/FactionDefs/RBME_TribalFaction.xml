@@ -88,10 +88,21 @@
 		</disallowedPrecepts>
 		<xenotypeSet>
 			<xenotypeChances>
-				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
-				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
-				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.02</RBM_Minotaur>
-				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.07</LTS_Elfin>
+			
+				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1.5</RBSF_Faun>
+				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1.5</RBSF_Satyr>
+				
+				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.05</RBM_Minotaur>
+				
+				<ST_PlantPerson MayRequire="Starei.PlantPeople">0.08</ST_PlantPerson>
+				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.05</LTS_Elfin>
+				<XR_Elf MayRequire="bean.customxenotypes.elvesoftherim">0.03</XR_Elf>
+				<ERN_Shisune MayRequire="Erin.Shisune">0.03</ERN_Shisune>
+				<ERN_Fenrisulfr MayRequire="Erin.Fenrisulfr">0.02</ERN_Fenrisulfr>
+				<Barkkin MayRequire="biotexpans.mammalia">0.02</Barkkin>
+				<Hindhopper MayRequire="biotexpans.mammalia">0.02</Hindhopper>
+				<Stagz_Merfolk_Coastal MayRequire="Arquebus.StagzMerfolk">0.01</Stagz_Merfolk_Coastal>
+	
 			</xenotypeChances>
 		</xenotypeSet>
 		<dialogFactionGreetingHostile>FaeFactionGreetingHostile</dialogFactionGreetingHostile>
