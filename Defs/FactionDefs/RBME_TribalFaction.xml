@@ -202,6 +202,8 @@
 					<!-- Animals -->
 					<RBSFE_Muffalope>1</RBSFE_Muffalope>
 					<MM_Griffin MayRequire="sarg.magicalmenagerie">0.5</MM_Griffin>
+					<Gulden_Animal_Capricorn MayRequire="pphhyy.GuldenNew">0.5</Gulden_Animal_Capricorn>
+					<GuldenRuneBear MayRequire="pphhyy.GuldenNew">0.4</GuldenRuneBear>
 					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.4</Bast_Ethereal_Lion>
 					<Bast_Scire MayRequire="Scurvyez.Bastyon">0.4</Bast_Scire>
 					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.4</AnimaWarg>
@@ -255,8 +257,10 @@
 					<Elephant>2</Elephant>
 					<Horse>1</Horse>
 					<Dromedary>3</Dromedary>
-					<AEXP_IndianElephant MayRequire="VanillaExpanded.VanillaAnimalsExpanded">2</AEXP_IndianElephant>
+					<Gulden_Animal_Capricorn MayRequire="pphhyy.GuldenNew">5</Gulden_Animal_Capricorn>
+					<GuldenRuneBear MayRequire="pphhyy.GuldenNew">4</GuldenRuneBear>
 					<AA_ChameleonYak MayRequire="sarg.alphaanimals">5</AA_ChameleonYak>
+					<AEXP_IndianElephant MayRequire="VanillaExpanded.VanillaAnimalsExpanded">2</AEXP_IndianElephant>
 					<AA_MeadowAve MayRequire="sarg.alphaanimals">1</AA_MeadowAve>
 				</carriers>
 				<guards>

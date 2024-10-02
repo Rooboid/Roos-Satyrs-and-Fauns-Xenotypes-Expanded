@@ -112,6 +112,14 @@
 					<thingDef>AnimaBerry</thingDef>
 					<countRange>1~5</countRange>
 				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>MedicineGuldenHerbal</thingDef>
+					<countRange>1~5</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMushrooms">
+					<thingDef>VPE_Blisscap</thingDef>
+					<countRange>1~5</countRange>
+				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
 		<modExtensions>
@@ -124,7 +132,7 @@
 					</li>
 					<li>
 						<key>Elephant</key>
-						<value>10</value>
+						<value>5</value>
 					</li>
 				</possibleMounts>
 			</li>
@@ -162,6 +170,22 @@
 				<li>
 					<thingDef>RawBerries</thingDef>
 					<countRange>10</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">
+					<thingDef>VCE_RawAlmonds</thingDef>
+					<countRange>5</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">
+					<thingDef>VCE_RawMelon</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="sarg.alphabiomes">
+					<thingDef>AB_GiantSeeds</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="sarg.alphabiomes">
+					<thingDef>AB_BlueRawFungus</thingDef>
+					<countRange>5</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
@@ -214,6 +238,31 @@
 		</forcedTraits>
 		<humanPregnancyChance>0.01</humanPregnancyChance>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+		<inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>RawBerries</thingDef>
+					<countRange>5</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMushrooms">
+					<thingDef>VPE_Blisscap</thingDef>
+					<countRange>1~5</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMushrooms">
+					<thingDef>VPE_Mycothread</thingDef>
+					<countRange>1~10</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VCookE">
+					<thingDef>VCE_FineBake</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMore">
+					<thingDef>VCE_RawCanola</thingDef>
+					<countRange>5</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 	</PawnKindDef>
 	
 	<!-- Fae Artificer (Satyr Only) - Fae Blacksmiths -->
@@ -332,6 +381,14 @@
 					<thingDef>DankPyon_Ruby</thingDef>
 					<countRange>0~1</countRange>
 				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMushrooms">
+					<thingDef>VPE_Mycothread</thingDef>
+					<countRange>1~10</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VCookE">
+					<thingDef>VCE_CookedSoupFine</thingDef>
+					<countRange>1</countRange>
+				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
 		<modExtensions>
@@ -435,6 +492,14 @@
 				<li>
 					<thingDef>MedicineHerbal</thingDef>
 					<countRange>3</countRange>
+				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>Elden_Rim_Ylxir</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>MedicineGuldenHerbal</thingDef>
+					<countRange>1~5</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
@@ -744,6 +809,42 @@
 					<thingDef>DankPyon_Treatise_Melee</thingDef>
 					<countRange>0~1</countRange>
 				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>MedicineGuldenHerbal</thingDef>
+					<countRange>1~5</countRange>
+				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>GuldenRawBerries</thingDef>
+					<countRange>5~10</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMushrooms">
+					<thingDef>VPE_Mycothread</thingDef>
+					<countRange>1~10</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VBrewE">
+					<thingDef>VBE_Tea</thingDef>
+					<countRange>2</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VCookE">
+					<thingDef>VCE_SimpleDessert</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VCookE">
+					<thingDef>VCE_CookedSoupFine</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="sarg.alphabiomes">
+					<thingDef>AB_BlueRawFungus</thingDef>
+					<countRange>10</countRange>
+				</li>
+				<li MayRequire="sarg.alphabiomes">
+					<thingDef>AB_WeaponPoisonDart</thingDef>
+					<countRange>1</countRange>
+				</li>
+				<li MayRequire="sarg.alphabiomes">
+					<thingDef>AB_PurpleRawFungus</thingDef>
+					<countRange>5</countRange>
+				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
@@ -861,6 +962,14 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">
 					<thingDef>GauranlenSeed</thingDef>
 					<countRange>0~1</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VPlantsEMushrooms">
+					<thingDef>VPE_Mycothread</thingDef>
+					<countRange>1~10</countRange>
+				</li>
+				<li MayRequire="VanillaExpanded.VBrewE">
+					<thingDef>VBE_RawTea</thingDef>
+					<countRange>1~10</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
@@ -1181,6 +1290,10 @@
 					<thingDef>DankPyon_BowlGold</thingDef>
 					<countRange>0~1</countRange>
 				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>MedicineGuldenHerbal</thingDef>
+					<countRange>1~5</countRange>
+				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>
 		<modExtensions>
@@ -1357,6 +1470,10 @@
 				<li MayRequire="DankPyon.Medieval.Overhaul">
 					<thingDef>DankPyon_BowlGold</thingDef>
 					<countRange>0~1</countRange>
+				</li>
+				<li MayRequire="pphhyy.GuldenNew">
+					<thingDef>MedicineGuldenHerbal</thingDef>
+					<countRange>1~5</countRange>
 				</li>
 			</subOptionsChooseOne>
 		</inventoryOptions>

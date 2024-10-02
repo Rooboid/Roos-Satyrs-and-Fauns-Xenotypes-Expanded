@@ -74,7 +74,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Steel</thingDef>
-					<count>200</count>
+					<count>300</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -89,7 +89,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>ComponentIndustrial</thingDef>
-					<count>25</count>
+					<count>30</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -388,11 +388,6 @@
 					<thingDef>RBSFE_FaeBlade</thingDef>
 					<stuff>WoodLog</stuff>
 					<count>2</count>
-				</li>
-				<li MayRequire="VanillaExpanded.VBooksE" Class="ScenPart_ScatterThingsAnywhere">
-					<def>ScatterThingsAnywhere</def>
-					<thingDef>VBE_Map</thingDef>
-					<count>1</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>

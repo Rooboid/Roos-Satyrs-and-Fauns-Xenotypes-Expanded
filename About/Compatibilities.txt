@@ -120,6 +120,13 @@ Alpha Animals: https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856
 Vanilla Traits Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
 - Specific traits can appear in backstories.
 
+Vanilla Plants Expanded - Mushrooms: https://steamcommunity.com/sharedfiles/filedetails/?id=3006389281
+- Fae pawns may carry some mushrooms.
+
+Gulden Biome: https://steamcommunity.com/sharedfiles/filedetails/?id=3242810152
+- Fae faction may travel with some Gulden animals.
+- Fae pawns may carry some Gulden goodies.
+
 Giddy-Up 2: https://steamcommunity.com/sharedfiles/filedetails/?id=2934245647
 - Members of the fae tribe can mount certain animals, including animals from Alpha Animals, Alpha Mythology, Steves Animals and Anima Animals.
 
