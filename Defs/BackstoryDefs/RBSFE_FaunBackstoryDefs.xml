@@ -95,7 +95,7 @@
 		<title>faunstar</title>
 		<titleShort>escort</titleShort>
 		<slot>Adulthood</slot>
-		<baseDesc>[PAWN_nameDef] earned money as an escort. After all, fauns have always been sought after by the lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course.\n\nAlongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing to keep [PAWN_obective]self safe.</baseDesc>
+		<baseDesc>[PAWN_nameDef] earned money as an escort. After all, fauns have always been sought after by the lecherous satyrs, and while many fauns wouldn’t amuse a satyr’s advances, [PAWN_nameDef] did. For a hefty sum of coins, of course.\n\nAlongside [PAWN_possessive] job, [PAWN_nameDef] practiced martial arts and fencing to keep [PAWN_objective]self safe.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
