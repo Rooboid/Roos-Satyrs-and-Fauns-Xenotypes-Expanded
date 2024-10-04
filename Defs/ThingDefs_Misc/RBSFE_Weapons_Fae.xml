@@ -180,7 +180,7 @@
 			<li>Neolithic</li>
 			<li>RBSFE_Fae</li>
 		</weaponClasses>
-		<costStuffCount>15</costStuffCount>
+		<costStuffCount>25</costStuffCount>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
 			<Mass>1</Mass>
@@ -201,29 +201,15 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>13.5</power>
-				<cooldownTime>2.8</cooldownTime>
+				<power>14.5</power>
+				<cooldownTime>2.5</cooldownTime>
 				<extraMeleeDamages>
 					<li>
 						<def>RBSFE_VineWhip</def>
-						<amount>5</amount>
+						<amount>3</amount>
 					</li>
 				</extraMeleeDamages>
 			</li>
-			<!-- 			<li>
-				<label>wrap</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>13</power>
-				<cooldownTime>3.5</cooldownTime>
-				<extraMeleeDamages>
-					<li>
-						<def>RBSFE_VineStun</def>
-						<amount>10</amount>
-					</li>
-				</extraMeleeDamages>
-			</li> -->
 		</tools>
 		<recipeMaker>
 			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
@@ -652,6 +638,8 @@
 		<explosionColorCenter>(1, 1, 1)</explosionColorCenter>
 		<explosionColorEdge>(0.3, 0.70, 0.88, 0.05)</explosionColorEdge>
 		<soundExplosion>RBSFE_FaeExplosion</soundExplosion>
+		<defaultStoppingPower>2</defaultStoppingPower>
+		<bluntStunDuration>2</bluntStunDuration>
 	</DamageDef>
 	
 	<!-- Constricted (This HeDiff does not last as long as RBSF_VineWrapHeDiffLong, just because it would make the Anima Rod too OP -->
