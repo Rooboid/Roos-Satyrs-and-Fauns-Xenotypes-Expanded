@@ -726,7 +726,7 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
 			<recipeUsers>

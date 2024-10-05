@@ -343,9 +343,9 @@
 			</li>
 		</skills>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-		<abilities>
+<!-- 		<abilities>
 			<li>RBSF_MelodicWarcall</li>
-		</abilities>
+		</abilities> -->
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
@@ -1418,7 +1418,7 @@
 			</li>
 		</backstoryFiltersOverride>
 		<weaponMoney>5000</weaponMoney>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>AnimaRod</li>
 		</weaponTags>
 		<apparelRequired>
