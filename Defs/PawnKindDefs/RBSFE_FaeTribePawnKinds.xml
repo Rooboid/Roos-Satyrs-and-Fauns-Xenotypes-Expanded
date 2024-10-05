@@ -36,7 +36,7 @@
 		<techHediffsChance>0.02</techHediffsChance>
 		<!-- Xenotype -->
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.05</LTS_Elfin>
@@ -329,7 +329,7 @@
 		</specificApparelRequirements>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
@@ -343,9 +343,9 @@
 			</li>
 		</skills>
 		<pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-<!-- 		<abilities>
+		<abilities>
 			<li>RBSF_MelodicWarcall</li>
-		</abilities> -->
+		</abilities>
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
@@ -471,7 +471,7 @@
 		</apparelTags>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
 			</xenotypeChances>
 		</xenotypeSet>
@@ -594,7 +594,7 @@
 		</apparelTags>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
@@ -662,7 +662,7 @@
 		</apparelTags>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
@@ -743,7 +743,7 @@
 		</requiredWorkTags>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
@@ -1045,7 +1045,7 @@
 		</skills>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBM_Minotaur MayRequire="Rooboid.Minotaur">2</RBM_Minotaur>
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">1</LTS_Elfin>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
@@ -1155,7 +1155,7 @@
 		</forcedTraits>
 				<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBM_Minotaur MayRequire="Rooboid.Minotaur">2</RBM_Minotaur>
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">1</LTS_Elfin>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
@@ -1267,7 +1267,7 @@
 		</forcedTraits>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
 			</xenotypeChances>
 		</xenotypeSet>
@@ -1447,7 +1447,7 @@
 		</specificApparelRequirements>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Faun MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Faun>
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
@@ -1517,7 +1517,7 @@
 		</apparelTags>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
-			<xenotypeChances>
+			<xenotypeChances Inherit="False">
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1</RBSF_Satyr>
 			</xenotypeChances>
 		</xenotypeSet>
