@@ -47,7 +47,7 @@
 			<li>Fae</li>
 		</apparelTags>
 		<apparelDisallowTags>
-		<li>IndustrialBasic</li>
+			<li>IndustrialBasic</li>
 		</apparelDisallowTags>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<gearHealthRange>0.5~1</gearHealthRange>
@@ -204,7 +204,7 @@
 		<combatPower>18</combatPower>
 		<initialWillRange>0~3</initialWillRange>
 		<initialResistanceRange>8~18</initialResistanceRange>
-		<apparelAllowHeadgearChance Inherit = "False">10</apparelAllowHeadgearChance>
+		<apparelAllowHeadgearChance Inherit="False">10</apparelAllowHeadgearChance>
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>
@@ -230,8 +230,8 @@
 			<li>RBSFE_Faeleaf</li>
 		</apparelRequired>
 		<apparelTags>
-		<li>Satyr</li>
-		<li>Fae</li>
+			<li>Satyr</li>
+			<li>Fae</li>
 		</apparelTags>
 		<forcedTraits>
 			<Nudist>0</Nudist>
@@ -703,7 +703,7 @@
 		<label>fae thief</label>
 		<maxGenerationAge>60</maxGenerationAge>
 		<combatPower>42</combatPower>
-		<apparelColor>(69,69,69)</apparelColor> <!-- Nice -->
+		<apparelColor>(69,69,69)</apparelColor><!-- Nice -->
 		<initialWillRange>3~7</initialWillRange>
 		<initialResistanceRange>6~13</initialResistanceRange>
 		<backstoryFiltersOverride>
@@ -1124,7 +1124,7 @@
 			<li>Apparel_ShieldBelt</li>
 		</apparelRequired>
 		<apparelTags>
-		<li>Fae</li>
+			<li>Fae</li>
 			<li>MedievalMilitary</li>
 			<!-- Anima Gear -->
 			<li>AnimaCrown</li>
@@ -1153,7 +1153,7 @@
 		<forcedTraits>
 			<Tough>0</Tough>
 		</forcedTraits>
-				<useFactionXenotypes>false</useFactionXenotypes>
+		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
 			<xenotypeChances Inherit="False">
 				<RBM_Minotaur MayRequire="Rooboid.Minotaur">2</RBM_Minotaur>

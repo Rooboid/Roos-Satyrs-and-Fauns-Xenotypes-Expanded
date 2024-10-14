@@ -213,8 +213,6 @@
 					<!-- Animals -->
 					<RBSFE_Muffalope>1</RBSFE_Muffalope>
 					<MM_Griffin MayRequire="sarg.magicalmenagerie">0.5</MM_Griffin>
-					<Gulden_Animal_Capricorn MayRequire="pphhyy.GuldenNew">0.5</Gulden_Animal_Capricorn>
-					<GuldenRuneBear MayRequire="pphhyy.GuldenNew">0.4</GuldenRuneBear>
 					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.4</Bast_Ethereal_Lion>
 					<Bast_Scire MayRequire="Scurvyez.Bastyon">0.4</Bast_Scire>
 					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.4</AnimaWarg>
@@ -268,8 +266,6 @@
 					<Elephant>2</Elephant>
 					<Horse>1</Horse>
 					<Dromedary>3</Dromedary>
-					<Gulden_Animal_Capricorn MayRequire="pphhyy.GuldenNew">5</Gulden_Animal_Capricorn>
-					<GuldenRuneBear MayRequire="pphhyy.GuldenNew">4</GuldenRuneBear>
 					<AA_ChameleonYak MayRequire="sarg.alphaanimals">5</AA_ChameleonYak>
 					<AEXP_IndianElephant MayRequire="VanillaExpanded.VanillaAnimalsExpanded">2</AEXP_IndianElephant>
 					<AA_MeadowAve MayRequire="sarg.alphaanimals">1</AA_MeadowAve>
@@ -313,7 +309,6 @@
 					<RBSFE_Muffalope>0.3</RBSFE_Muffalope>
 					<Bast_Ethereal_Lion MayRequire="Scurvyez.Bastyon">0.3</Bast_Ethereal_Lion>
 					<AnimaWarg MayRequire="hh.xrushha.AnimaAnimalsCombined">0.5</AnimaWarg>
-					<MM_CeryneianHind MayRequire="sarg.magicalmenagerie">0.5</MM_CeryneianHind>
 				</options>
 			</li>
 			<li>
@@ -388,18 +383,15 @@
 						<li>RBSF_MelodicWarcallSheet</li>
 						<li>RBSF_MelodicHealingSongSheet</li>
 						<li>RBSF_MelodicElegySheet</li>
+						
+						<li>RBSFE_XenotypeIndexSatyr</li>
+						<li>RBSFE_XenotypeIndexFaun</li>
 			
 						<li MayRequire="sarg.alphaanimals">AA_CactipineQuill</li>
 						<li MayRequire="sarg.alphaanimals">AA_AgariluxRawFungus</li>
 						<li MayRequire="sarg.alphaanimals">AA_BlackTruffles</li>
 			
 						<li MayRequire="xrushha.AnimaGear">AnimaFiber</li>
-			
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Straw</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Spices</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawCotton</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawCabbages</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Honey</li>
 			
 						<li MayRequire="VanillaExpanded.VBrewE">VBE_RawTea</li>
 						<li MayRequire="VanillaExpanded.VBrewE">VBE_Whiskey</li>

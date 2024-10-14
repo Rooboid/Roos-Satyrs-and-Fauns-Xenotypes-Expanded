@@ -146,9 +146,6 @@
 		<disallowedTraits>
 			<Asexual>0</Asexual>
 		</disallowedTraits>
-		<possessions>
-			<Beer>10</Beer>
-		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Barsong Hero ============================-->
@@ -213,6 +210,10 @@
 		<workDisables>
 			<li>ManualDumb</li>
 		</workDisables>
+		<!-- Items -->
+		<possessions>
+			<RBSFE_XenotypeIndexSatyr>1</RBSFE_XenotypeIndexSatyr>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Fifer ============================-->

@@ -114,10 +114,13 @@
 			<Abrasive>0</Abrasive>
 			<Asexual>0</Asexual>
 		</disallowedTraits>
+		<possessions>
+			<RBSFE_XenotypeIndexFaun MayRequire="Rooboid.SatyrFaun.Expanded">1</RBSFE_XenotypeIndexFaun>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Climatologist ============================-->
-	<!-- Okay Alexa, play Mort Garson's "Plantasia"-->
+	<!-- I love Mort Garson's "Plantasia" -->
 
 	<BackstoryDef>
 		<defName>RBSFE_Climatologist</defName>
@@ -176,6 +179,9 @@
 		<workDisables>
 			<li>Social</li>
 		</workDisables>
+		<possessions>
+			<RBSFE_XenotypeIndexFaun MayRequire="Rooboid.SatyrFaun.Expanded">1</RBSFE_XenotypeIndexFaun>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Glimmering Faun ============================-->

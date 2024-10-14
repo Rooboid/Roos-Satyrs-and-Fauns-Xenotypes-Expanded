@@ -3,7 +3,7 @@
 	<!--============================== Satyr and Faun Backstories - Childhood ============================-->
 	
 	<!--============================== Palmist ============================-->
-	<!-- Good all-rounder with ascetic trait, we love to see it -->
+	<!-- Good all-rounder with ascetic trait -->
 
 	<BackstoryDef>
 		<defName>RBSFE_PalmReader</defName>
@@ -153,6 +153,10 @@
 		<requiredWorkTags>
 			<li>Social</li>
 		</requiredWorkTags>
+		<!-- Items -->
+		<possessions>
+			<Silver>10</Silver>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Caricaturist ============================-->
@@ -203,6 +207,5 @@
 			<Recluse>0</Recluse>
 		</forcedTraits>
 	</BackstoryDef>
-	
 	
 </Defs>

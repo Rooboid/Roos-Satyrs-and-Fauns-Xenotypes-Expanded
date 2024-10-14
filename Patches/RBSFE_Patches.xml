@@ -3,6 +3,41 @@
 
 	<!--============================== Roo's Satyr and Faun Xenotype Patches ============================-->
 
+	<!--============================== General patches ============================-->
+	<!-- Create Xenotype Index Category if no other of Roo's mods add it -->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingCategoryDef[defName="RB_XenotypeIndexCategory"]</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<ThingCategoryDef>
+					<defName>RB_XenotypeIndexCategory</defName>
+					<label>xenotype indexes</label>
+					<parent>Books</parent>
+				</ThingCategoryDef>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Make Outlander Traders Stock Xenotype Books -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/TraderKindDef[defName="Orbital_Empire"]/stockGenerators</xpath>
+			<value>
+				<li Class="StockGenerator_Category">
+					<categoryDef>RB_XenotypeIndexCategory</categoryDef>
+					<thingDefCountRange>0~2</thingDefCountRange>
+					<countRange>-1~1</countRange>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
 	<!--============================== DLC patches ============================-->
 	<!-- Patches mod based on DLC installed -->
 	

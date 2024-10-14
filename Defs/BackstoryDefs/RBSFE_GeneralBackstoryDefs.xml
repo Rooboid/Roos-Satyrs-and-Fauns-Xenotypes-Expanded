@@ -60,6 +60,10 @@
 			<Industriousness>-1</Industriousness>
 			<NaturalMood>1</NaturalMood>
 		</forcedTraits>
+		<!-- Items -->
+		<possessions>
+			<RBSFE_XenotypeIndexSatyr>1</RBSFE_XenotypeIndexSatyr>
+		</possessions>
 	</BackstoryDef>
 	
 	<!--============================== Fendersmith ============================-->
