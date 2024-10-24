@@ -93,6 +93,7 @@
 				<RBSF_Satyr MayRequire="Ludeon.RimWorld.Biotech">1.5</RBSF_Satyr>
 				
 				<RBM_Minotaur MayRequire="Rooboid.Minotaur">0.05</RBM_Minotaur>
+				<RBG_Gorgon MayRequire="Rooboid.Gorgon">0.02</RBG_Gorgon>
 				
 				<ST_PlantPerson MayRequire="Starei.PlantPeople">0.08</ST_PlantPerson>
 				<LTS_Elfin MayRequire="LimeTreeSnake.Xenotech">0.05</LTS_Elfin>
