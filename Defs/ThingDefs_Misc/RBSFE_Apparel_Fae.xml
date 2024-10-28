@@ -380,6 +380,9 @@
 			<li>FaeClothing</li>
 			<li>Armor</li>
 		</tradeTags>
+		<thingCategories Inherit="False">
+			<li>RBSFE_FaeApparelCategory</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>

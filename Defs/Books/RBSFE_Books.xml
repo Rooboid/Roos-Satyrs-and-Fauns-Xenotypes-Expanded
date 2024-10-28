@@ -14,7 +14,7 @@
 	<ThingDef ParentName="BookBase">
 		<defName>RBSFE_XenotypeIndexSatyr</defName>
 		<label>Xenotype index: Satyr</label>
-		<description>A battered and unusually sticky tome that's packed to the brim with information about the satyrs.</description>
+		<description>A battered and unusually sticky tome that's stuffed to the brim with information about the satyrs.</description>
 		<graphicData>
 			<texPath>Things/Item/Book/RBSFE_XenotypeIndexSatyr/RBSFE_XenotypeIndexSatyr</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -149,43 +149,55 @@
 			
 				<!-- Project "Pan" -->
 			
-				<li>desc-> Project "Pan"\n\nThe first page of this book unfurls into a large poster of “Pan”, the supposed first satyr to be ever created.\n\nFollowing an expedition to the ancient ruins of Helike, the Project Pan research team conceptualised the satyr as a poor-man’s alternative to the Highmate. But for less liveable and impoverished habitats, like Rimworlds and Industrial Worlds.\n\nProject Pan received substantial funding from the government, and the first batch of satyrs were grown. “Pan” was the first to emerge from their vat, and is often revered as a God in satyr communities.</li>
+				<li>desc->Project "Pan"\n\nThe first page of this book unfurls into a large poster of “Pan”, the supposed first satyr to be ever created.\n\nFollowing an expedition to the ancient ruins of Helike, the Project Pan research team conceptualised the satyr as a poor-man’s alternative to the Highmate. Designed for less-liveable and impoverished habitats, like rimworlds and industrial worlds.\n\nProject Pan received substantial funding from the government, and the first batch of satyrs were grown. “Pan” was the first to emerge from their vat, and is often revered as a God in theist satyr communities.</li>
 				
 				<!-- Origin -->
 			
-				<li>desc-> Origin\n\nThis book explains that the original satyrs were intended as low-budget alternatives to highmates. Planets such as Novaroma and Sophiamunda are perfect homes for highmates due to their widely habitable conditions, but what about those yearning for love on, say, a Rimworld?\n\nAnd so, the satyr was born; designed to be a sultry companion that thrived on all kinds of terrain. But unfortunately, due to budget constraints on the project, the satyr fell short of its design, emerging from its pod as an uncouth, sleazy goat-man who’s lovin’ prowess fell extremely below the mark.\n\nFor these reasons, the initial batch of satyrs were considered a failure, and were dumped on a nearby rimworld to avoid the press deeming them a waste of public spending.</li>
+				<li>desc->Origin\n\nThis book explains that the original satyrs were intended as low-budget alternatives to highmates. Planets such as Novaroma and Sophiamunda are perfect homes for highmates due to their widely habitable conditions, but what about those yearning for love on, say, a rimworld?\n\nAnd so, the satyr was born; designed to be a sultry companion that thrived on all kinds of terrain. But unfortunately, due to budget constraints on the project, the satyr fell short of its design, emerging from its pod as an uncouth, sleazy goat-man, who’s lovin’ prowess fell extremely below the mark.\n\nFor these reasons, the initial batch of satyrs were considered a failure, and were dumped on a nearby rimworld to avoid the press deeming them a waste of public spending.</li>
 				
 				<!-- Fae Stories -->
 			
-				<li>desc-> Fae Stories\n\nThere are countless legends in Fae cultures surrounding the origin of the satyrs. Some believe that they were given life by a hedonistic God to proselytize his teachings to lost-in-their-way mortals.\n\nOthers believe that the fauns and the satyrs were conceived as foils to one another, to keep the world’s balance in check.\n\nThe following pages list other speculations regarding the satyrs’ origins, providing citations to other issues of the Xenotype Index for further reading.</li>
+				<li>desc->Fae Stories\n\nThere are countless legends in Fae cultures surrounding the origin of the satyrs. Some believe that they were given life by a hedonistic God to proselytize his teachings to lost-in-their-way mortals.\n\nOthers believe that the fauns and the satyrs were conceived as foils to one another, to keep the world’s balance in check.\n\nThe following pages list other speculations regarding the satyrs’ origins, providing citations to other issues of the Xenotype Index.</li>
 				
 				<!-- Myths -->
 			
-				<li>desc-> Myths\n\nThere is a common belief that offerings of alcohol must be left outside one’s home during the colder months. This comes from the idea that satyrs who would have once spent their evenings basking in the warm, Jugust sun would now be cold, and would intrude on people’s homes to keep themselves warm. Perhaps with the expectation of getting some lovin’ too.\n\nAlcohol left outside was intended to intoxicate the satyrs before they entered the premises, making them either too exhausted to enact their schemes, or too weak to resist a clobbering. \n\nThis copy of the book has a handwritten annotation that reads “LIES AND SLANDER” beside the final paragraph.</li>
+				<li>desc->Myths\n\nThere is a common belief that offerings of alcohol must be left outside one’s home during the colder months. This comes from the idea that satyrs who would have once spent their evenings basking in the warm, Jugust sun would now be cold, and would intrude on people’s homes for warmth – and sometimes even lovin'. \n\nPlacing alcohol outside the home was intended to intoxicate the satyrs before they entered the premises. This would leave them tipsy, weak, and unable to escape a clobbering. \n\nThis copy of the book has a handwritten annotation that reads “LIES AND SLANDER” below the final paragraph.</li>
 				
 				<!-- Notable Satyrs -->
 			
-				<li>desc-> Notable Satyrs\n\nThis book contains page-after-page of notable satyrs in history, from musicians to blacksmiths to marital aid manufacturers. Whatever a “marital aid” is.\n\nMany satyrs in history have clearly defied their lecherous reputations and have made successes of themselves in a wide plethora of fields. The final chapter of the book even shows images of some of the things that these satyrs invented. \n\n...So that’s what a “marital aid” is.</li>
+				<li>desc->Notable Satyrs\n\nThis book contains page-after-page of notable satyrs in history, from musicians to blacksmiths to marital aid manufacturers. Whatever a “marital aid” is.\n\nMany satyrs in history have clearly defied their lecherous reputations and have made successes of themselves in a wide plethora of fields. The final chapter of the book even shows images of some of the things that these satyrs invented. \n\n...So that’s what a “marital aid” is.</li>
 				
 				<!-- Art -->
 			
-				<li>desc-> Art\n\nThis volume of the Xenotype Index contains a bountiful array of satyr-produced artworks, some of which you seem to even seem to recognise.\n\nWhile yes, 90% of these art pieces depict their subject matters with absolutely no clothes on, there is a certain artistry to how they’re depicted that’s idiosyncratic of the satyrs’ creative style.</li>
+				<li>desc->Art\n\nThis volume of the Xenotype Index contains a bountiful array of satyr-produced artworks, some of which you seem to even seem to recognise.\n\nWhile yes, 90% of these art pieces depict their subject matters with absolutely no clothes on, there is a certain artistry to how they’re depicted that’s idiosyncratic of the satyrs’ creative style.</li>
 				
 				<!-- Talents -->
 			
-				<li>desc-> Talents\n\nThe opening paragraph of this book explains that a satyrs’ heartbeat pounds in a swing beat. Their innate musicality from birth goes unparalleled and continues to baffle scientists across the entire star system.\n\nIt isn’t clear why they have such a genetic link with music, but research shows that the same music performed by a satyr evokes a more intense reaction from listeners than when performed by human.\n\nRegarding their other talents, satyrs are to able survive in incredibly arid conditions and can sprint with the grace and speed of a gazelle. If rightfully motivated to, that is.</li>
+				<li>desc->Talents\n\nThe opening paragraph of this book explains that a satyrs’ heart pounds in a swing beat. Their innate musicality goes unparalleled and continues to baffle scientists across the entire star system.\n\nIt isn’t clear why satyrs have such a genetic link with music, but research shows that the same music performed by a satyr evokes a more intense reaction from listeners than when performed by human.\n\nRegarding their other talents, satyrs are to able survive in incredibly arid conditions and can sprint with the grace and speed of a gazelle. If rightfully motivated to, that is.</li>
 				
 				<!-- Melodic Abilities -->
 			
-				<li>desc-> Melodic Abilities\n\nThe opening chapter of the book looks into a number of cases in which a satyr has reportedly altered the very matter around them simply through song. From healing the ill to even resurrecting the dead, these miracles go scientifically unexplained to this day.\n\nResearchers ponder if the very concepts of these songs, say, the very notes themselves, are imbued with unknowable, omnipresent archotechnology? Could it be that every occurrence of these songs “patches” the fabric of space and time around them to inject these psychic phenomena into those who...\n\n...You put the book down. You didn’t expect a book about satyrs to hurt your head this much.</li>
+				<li>desc->Melodic Abilities\n\nThe opening chapter of the book looks into a number of cases in which a satyr has altered the very matter around them simply through song. From healing the sick to even resurrecting the dead, these miracles go scientifically unexplained to this day.\n\nResearchers ponder if the very concepts of these songs, say, the very notes themselves, are imbued with unknowable, omnipresent archotech? Could it be that every occurrence of these songs “patches” the fabric of space and time around them to inject these psychic phenomena into those who...\n\n...You put the book down. You didn’t expect a book about satyrs to hurt your head this much.</li>
 				
 				<!-- History -->
 			
-				<li>desc-> History\n\nThe satyrs were deemed a total failure by those who engineered them, and as such, were dumped on a nearby rimworld to avoid any negative press attention.\n\nThese original satyrs were offered salvation by a faction of timid fauns – a genetically-engineered cervine xenotype. The two races seemed to complement one another’s weaknesses, and their union is stated to be the only reason that either xenotype still exists today.</li>
+				<li>desc->History\n\nThe satyrs were deemed a total failure by those who engineered them, and as such, were dumped on a nearby rimworld to avoid any negative press.\n\nThese original satyrs were offered salvation by a faction of timid fauns – a genetically-engineered cervine xenotype. The two races seemed to complement one another’s weaknesses, and their union is stated to be the only reason that either xenotype still exists today.</li>
 				
 				<!-- The Satyrs and the Fauns -->
 			
-				<li>desc-> The Satyrs and the Fauns\n\nSatyrs and fauns are often depicted as two sides of the same coin. The accompanying illustration in the book even affirms this, portraying a faun as the “sun”, and a satyr as the “moon”.\n\nThe two xenotypes’ symbiosis goes all the way back to their conception, and records show that they have naturally chosen to cohabitate ever since. While war raged on across the rim for various reasons, tribes made up of both of these xenotypes remained shtum.\n\nInstead of engaging in such conflict, they worked towards maintaining their own frivolous slice of the rim in peace.</li>
+				<li>desc->The Satyrs and the Fauns\n\nSatyrs and fauns are often depicted as two sides of the same coin. The accompanying illustration in the book even affirms this, portraying a faun as the “sun”, and a satyr as the “moon”.\n\nThe two xenotypes’ symbiosis goes all the way back to their conception, and records show that they have naturally chosen to cohabitate ever since. While war raged on across the rim for various reasons, tribes made up of both of these xenotypes remained shtum.\n\nInstead of engaging in such conflict, they worked towards maintaining their own frivolous slice of the rim in peace.</li>
+				
+				<!-- Depictions in Media -->
+			
+				<li>desc->Depictions in Media\n\nThe start of the book begins to explain that satyrs are portrayed unfairly in modern media – but you stop, and you wiggle the book a bit.\n\nA handwritten note falls out.\nAre u an angle,\ncus i want yer holey nis on me.\nmet me en the baraks afer nune.\nbring friend, i don' min sharin.\nif they hawt.\nBreng water.\nWink.\n – Knitel the Satyr</li>
+				
+				<!-- Fae Tribes -->
+				
+				<li>desc->Fae Tribes\n\nThis issue of the Xenotype Index explains that satyrs and fauns tend to live symbiotically in what are known as “Fae Tribes”, septs of nature-connected xenotypes that strive for peace and the conservation of their planet. The bulk of the book is filled with illustrations of whimsical tribespeople, all of whom seem to be wearing unique, leaf-woven clothes.</li>
+				
+				<!-- Modern Day -->
+				
+				<li>desc->Modern Day\n\nThough satyrs are commonly branded as pests, they are are capable of incredible things, and their everlasting protection of the fauns has secured a future for both xenotypes, something that was originally seen as impossible.\n\nToday, the satyrs are seldom desired by the societies they were designed for, like Sophiamunda and Rogia, and instead, live out their dirty little lives on planets rife with both greenery and peace.</li>
 				
 			</rulesStrings>
 		</rulePack>
@@ -201,9 +213,33 @@
 		<rulePack>
 			<rulesStrings>
 			
-				<!-- Placeholder -->
+				<!-- Origin -->
 			
-				<li>desc-> Placeholder\n\nPlaceholder</li>
+				<li>desc->Origin\n\nThis book explains that the fauns were the creation of glitterworld genealogist Mary Barberini, who believed that maintaining a strong connection with nature was what elevated humans above machines.\n\nShe maintained her sprawling garden by hand and – as a secret side-project – created the fauns to keep her company.\n\nUpon her death, her secret was revealed to the world. Her fauns became commercialised, glamourised, and stationed on colonisation ships to help extract resources from nearby rimworlds.</li>
+				
+				<!-- Mary Barberini -->
+			
+				<li>desc->Mary Barberini\n\nThis book opens with a photograph of Mary Berberini, the glitterworld genealogist who created the fauns.\n\nOn a planet where production was dominated by machines, Mary believed that being able feel compassion for other living things – be they plant, insect or animal – was what would always set humans above machines.\n\nBut her viewpoint left her isolated. So, she created the fauns to keep her company; a whimsical xenotype of deerfolk who appreciated the gifts of nature just as much as she did.\n\nEven upon her passing, her garden never seemed to lose its lustre. A photograph of it takes up the next page, with the caption; ‘Mary’s Garden, Eternally Green. Book your tickets for 5500 CE!’</li>
+				
+				<!-- Fae Tribes -->
+			
+				<li>desc->Fae Tribes\n\nThe book opens with a map of the rimworld you’re standing on, with little green crosses across the continents, indicating the presence of fae tribes; groups of oft peaceful xenotypes that are typically led by fauns.\n\nMany of these tribes follow an abridged version of Mary Barberini’s – the creator of the fauns’s – values, such as:\n\n‘Machines should not confine mankind.’\n\n‘To stay sane is to stay connected with nature.’\n\n‘Remain compassionate towards every living thing.’\n\nThese values shape fae tribes into diverse and peaceful societies that tend to trade technology for lives of simplicity.</li>
+				
+				<!-- History -->
+			
+				<li>desc->History\n\nThis issue of the Xenotype Index contains information about the fauns’ history. Following their creation, they were commercialised and dispatched onto various planets to recover resources and data.\n\nA photograph of this very rimworld takes up the following page. The caption explains that the fauns that landed here defected from their cause, and were all drawn into the woodland by a spiritual, or perhaps genetic, compulsion.\n\nThe group were considered MIA by their faction, and have since cultivated communities of their own, setting up small, bohemian tribes across the entirety of the rim.</li>
+				
+				<!-- Modern Day -->
+			
+				<li>desc->History\n\nA list of notable fauns fills the contents of this book.\n\nThe book explains that the first fauns to reach the commercial market were dispatched onto rimworlds for mass-colonisation projects. However, other fauns made names for themselves back home, and quickly made waves in various scientific fields.\n\nTheir inherent affiliation with nature proved them to be fantastic ecologists, evident by how many of them are listed in the contents of the book.</li>
+				
+				<!-- The Satyrs and the Fauns -->
+			
+				<li>desc->The Satyrs and the Fauns\n\nThe first page of this book folds out into a large poster, detailing the anatomy of both satyrs and fauns: how they differ, how they are alike, and how they may converge in the future.\n\nThe two xenotypes arrived on the rim at a very similar time, seemed to carry like-minded views and established settlements together, now broadly known as ‘fae tribes’. Though their existence has always been under threat by roaming mechanoids, generations stemming from these original tribes do still live on today.</li>
+				
+				<!-- Natural Connection -->
+			
+				<li>desc->Natural Connection\n\nThe book opens with a mesmerising illustration of a faun in a field of crocuses. The accompanying text explains that the fauns were first created as companions to an aging genealogist who longed for her society to return to nature.\n\nBecause of this, her creations were imbued with a psychic connection to plants. Wherever their hooves tread, perennial blooms seem to return there every single Aprimay.</li>
 				
 			</rulesStrings>
 		</rulePack>
