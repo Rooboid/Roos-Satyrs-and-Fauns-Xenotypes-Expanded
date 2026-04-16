@@ -1,4 +1,6 @@
-﻿using Verse;
+﻿using RimWorld;
+using Verse;
+using static UnityEngine.GraphicsBuffer;
 
 namespace Roos_Satyrs_and_Fauns_Expanded
 {
@@ -13,8 +15,17 @@ namespace Roos_Satyrs_and_Fauns_Expanded
             int damageAmount = this.DamageAmount;
             float armorPenetration = this.ArmorPenetration;
 
-            GenExplosion.DoExplosion(explodePosition, map, explosionRadius, damageDef, null, damageAmount, armorPenetration, null, null, null, null, null, 0f, 1, null, false, null, 0f, 1, 0f, false, null, null, null, true, 1f, 0f, true, null, 1f);
-
+            // old version
+            //GenExplosion.DoExplosion(explodePosition, map, explosionRadius, damageDef, null, damageAmount, armorPenetration, null, null, null, null, null, 0f, 1, null, false, null, 0f, 1, 0f, false, null, null, null, true, 1f, 0f, true, null, 1f);
+            GenExplosion.DoExplosion(
+                center: explodePosition,
+                map: map,
+                radius: explosionRadius,
+                damType: damageDef,
+                instigator: null,
+                damAmount: damageAmount,
+                armorPenetration: armorPenetration
+            );
 
             foreach (Pawn pawn in map.mapPawns.AllPawnsSpawned)
             {
