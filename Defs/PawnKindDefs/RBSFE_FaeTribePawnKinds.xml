@@ -86,7 +86,7 @@
 		<defName>RBSF_Fae</defName>
 		<label>fae</label>
 		<isFighter>False</isFighter>
-		<favoriteColor>(57,116,67)</favoriteColor>
+		<!-- <favoriteColor>(57,116,67)</favoriteColor> -->
 		<combatPower>22</combatPower>
 		<weaponMoney>200</weaponMoney>
 		<weaponTags>
@@ -144,7 +144,7 @@
 	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeChild</defName>
 		<isFighter>False</isFighter>
-		<favoriteColor>(57,116,67)</favoriteColor>
+		<!-- <favoriteColor>(57,116,67)</favoriteColor> -->
 		<label>fae</label>
 		<combatPower>13</combatPower>
 		<backstoryFiltersOverride>
@@ -197,7 +197,7 @@
 	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeNudist</defName>
 		<isFighter>False</isFighter>
-		<favoriteColor>(57,116,67)</favoriteColor>
+		<!-- <favoriteColor>(57,116,67)</favoriteColor> -->
 		<apparelColor>(57,116,67)</apparelColor>
 		<minGenerationAge>18</minGenerationAge>
 		<label>fae</label>
@@ -270,7 +270,7 @@
 	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeArtificer</defName>
 		<isFighter>False</isFighter>
-		<favoriteColor>(150,70,60)</favoriteColor>
+		<!-- <favoriteColor>(150,70,60)</favoriteColor> -->
 		<label>fae artificer</label>
 		<combatPower>38</combatPower>
 		<initialWillRange>0~0</initialWillRange>
@@ -409,7 +409,7 @@
 	<PawnKindDef ParentName="FaeBase">
 		<defName>RBSF_FaeCleric</defName>
 		<isFighter>True</isFighter>
-		<favoriteColor>(140,180,170)</favoriteColor>
+		<!-- <favoriteColor>(140,180,170)</favoriteColor> -->
 		<label>fae cleric</label>
 		<maxGenerationAge>65</maxGenerationAge>
 		<combatPower>34</combatPower>
@@ -1197,7 +1197,7 @@
 		<defaultFactionType>RBSFE_TribeFae</defaultFactionType>
 		<factionLeader>true</factionLeader>
 		<isFighter>True</isFighter>
-		<favoriteColor>(0,0,0)</favoriteColor>
+		<!-- <favoriteColor>(0,0,0)</favoriteColor> -->
 		<maxGenerationAge>100</maxGenerationAge>
 		<combatPower>165</combatPower>
 		<initialWillRange>0~0</initialWillRange>
@@ -1322,7 +1322,7 @@
 		<initialResistanceRange>1~10</initialResistanceRange>
 		<apparelMoney>50~450</apparelMoney>
 		<gearHealthRange>1~1</gearHealthRange>
-		<favoriteColor>(255,255,255)</favoriteColor>
+		<!-- <favoriteColor>(255,255,255)</favoriteColor> -->
 		<backstoryFiltersOverride>
 			<li>
 				<categoriesChildhood>

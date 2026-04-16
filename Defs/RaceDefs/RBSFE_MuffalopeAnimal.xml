@@ -33,7 +33,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<gestationPeriodDays>6.66</gestationPeriodDays>
-			<wildness>0.45</wildness>
+			<!-- <wildness>0.45</wildness> -->
 			<roamMtbDays>5</roamMtbDays>
 			<trainability>None</trainability>
 			<packAnimal>true</packAnimal>

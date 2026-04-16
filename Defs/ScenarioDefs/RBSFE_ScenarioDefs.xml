@@ -4,7 +4,7 @@
 	<!--====================== The Faun Scientists ======================-->
 	<!-- Difficulty: Easy -->
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RBSFE_TheFaunScientists</defName>
 		<label>The Faun Scientists</label>
 		<description>After a little slip-up during your tenure as a space station researcher, you and your team of fauns are dispatched to set up a laboratory on a polluted rimworld instead.\n\nNow, you must work far beyond your paygrade to study the fauna and flora of this disgusting planet. The space station has, and will continue to, send you cargo pods of supplies, but all you want to do is go home...</description>
@@ -155,7 +155,7 @@
 	<!--====================== Sabotaged Bards ======================-->
 	<!-- Difficulty: Medium -->
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RBSFE_SabotagedBards</defName>
 		<label>Sabotaged Bards</label>
 		<description>Your four-piece band vowed to take the rim by storm with your music. But along the way, your troupe were forced to defend themselves against a band of brigands, armed with nothing more than your instruments. \n\nSomehow, you prevailed, but your journey to enrapture the leader of the Empire with your music will be much harder now that brigands know your names. Now, more than ever, the four of you must pull yourselves together in order to survive.
@@ -300,7 +300,7 @@
 	<!--====================== Last Fae Standing ======================-->
 	<!-- Difficulty: Hard -->
 
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>RBSFE_LastFaeStanding</defName>
 		<label>Last Fae Standing</label>
 		<description>You were the founder of a beautiful fae tribe. And you were also the only one to survive its destruction at the claws of the mechanoids. \n\nYou start this scenario in the ruins of your old home, alone and frightened. Salvage what you can and eradicate the killing machines that plague your planet. \n\nYour starting pawn begins with an Anima Rod, an incredibly rare weapon crafted from the corpse of an Anima tree. It has a devastating ranged attack that binds its victims in place.</description>
