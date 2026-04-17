@@ -212,7 +212,7 @@
 			<xpath>Defs/FactionDef[defName="RBSFE_TribeFae"]</xpath>
 			<value>
 				<modExtensions>
-					<li Class="VFECore.FactionDefExtension">
+					<li Class="VEF.Factions.FactionDefExtension">
 			
 						<allowedBiomes>
 							<li>TropicalRainforest</li>
@@ -220,7 +220,6 @@
 							<li>TemperateForest</li>
 							<li>TemperateSwamp</li>
 							<li>BorealForest</li>
-							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_AncientForest</li>
 							<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_DarkForest</li>
 							
 							<li MayRequire="sarg.alphabiomes">AB_IdyllicMeadows</li>

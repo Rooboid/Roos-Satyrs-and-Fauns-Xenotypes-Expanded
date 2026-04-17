@@ -82,7 +82,7 @@
 			<displayPriority>441</displayPriority>
 		</recipeMaker>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>true</usableWithShields>
 			</li>
 		</modExtensions>
@@ -149,7 +149,7 @@
 			<displayPriority>442</displayPriority>
 		</recipeMaker>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>false</usableWithShields>
 			</li>
 		</modExtensions>
@@ -219,7 +219,7 @@
 			<displayPriority>443</displayPriority>
 		</recipeMaker>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
 				<weaponCarryDrawOffsets>
 					<north>
 						<drawOffset>(0, 0, 0)</drawOffset>
@@ -336,7 +336,7 @@
 			<displayPriority>444</displayPriority>
 		</recipeMaker>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>false</usableWithShields>
 			</li>
 		</modExtensions>
@@ -415,7 +415,7 @@
 		</tools>
 		<rotateInShelves>false</rotateInShelves>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>false</usableWithShields>
 			</li>
 		</modExtensions>
@@ -491,7 +491,7 @@
 				<glowColor>(110,116,125,0)</glowColor>
 			</li></comps>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.ThingDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Things.ThingDefExtension">
 				<usableWithShields>false</usableWithShields>
 			</li>
 		</modExtensions>

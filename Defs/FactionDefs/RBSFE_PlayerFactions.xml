@@ -51,7 +51,7 @@
 			<li>TribalStartTechprints</li>
 		</startingTechprintsResearchTags>
 		<modExtensions>
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VFECore.FactionDefExtension">
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VEF.Factions.FactionDefExtension">
 				<startingGoodwillByFactionDefs>
 					<RBSFE_TribeFae>75</RBSFE_TribeFae>
 				</startingGoodwillByFactionDefs>

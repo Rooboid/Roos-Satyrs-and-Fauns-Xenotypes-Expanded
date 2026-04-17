@@ -414,7 +414,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>RBSFE_Faecrown</defName>
 		<label>fae crown</label>
-		<description>A beautiful crown of leaves that strengthens the wearer’s psychic sensitivity and their connection with nature.</description>
+		<description>A beautiful crown of leaves that strengthens their connection with nature.</description>
 		<techLevel>Neolithic</techLevel>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/RBSFE_Faecrown/RBSFE_FaecrownIC</texPath>
@@ -428,16 +428,13 @@
 		<statBases>
 			<Insulation_Cold>1</Insulation_Cold>
 			<Insulation_Heat>3</Insulation_Heat>
-			<WorkToMake>800</WorkToMake>
+			<WorkToMake>300</WorkToMake>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>0.05</Mass>
 			<EquipDelay>1</EquipDelay>
 			<Flammability>1.5</Flammability>
 			<RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
 		</statBases>
-		<equippedStatOffsets>
-			<Beauty>0.15</Beauty>
-		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -460,6 +457,7 @@
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
 			<recipeUsers>
 				<li>CraftingSpot</li>
 				<li>ElectricTailoringBench</li>
@@ -561,6 +559,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
 			<recipeUsers>
 				<li>CraftingSpot</li>
 				<li>ElectricTailoringBench</li>
@@ -632,6 +631,7 @@
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
 			<recipeUsers>
 				<li>CraftingSpot</li>
 				<li>ElectricTailoringBench</li>
@@ -732,6 +732,7 @@
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
 			<recipeUsers>
 				<li>CraftingSpot</li>
 				<li>ElectricTailoringBench</li>
